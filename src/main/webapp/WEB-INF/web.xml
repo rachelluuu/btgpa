@@ -1,0 +1,41 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<display-name>JSP Example Application</display-name>
+
+	<servlet id="jsp">
+		<servlet-name>uu</servlet-name>
+		<servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+		<init-param>
+			<param-name>logVerbosityLevel</param-name>
+			<param-value>DEBUG</param-value>
+		</init-param>
+		<init-param>
+			<param-name>fork</param-name>
+			<param-value>>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>keepgenerated</param-name>
+			<param-value>>true</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>gpa</servlet-name>
+		<servlet-class>com.bt.gpa.GPAServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>about</servlet-name>
+		<servlet-class>com.bt.gpa.AboutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>gpa</servlet-name>
+		<url-pattern>/gpa</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>about</servlet-name>
+		<url-pattern>/about</url-pattern>
+	</servlet-mapping>
+</web-app>
