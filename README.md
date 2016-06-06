@@ -1,6 +1,8 @@
 Bergen Tech GPA Calculator
 ======================================
 
+Download latest version of [Oracle Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+
 This is a maven project, to build it:
 
     $ mvn clean package
