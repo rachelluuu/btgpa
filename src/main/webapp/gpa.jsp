@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-    <h1>Eclipse src/main/webapp BT <strong>GPA</strong> CALCULATOR</h1>
+    <h1>BT <strong>GPA</strong> CALCULATOR</h1>
     <h2>Developed By Kenneth Rhee</h2>
     <nav class="buttons">
         <a href="/">HOME</a>
