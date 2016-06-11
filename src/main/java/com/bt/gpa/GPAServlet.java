@@ -25,10 +25,11 @@ public class GPAServlet extends HttpServlet {
 			String username = req.getParameter("username").replace("@bergen.org", "").replace("bca/", "");
 			String password = req.getParameter("password");
 			GPA user = new GPA(username, password);
-			req.setAttribute("tri1GPA", round(user.getTriOneGPA(), 3));
-			//req.setAttribute("tri2GPA", round(user.getTriTwoGPA(), 3));
-			//req.setAttribute("tri3GPA", round(user.getTriThreeGPA(), 3));
-			//req.setAttribute("yearGPA", round(user.getYearGPA(), 3));
+			req.setAttribute("mp1GPA", round(user.getMpOneGPA(), 3));
+			req.setAttribute("mp2GPA", round(user.getMpTwoGPA(), 3));
+			req.setAttribute("mp3GPA", round(user.getMpThreeGPA(), 3));
+			req.setAttribute("mp4GPA", round(user.getMpFourGPA(), 3));
+			req.setAttribute("yearGPA", round(user.getYearGPA(), 3));
 			req.getRequestDispatcher("gpa.jsp").forward(req, resp);
 			System.out.println("Fulfilled request for user: " + username);
 		} catch (Exception e) {

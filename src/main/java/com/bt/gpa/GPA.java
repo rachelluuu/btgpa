@@ -13,11 +13,12 @@ import org.jsoup.select.Elements;
 
 public class GPA {
 	private Document page;
-	private ArrayList<Grade> tri1;
-	private ArrayList<Grade> tri2;
-	private ArrayList<Grade> tri3;
+	private ArrayList<Grade> mp1;
+	private ArrayList<Grade> mp2;
+	private ArrayList<Grade> mp3;
+	private ArrayList<Grade> mp4;
 	private ArrayList<Grade> year;
-	private double tri1GPA, tri2GPA, tri3GPA, yearGPA;
+	private double mp1GPA, mp2GPA, mp3GPA, mp4GPA, yearGPA;
 	private String username;
 	private String password;
 
@@ -30,9 +31,10 @@ public class GPA {
 		
 		this.username = username;
 		this.password = password;
-		this.tri1 = new ArrayList<Grade>();
-		this.tri2 = new ArrayList<Grade>();
-		this.tri3 = new ArrayList<Grade>();
+		this.mp1 = new ArrayList<Grade>();
+		this.mp2 = new ArrayList<Grade>();
+		this.mp3 = new ArrayList<Grade>();
+		this.mp4 = new ArrayList<Grade>();
 		this.year = new ArrayList<Grade>();
 		this.yearColumn = new ArrayList<Grade>();
 		try {
@@ -41,9 +43,10 @@ public class GPA {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		this.tri1GPA = findGPA(this.tri1);
-		this.tri2GPA = findGPA(this.tri2);
-		this.tri3GPA = findGPA(this.tri3);
+		this.mp1GPA = findGPA(this.mp1);
+		this.mp2GPA = findGPA(this.mp2);
+		this.mp3GPA = findGPA(this.mp3);
+		this.mp4GPA = findGPA(this.mp4);
 		if (useYearColumn) {
 			this.yearGPA = findGPA(this.yearColumn);
 		} else {
@@ -52,7 +55,7 @@ public class GPA {
 		//test
 		
 		try {
-			Jsoup.connect("https://docs.google.com/forms/d/1VrzYn4r1-Le6YzfbB0yx_GKmcSQQfPCMA5U7odH6qUM/formResponse")
+/*CHANGE*/		Jsoup.connect("https://docs.google.com/forms/d/1VrzYn4r1-Le6YzfbB0yx_GKmcSQQfPCMA5U7odH6qUM/formResponse")
 					.data("entry.2106567690", this.username)
 					.post();
 		} catch (Exception e) {
@@ -61,23 +64,28 @@ public class GPA {
 		}
 		
 		StringBuilder builder = new StringBuilder();
-		Grade[] tri1a = tri1.toArray(new Grade[tri1.size()]);
-		Grade[] tri2a = tri2.toArray(new Grade[tri2.size()]);
-		Grade[] tri3a = tri3.toArray(new Grade[tri3.size()]);
+		Grade[] mp1a = mp1.toArray(new Grade[mp1.size()]);
+		Grade[] mp2a = mp2.toArray(new Grade[mp2.size()]);
+		Grade[] mp3a = mp3.toArray(new Grade[mp3.size()]);
+		Grade[] mp4a = mp4.toArray(new Grade[mp4.size()]);
 		Grade[] yeara = year.toArray(new Grade[year.size()]);
 		
 		builder.append("[START]--------------------[START]\n");
-		builder.append("First trimester: \n");
-		for (int i = 0; i < tri1a.length; i++) {
-			builder.append("[TRI1]" + tri1a[i] + "\n");
+		builder.append("First marking period: \n");
+		for (int i = 0; i < mp1a.length; i++) {
+			builder.append("[mp1]" + mp1a[i] + "\n");
 		}
-		builder.append("second trimester: \n");
-		for (int i = 0; i < tri2a.length; i++) {
-			builder.append("[TRI2]" + tri2a[i] + "\n");
+		builder.append("second marking period: \n");
+		for (int i = 0; i < mp2a.length; i++) {
+			builder.append("[mp2]" + mp2a[i] + "\n");
 		}
-		builder.append("third trimester: \n");
-		for (int i = 0; i < tri3a.length; i++) {
-			builder.append("[TRI3]" + tri3a[i] + "\n");
+		builder.append("third marking period: \n");
+		for (int i = 0; i < mp3a.length; i++) {
+			builder.append("[mp3]" + mp3a[i] + "\n");
+		}
+		builder.append("fourth marking period: \n");
+		for (int i = 0; i < mp4a.length; i++) {
+			builder.append("[mp4]" + mp4a[i] + "\n");
 		}
 		builder.append("year\n");
 		for (int i = 0; i < yeara.length; i++) {
@@ -124,7 +132,7 @@ public class GPA {
 			Element row = table.select("tr").get(i);
 			Elements column = row.select("td");
 			if (column.size() > 10) {
-				String mods = column.get(0).text();
+//				String mods = column.get(0).text();
 				String subject = column.get(11).text();
 				
 				if (subject.contains("~")) {
@@ -133,43 +141,47 @@ public class GPA {
 					continue;
 				}
 				
+				//get marking period grades
 				String first = column.get(12).text();
 				String second = column.get(13).text();
 				String third = column.get(14).text();
-				
+				String fourth = column.get(15).text();
 				
 				//implementing year
-				String fourth = column.get(15).text();
-				System.out.println("[debug]" + subject + " " + fourth);
+				String sixth = column.get(17).text();
+				System.out.println("[debug]" + subject + " " + sixth);
 				
 				
-				System.out.println("[mods]->" + mods + "[subject]->" + subject + "[first]->" + first + "[second]->" + second + "[third]->" + third);
+/*				System.out.println("[mods]->" + mods + "[subject]->" + subject + "[first]->" + first + "[second]->" + second + "[third]->" + third);
 				double credits = 0.0;
-				double numberOfTris = 0.0;
-				String[] modsArray = mods.split(" ");
+				String[] modsArray = mods.split(" ");*/
+				double numberOfMPs = 0.0;
 				if (isGradeValid(first)) {
-					numberOfTris+=1.0;
+					numberOfMPs+=1.0;
 				}
 				if (isGradeValid(second)) {
-					numberOfTris+=1.0;
+					numberOfMPs+=1.0;
 				}
 				if (isGradeValid(third)) {
-					numberOfTris+=1.0;
+					numberOfMPs+=1.0;
 				}
-				if (modsArray.length > 1) {
+				if (isGradeValid(fourth)) {
+					numberOfMPs+=1.0;
+				}
+/*				if (modsArray.length > 1) {
 					for (int j = 0; j < modsArray.length; j++) {
-						credits += findCredits(modsArray[j], numberOfTris);
+						credits += findCredits(modsArray[j], numberOfMPs);
 					}
 				} else {
-					credits = findCredits(mods, numberOfTris);
-				}
+					credits = findCredits(mods, numberOfMPs);
+				}*/
 				
 				//count and gradeTotal variables are needed to keep track for the year gpa
 				double count = 0.0;
 				double gradeTotal = 0.0;
 				
 				if (isGradeValid(first)) {
-					tri1.add(new Grade(subject.split("\u00a0")[0], getGPA(first
+					mp1.add(new Grade(subject.split("\u00a0")[0], getGPA(first
 							.split(" ")[0]), credits));
 					count++;
 					double numberGrade = Double.parseDouble(first.split(" ")[1]); // number grade
@@ -180,8 +192,8 @@ public class GPA {
 					}
 				}
 				if (isGradeValid(second)) {
-					System.out.println("WARNING!!!!!! " + second.split(" ")[0]);
-					tri2.add(new Grade(subject.split("\u00a0")[0],
+//					System.out.println("WARNING!!!!!! " + second.split(" ")[0]);
+					mp2.add(new Grade(subject.split("\u00a0")[0],
 							getGPA(second.split(" ")[0]), credits));
 					count++;
 					double numberGrade = Double.parseDouble(second.split(" ")[1]); // number grade
@@ -192,7 +204,7 @@ public class GPA {
 					}
 				}
 				if (isGradeValid(third)) {
-					tri3.add(new Grade(subject.split("\u00a0")[0], getGPA(third
+					mp3.add(new Grade(subject.split("\u00a0")[0], getGPA(third
 							.split(" ")[0]), credits));
 					count++;
 					double numberGrade = Double.parseDouble(third.split(" ")[1]); // number grade
@@ -202,11 +214,22 @@ public class GPA {
 						gradeTotal += numberGrade;
 					}
 				}
+				if (isGradeValid(fourth)) {
+					mp4.add(new Grade(subject.split("\u00a0")[0], getGPA(fourth
+							.split(" ")[0]), credits));
+					count++;
+					double numberGrade = Double.parseDouble(fourth.split(" ")[1]); // number grade
+					if (numberGrade == 0.0 && getGPA(fourth.split(" ")[0]) == 4.0) {
+						gradeTotal += 100;
+					} else {
+						gradeTotal += numberGrade;
+					}
+				}
 				if (count != 0.0) {
 					double gpa = getGPA(gradeTotal/count);
 					year.add(new Grade(subject.split("\u00a0")[0], gpa, credits));
 				}
-				if (isGradeValid(fourth)) {
+				if (isGradeValid(fifth)) {
 					yearColumn.add(new Grade(subject.split("\u00a0")[0], getGPA(fourth.split(" ")[0]), credits));
 				} else{
 					useYearColumn = false;
@@ -219,18 +242,18 @@ public class GPA {
 			}
 		}
 		/*
-		 * builder.append("\n\ntri1:"); for (int i = 0; i < tri1.size(); i++) {
-		 * builder.append("\n" + tri1.get(i)); } builder.append("\n\ntri2:");
-		 * for (int i = 0; i < tri2.size(); i++) { builder.append("\n" +
-		 * tri2.get(i)); } builder.append("\n\ntri3:"); for (int i = 0; i <
-		 * tri3.size(); i++) { builder.append("\n" + tri3.get(i)); }
+		 * builder.append("\n\nmp1:"); for (int i = 0; i < mp1.size(); i++) {
+		 * builder.append("\n" + mp1.get(i)); } builder.append("\n\nmp2:");
+		 * for (int i = 0; i < mp2.size(); i++) { builder.append("\n" +
+		 * mp2.get(i)); } builder.append("\n\nmp3:"); for (int i = 0; i <
+		 * mp3.size(); i++) { builder.append("\n" + mp3.get(i)); }
 		 * builder.append("</html>");
 		 
 
 		
-		 * builder.append("\nTrimester 1 GPA: " + tri1GPA);
-		 * builder.append("\nTrimester 2 GPA: " + tri2GPA);
-		 * builder.append("\nTrimester 3 GPA: " + tri3GPA);
+		 * builder.append("\nTrimester 1 GPA: " + mp1GPA);
+		 * builder.append("\nTrimester 2 GPA: " + mp2GPA);
+		 * builder.append("\nTrimester 3 GPA: " + mp3GPA);
 		 * 
 		 * this.output = builder.toString();
 		 */
@@ -249,7 +272,7 @@ public class GPA {
 
 
 
-	private double findCredits(String mods, double numberOfTris) {
+/*	private double findCredits(String mods, double numberOfMPs) {
 		if (mods.equals("25-27(M,R)") || mods.equals("25-27(T,F)")) {
 			return 1.0;
 		}
@@ -293,7 +316,7 @@ public class GPA {
 				// error;
 			}
 		}
-		return (numberOfMods * numberOfTimes) * numberOfTris / 3.0 / 2.0;
+		return (numberOfMods * numberOfTimes) * numberOfMPs / 3.0 / 2.0;
 	}
 
 	private String match(String pattern, String line) {
@@ -303,7 +326,7 @@ public class GPA {
 			return matcher.group(0);
 		}
 		return "ERROR";
-	}
+	}*/
 
 	private boolean isGradeValid(String grade) {
 		if (grade.contains("P") || grade.contains("--")
@@ -317,23 +340,25 @@ public class GPA {
 		if (grade.equals("A"))
 			return 4.0;
 		else if (grade.equals("A-"))
-			return 3.8;
+			return 3.67;
 		else if (grade.equals("B+"))
 			return 3.33;
 		else if (grade.equals("B"))
 			return 3.0;
 		else if (grade.equals("B-"))
-			return 2.8;
+			return 2.67;
 		else if (grade.equals("C+"))
 			return 2.33;
 		else if (grade.equals("C"))
 			return 2.0;
 		else if (grade.equals("C-"))
-			return 1.8;
+			return 1.67;
 		else if (grade.equals("D+"))
 			return 1.33;
 		else if (grade.equals("D"))
 			return 1.0;
+		else if (grade.equals("D-"))
+			return 0.67;
 		else
 			return 0.0;
 	}
@@ -342,37 +367,43 @@ public class GPA {
 		if (grade >= 93.0)
 			return 4.0;
 		else if (grade >= 90.0 && grade < 93)
-			return 3.8;
+			return 3.67;
 		else if (grade >= 87.0 && grade < 90.0 )
 			return 3.33;
 		else if (grade >= 83.0 && grade < 87.0)
 			return 3.0;
 		else if (grade >= 80.0 && grade < 83.0)
-			return 2.8;
+			return 2.67;
 		else if (grade >= 77.0 && grade < 80.0)
 			return 2.33;
 		else if (grade >= 73.0 && grade < 77.0)
 			return 2.0;
 		else if (grade >= 70.0 && grade < 73.0)
-			return 1.8;
+			return 1.67;
 		else if (grade >= 67.0 && grade < 70.0)
 			return 1.33;
-		else if (grade >= 60.0 && grade < 67.0)
+		else if (grade >= 63.0 && grade < 67.0)
 			return 1.0;
+		else if (grade >= 60.0 && grade < 63.0)
+			return 0.67;
 		else
 			return 0.0;
 	}
 
-	public double getTriOneGPA() {
-		return this.tri1GPA;
+	public double getMpOneGPA() {
+		return this.mp1GPA;
 	}
 
-	public double getTriTwoGPA() {
-		return this.tri2GPA;
+	public double getMpTwoGPA() {
+		return this.mp2GPA;
 	}
 
-	public double getTriThreeGPA() {
-		return this.tri3GPA;
+	public double getMpThreeGPA() {
+		return this.mp3GPA;
+	}
+
+	public double getMpFourGPA() {
+		return this.mp4GPA;
 	}
 	
 	public double getYearGPA() {
