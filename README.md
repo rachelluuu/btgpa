@@ -3,9 +3,11 @@ Bergen Tech GPA Calculator
 
 Download and install latest version of [Oracle Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
-Install [Homebrew](http://brew.sh) package manager by following the directions there.
+Install [Homebrew](http://brew.sh) package manager by launching Terminal application and entering:
 
-Install [Apache Maven](https://maven.apache.org/) by opening launching Terminal application and enter:
+    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Install [Apache Maven](https://maven.apache.org/): 
 
     $ brew install maven
 
@@ -33,6 +35,6 @@ To stop Jetty:
 
 Team Members
 ----------------
-	Rachel Lu
-	Jennifer He
-	Gabe Wehrle
+*	Rachel Lu
+*	Jennifer He
+*	Gabe Wehrle
