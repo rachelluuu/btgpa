@@ -12,7 +12,7 @@
     <body>
 
         <h1>BT <strong>GPA</strong> CALCULATOR</h1>
-        <h2>Developed By Bergen Tech Code CLub</h2>
+        <h2>Developed By Bergen Tech Code Club</h2>
         <nav class="buttons">
             <a class="current" href="/">HOME</a>
             <a href="/about">ABOUT THIS APP</a>
