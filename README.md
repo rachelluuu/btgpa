@@ -22,7 +22,7 @@ Comppile the Java sources:
 
 Run [jetty](http://www.eclipse.org/jetty/) application server:
 
-    $ java -cp target/*/WEB-INF/lib/*:target/*/WEB-INF/classes com.bt.gpa.Main
+    $ java -cp target/gpa-2-SNAPSHOT/WEB-INF/lib/*:target/gpa-2-SNAPSHOT/WEB-INF/classes com.bt.gpa.Main
 
 Open your web browser to:
 
