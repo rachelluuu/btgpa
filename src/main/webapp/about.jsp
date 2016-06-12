@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-    <h1>BERGEN TECH <strong>GPA</strong> CALCULATOR</h1>
+    <h1>BT <strong>GPA</strong> CALCULATOR</h1>
     <h2>Developed By Bergen Tech Code Club</h2>
 
     <nav class="buttons">
