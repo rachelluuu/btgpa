@@ -300,6 +300,9 @@ public class GPA {
 			return 1.0;
 		}
 //TODO: insert major classes here
+		else if (subject.startsWith("Intermediate Programming") || subject.startsWith(“Networking I“) ||  subject.startsWith(“Intro to Object-Orientated Design“){
+			return 2.5;
+		}
 		else{
 			return 5.0;
 		}
