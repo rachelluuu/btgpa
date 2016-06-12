@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>BT GPA Calculator By Kenneth Rhee</title>
+    <title>BT GPA Calculator By Code Club</title>
     <meta name="description" content="GPA Calculator" />
     <meta name="keywords" content="gpa" />
-    <meta name="author" content="Kenneth Rhee" />
+    <meta name="author" content="Code Club" />
     <link rel="icon" type="image/png" href="icon.png" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
     <h1>BT <strong>GPA</strong> CALCULATOR</h1>
-    <h2>Developed By Kenneth Rhee</h2>
+    <h2>Developed By Bergen Tech Code Club</h2>
     <nav class="buttons">
         <a href="/">HOME</a>
         <a href="/about">ABOUT THIS APP</a>
