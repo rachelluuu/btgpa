@@ -14,17 +14,14 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.1.1</version>
-				<executions>
-					<execution>
-						<phase>verify</phase>
-						<goals>
-							<goal>java</goal>
-						</goals>
-						<configuration>
-							<mainClass>com.bt.gpa.Main</mainClass>
-						</configuration>
-					</execution>
-				</executions>
+				<configuration>
+					<executable>java</executable>
+					<arguments>
+						<argument>-classpath</argument>
+						<classpath/>
+						<argument>com.bt.gpa.Main</argument>
+					</arguments>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
