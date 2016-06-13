@@ -31,7 +31,9 @@
         <b>I believe there is an error within your app. Where can I report it?</b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        If you believe that there is an error within the app, feel free to e-mail the Code Club leaders at jennhe@bergen.org and/or rachle@bergen.org.
+        If you believe that there is an error within the app, feel free to e-mail the Code Club leaders 
+        <br />
+        at jennhe@bergen.org and/or rachle@bergen.org.
         <br />
         <br />
         <b>I have a suggestion, where can I contact you?</b>
