@@ -28,9 +28,7 @@ Open your web browser to:
 
     http://localhost:8080/  
 
-To stop `Jetty` just hit:
-
-    <kbd>CTRL</kbd>+<kbd>C</kbd>
+To stop `Jetty` just hit <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 Deploy to [Heroku](http://heroku.com/):
 
