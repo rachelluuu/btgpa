@@ -11,27 +11,30 @@ Install [Apache Maven](https://maven.apache.org/):
 
     $ brew install maven
 
-Clone the github repository:
+Clone the `Github` repository:
 
     $ git clone https://github.com/rachelluuu/btgpa.git
-    $ cd btgpa
     
-Comppile the Java sources:
+Compile and package the Java sources:
 
-    $ mvn clean package
+    $ cd btgpa
+    $ mvn package
 
-Run [jetty](http://www.eclipse.org/jetty/) application server:
+Test by running the [Jetty](http://www.eclipse.org/jetty/) application server:
 
-    $ java -cp target/gpa-2-SNAPSHOT/WEB-INF/lib/*:target/gpa-2-SNAPSHOT/WEB-INF/classes com.bt.gpa.Main
+    $ mvn exec:exec
 
 Open your web browser to:
 
     http://localhost:8080/  
 
-To stop Jetty:
+To stop `Jetty` just hit:
 
-  use <kbd>CTRL</kbd>+<kbd>C</kbd>
+    <kbd>CTRL</kbd>+<kbd>C</kbd>
 
+Deploy to [Heroku](http://heroku.com/):
+
+    git push heroku
 
 Team Members
 ----------------
