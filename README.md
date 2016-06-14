@@ -38,4 +38,3 @@ Team Members
 ----------------
 *	Rachel Lu
 *	Jennifer He
-*	Gabe Wehrle
