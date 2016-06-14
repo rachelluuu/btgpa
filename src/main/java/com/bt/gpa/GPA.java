@@ -276,7 +276,7 @@ public class GPA {
 		double numberOfTimes = 0.0;
 		String labPeriodPattern = "\\(.+\\).*\\(.+\\)";
 		String labPeriodMatch = match(labPeriodPattern, mods);
-		String dblPeriodPattern = "\\(\w\W\w\\).*\\(\w\W\w\\)";
+		String dblPeriodPattern = "\\(\\w\\W\\w\\).*\\(\\w\\W\\w\\)";
 		String dblPeriodMatch = match(dblPeriodPattern, mods);
 /* if (mods.equals("25-27(M,R)") || mods.equals("25-27(T,F)")) {
 			return 1.0;
