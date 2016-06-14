@@ -18,7 +18,10 @@
         <a class="current" href="/about">ABOUT THIS APP</a>
     </nav>
     <div style="border: dotted 1px black; display:inline-block; padding:6px; background:white; padding-top:3px;" id="about">
-        Hi! <br />     Welcome to "BT GPA Calculator" app developed with a JETTY framework. <br />Here are some common questions that are asked:
+        Hi! <br />     Welcome to "BT GPA Calculator" app developed with a JETTY framework. 
+        <br /> This app was adapted for BT students from the bcagpa.com made by Kenneth Rhee.
+        <br />
+        <br />Here are some common questions that are asked:
         <br />
         <br />
         <b>How accurate is this application?</b>
