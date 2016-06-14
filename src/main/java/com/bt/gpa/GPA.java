@@ -274,7 +274,9 @@ public class GPA {
 	private double findCredits(String mods, String subject, double numberOfMPs) {
 		double numberOfMods = 0.0;
 		double numberOfTimes = 0.0;
-		String dblPeriodPattern = "\\(.+\\).*\\(.+\\)";
+		String labPeriodPattern = "\\(.+\\).*\\(.+\\)";
+		String labPeriodMatch = match(labPeriodPattern, mods);
+		String dblPeriodPattern = "\\(\w\W\w\\).*\\(\w\W\w\\)";
 		String dblPeriodMatch = match(dblPeriodPattern, mods);
 /* if (mods.equals("25-27(M,R)") || mods.equals("25-27(T,F)")) {
 			return 1.0;
@@ -290,7 +292,7 @@ public class GPA {
 				return 1.0;
 			}
 		}
-		else if (!dblPeriodMatch.equals("ERROR")){
+		else if (!labPeriodMatch.equals("ERROR")){
 			return 6.0;
 		}
 		else if (subject.startsWith("Phys Ed.")){		
@@ -299,9 +301,8 @@ public class GPA {
 		else if (subject.startsWith("Social Issues") || subject.startsWith("Driver Ed Theory") || subject.startsWith("First Aid") || subject.startsWith("Family Living")){		
 			return 1.0;
 		}
-//TODO: insert major classes here
-		else if (subject.startsWith("Intermediate Programming") || subject.startsWith("Networking I") || subject.startsWith("Intro to Object-Orientated Design")){
-			return 2.5;
+		else if (!dblPeriodMatch.equals("ERROR")){
+			return 10.0;
 		}
 		else{
 			return 5.0;
