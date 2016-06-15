@@ -154,7 +154,7 @@ public class GPA {
 				
 //				System.out.println("[mods]->" + mods + "[subject]->" + subject + "[first]->" + first + "[second]->" + second + "[third]->" + third);
 				double credits = 0.0;
-				String[] modsArray = mods.split(" ");
+//				String[] modsArray = mods.split(" ");
 				double numberOfMPs = 0.0;
 				if (isGradeValid(first)) {
 					numberOfMPs+=1.0;
@@ -272,8 +272,8 @@ public class GPA {
 	}
 
 	private double findCredits(String mods, String subject, double numberOfMPs) {
-		double numberOfMods = 0.0;
-		double numberOfTimes = 0.0;
+/*		double numberOfMods = 0.0;
+		double numberOfTimes = 0.0; */
 		String labPeriodPatternA = "\\(\\w\\).*\\(.+\\)";
 		String labPeriodMatchA = match(labPeriodPatternA, mods);
 		String labPeriodPatternB = "\\(.+\\).*\\(\\w\\)";
@@ -287,28 +287,23 @@ public class GPA {
 			return 1.5;
 		}*/
 		if (mods.equals("10(W)")) {
-			if (numberOfMPs > 2){
-				return 2.0;
-			}
-			else{ 
-				return 1.0;
-			}
+			return numberOfMPs > 2 ? 2.0 : 1.0;
 		}
-		else if (!labPeriodMatchA.equals("ERROR") || !labPeriodMatchB.equals("ERROR")){
+		if (!labPeriodMatchA.equals("ERROR") || !labPeriodMatchB.equals("ERROR")){
 			return 6.0;
 		}
-		else if (subject.startsWith("Phys Ed.")){		
+		if (subject.startsWith("Phys Ed.")){		
 			return 3.0;
 		}
-		else if (subject.startsWith("Social Issues") || subject.startsWith("Driver Ed Theory") || subject.startsWith("First Aid") || subject.startsWith("Family Living")){		
+		if (subject.startsWith("Social Issues") || subject.startsWith("Driver Ed Theory") 
+				|| subject.startsWith("First Aid") || subject.startsWith("Family Living")){		
 			return 1.0;
 		}
-		else if (!dblPeriodMatch.equals("ERROR")){
+		if (!dblPeriodMatch.equals("ERROR")){
 			return 10.0;
 		}
-		else{
-			return 5.0;
-		}
+		return 5.0;
+		
 /*		double numberOfMods = 0.0;
 		double numberOfTimes = 0.0;
 		String modsPattern = "\\d\\d-\\d\\d";
@@ -352,13 +347,10 @@ public class GPA {
 	private String match(String pattern, String line) {
 		Pattern p = Pattern.compile(pattern);
 		Matcher matcher = p.matcher(line);
-		if (matcher.find()) {
+		if (matcher.find())
 			return matcher.group(0);
-		}
 		return "ERROR";
 	}
-/* TODO: */	
-	
 
 	private boolean isGradeValid(String grade) {
 		if (grade.contains("P") || grade.contains("--")
@@ -369,59 +361,34 @@ public class GPA {
 	}
 
 	private double getGPA(String grade) {
-		if (grade.equals("A+"))
-			return 4.0;
-		else if (grade.equals("A"))
-			return 4.0;
-		else if (grade.equals("A-"))
-			return 3.67;
-		else if (grade.equals("B+"))
-			return 3.33;
-		else if (grade.equals("B"))
-			return 3.0;
-		else if (grade.equals("B-"))
-			return 2.67;
-		else if (grade.equals("C+"))
-			return 2.33;
-		else if (grade.equals("C"))
-			return 2.0;
-		else if (grade.equals("C-"))
-			return 1.67;
-		else if (grade.equals("D+"))
-			return 1.33;
-		else if (grade.equals("D"))
-			return 1.0;
-		else if (grade.equals("D-"))
-			return 0.67;
-		else
-			return 0.0;
+		if (grade.equals("A+"))	return 4.0;
+		if (grade.equals("A"))	return 4.0;
+		if (grade.equals("A-"))	return 3.67;
+		if (grade.equals("B+"))	return 3.33;
+		if (grade.equals("B"))	return 3.0;
+		if (grade.equals("B-"))	return 2.67;
+		if (grade.equals("C+"))	return 2.33;
+		if (grade.equals("C"))	return 2.0;
+		if (grade.equals("C-"))	return 1.67;
+		if (grade.equals("D+"))	return 1.33;
+		if (grade.equals("D"))	return 1.0;
+		if (grade.equals("D-"))	return 0.67;
+		return 0.0;
 	}
 	
 	private double getGPA(double grade) {
-		if (grade >= 93.0)
-			return 4.0;
-		else if (grade >= 90.0 && grade < 93)
-			return 3.67;
-		else if (grade >= 87.0 && grade < 90.0 )
-			return 3.33;
-		else if (grade >= 83.0 && grade < 87.0)
-			return 3.0;
-		else if (grade >= 80.0 && grade < 83.0)
-			return 2.67;
-		else if (grade >= 77.0 && grade < 80.0)
-			return 2.33;
-		else if (grade >= 73.0 && grade < 77.0)
-			return 2.0;
-		else if (grade >= 70.0 && grade < 73.0)
-			return 1.67;
-		else if (grade >= 67.0 && grade < 70.0)
-			return 1.33;
-		else if (grade >= 63.0 && grade < 67.0)
-			return 1.0;
-		else if (grade >= 60.0 && grade < 63.0)
-			return 0.67;
-		else
-			return 0.0;
+		if (grade >= 93.0) return 4.0;
+		if (grade >= 90.0) return 3.67;
+		if (grade >= 87.0) return 3.33;
+		if (grade >= 83.0) return 3.0;
+		if (grade >= 80.0) return 2.67;
+		if (grade >= 77.0) return 2.33;
+		if (grade >= 73.0) return 2.0;
+		if (grade >= 70.0) return 1.67;
+		if (grade >= 67.0) return 1.33;
+		if (grade >= 63.0) return 1.0;
+		if (grade >= 60.0) return 0.67;
+		return 0.0;
 	}
 
 	public double getMpOneGPA() {
