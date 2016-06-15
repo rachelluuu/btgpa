@@ -274,8 +274,10 @@ public class GPA {
 	private double findCredits(String mods, String subject, double numberOfMPs) {
 		double numberOfMods = 0.0;
 		double numberOfTimes = 0.0;
-		String labPeriodPattern = "\\(.+\\).*\\(.+\\)";
-		String labPeriodMatch = match(labPeriodPattern, mods);
+		String labPeriodPatternA = "\\(\\w\\).*\\(.+\\)";
+		String labPeriodMatchA = match(labPeriodPatternA, mods);
+		String labPeriodPatternB = "\\(.+\\).*\\(\\w\\)";
+		String labPeriodMatchB = match(labPeriodPatternB, mods);
 		String dblPeriodPattern = "\\(\\w\\W\\w\\).*\\(\\w\\W\\w\\)";
 		String dblPeriodMatch = match(dblPeriodPattern, mods);
 /* if (mods.equals("25-27(M,R)") || mods.equals("25-27(T,F)")) {
@@ -292,7 +294,7 @@ public class GPA {
 				return 1.0;
 			}
 		}
-		else if (!labPeriodMatch.equals("ERROR")){
+		else if (!labPeriodMatchA.equals("ERROR") || !labPeriodMatchB.equals("ERROR")){
 			return 6.0;
 		}
 		else if (subject.startsWith("Phys Ed.")){		
