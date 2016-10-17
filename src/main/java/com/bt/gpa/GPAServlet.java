@@ -33,8 +33,7 @@ public class GPAServlet extends HttpServlet {
 			req.getRequestDispatcher("gpa.jsp").forward(req, resp);
 			System.out.println("Fulfilled request for user: " + username);
 		} catch (Exception e) {
-			System.err.println(new Throwable().getStackTrace()[0].getLineNumber());
-			System.out.println(e);
+			e.printStackTrace(System.out);
 			System.out.println("[cError]" + e.getMessage());
 			req.setAttribute("error", "<div style=\"\" class=\"alert\"><b>Woops!</b> Looks like your username/password is wrong. Try again.</div>");
 			req.getRequestDispatcher("index.jsp").forward(req,resp);
@@ -42,7 +41,7 @@ public class GPAServlet extends HttpServlet {
 	}
 	private double round(double value, int places) {
 	    if (places < 0) throw new IllegalArgumentException();
-
+	    if (Double.isNaN(value)) value = 0;
 	    BigDecimal bd = new BigDecimal(value);
 	    bd = bd.setScale(places, RoundingMode.HALF_UP);
 	    return bd.doubleValue();
