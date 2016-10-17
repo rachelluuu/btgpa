@@ -44,7 +44,7 @@
         If you have a suggestion, feel free to e-mail us at jennhe@bergen.org and/or rachle@bergen.org.
         <br />
         <br />
-        Release date: June 13th, 2016
+        Release date: October 16th, 2016
     </div>
     
 
