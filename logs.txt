@@ -1,0 +1,1501 @@
+2016-10-18T19:53:20.652434+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652435+00:00 app[web.1]: [mp1][Subject]Spanish I[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652436+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:53:20.652436+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652437+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652437+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652438+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]3.67[credits]5.0
+2016-10-18T19:53:20.652438+00:00 app[web.1]: [mp1][Subject]Intro to Aerospace[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652439+00:00 app[web.1]: second marking period: 
+2016-10-18T19:53:20.652440+00:00 app[web.1]: fourth marking period: 
+2016-10-18T19:53:20.652439+00:00 app[web.1]: third marking period: 
+2016-10-18T19:53:20.652441+00:00 app[web.1]: year
+2016-10-18T19:53:20.652442+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652442+00:00 app[web.1]: [YEAR][Subject]Spanish I[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652443+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:53:20.652444+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652446+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652443+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652447+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]3.67[credits]5.0
+2016-10-18T19:53:20.652448+00:00 app[web.1]: [YEAR][Subject]Intro to Aerospace[gradePoints]4.0[credits]5.0
+2016-10-18T19:53:20.652448+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T19:53:20.652449+00:00 app[web.1]: [gpa]3.9597560975609754[gpa]false
+2016-10-18T19:53:20.652450+00:00 app[web.1]: Fulfilled request for user: kensho20
+2016-10-18T19:53:32.863206+00:00 heroku[router]: at=info method=GET path="/about" host=btgpa.herokuapp.com request_id=757c6689-0421-4791-a9d1-71b91402d3be fwd="142.105.54.17" dyno=web.1 connect=0ms service=2ms status=200 bytes=2106
+2016-10-18T19:53:33.027887+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=e7d0aa0f-e0a6-456b-8667-9a396c534d25 fwd="142.105.54.17" dyno=web.1 connect=0ms service=5ms status=404 bytes=528
+2016-10-18T19:53:52.352872+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=14c6797a-2d10-4180-b2af-da2e9c01c861 fwd="166.137.252.113" dyno=web.1 connect=1ms service=3ms status=200 bytes=1487
+2016-10-18T19:53:52.464705+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=bc4d83ae-6f0a-4c79-8532-d7981819a799 fwd="166.137.252.113" dyno=web.1 connect=1ms service=2ms status=200 bytes=7166
+2016-10-18T19:53:52.954657+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=8135b4d3-3720-4607-a1e6-c50be505d90a fwd="166.137.252.113" dyno=web.1 connect=0ms service=2ms status=404 bytes=528
+2016-10-18T19:53:59.977745+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=2a417631-567a-4876-98bb-df010111abfb fwd="142.105.54.17" dyno=web.1 connect=0ms service=3ms status=200 bytes=1390
+2016-10-18T19:54:00.093646+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=52c46ee4-3efe-499b-9d26-367c4905b008 fwd="142.105.54.17" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T19:54:01.258200+00:00 heroku[router]: at=info method=GET path="/about" host=btgpa.herokuapp.com request_id=442e099f-64b0-4f61-a2e8-49a3c525db4d fwd="70.208.76.48" dyno=web.1 connect=1ms service=5ms status=200 bytes=2203
+2016-10-18T19:54:01.776531+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=37698739-4c9d-4732-a8d1-2e9675a7c904 fwd="70.208.76.48" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T19:54:16.388483+00:00 app[web.1]: [debug]Homeroom  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 --
+2016-10-18T19:54:16.388544+00:00 app[web.1]: [debug]Mandarin I  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 721 A+ 97
+2016-10-18T19:54:16.388636+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A+ 98
+2016-10-18T19:54:16.388714+00:00 app[web.1]: [debug]Physics H  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 A+ 102
+2016-10-18T19:54:16.388797+00:00 app[web.1]: [debug]Physical Education  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 A+ 100
+2016-10-18T19:54:16.388882+00:00 app[web.1]: [debug]Social Issues  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 709 --
+2016-10-18T19:54:16.388951+00:00 app[web.1]: [debug]Math Analysis I H  Details about Hommen, Maureen Email Hommen, Maureen - Rm: 300 A 93
+2016-10-18T19:54:16.389028+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T19:54:16.389125+00:00 app[web.1]: [debug]AP Human Geography  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 A- 91
+2016-10-18T19:54:16.389218+00:00 app[web.1]: [debug]Geometry H  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 B 85
+2016-10-18T19:54:16.389318+00:00 app[web.1]: [debug]Intro to Object-Orientated Design  Details about Rogalskaia, Lioubov Email Rogalskaia, Lioubov - Rm: 513 A+ 100
+2016-10-18T19:54:16.389394+00:00 app[web.1]: [debug]Proj. School Climate  Details about Pena, Carlos Email Pena, Carlos - Rm: 513 --
+2016-10-18T19:54:16.661634+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=d0c2e4ea-6e4d-462d-bfe8-1d20d5396da6 fwd="166.137.252.113" dyno=web.1 connect=1ms service=1058ms status=200 bytes=1294
+2016-10-18T19:54:16.655987+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T19:54:16.655997+00:00 app[web.1]: First marking period: 
+2016-10-18T19:54:16.655998+00:00 app[web.1]: [mp1][Subject]Mandarin I[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.655999+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656002+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:54:16.656003+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656003+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656004+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]3.67[credits]5.0
+2016-10-18T19:54:16.656004+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T19:54:16.656005+00:00 app[web.1]: [mp1][Subject]Intro to Object-Orientated Design[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656005+00:00 app[web.1]: second marking period: 
+2016-10-18T19:54:16.656006+00:00 app[web.1]: third marking period: 
+2016-10-18T19:54:16.656006+00:00 app[web.1]: fourth marking period: 
+2016-10-18T19:54:16.656007+00:00 app[web.1]: year
+2016-10-18T19:54:16.656008+00:00 app[web.1]: [YEAR][Subject]Mandarin I[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656010+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656010+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:54:16.656011+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656011+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656012+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]3.67[credits]5.0
+2016-10-18T19:54:16.656012+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T19:54:16.656013+00:00 app[web.1]: [YEAR][Subject]Intro to Object-Orientated Design[gradePoints]4.0[credits]5.0
+2016-10-18T19:54:16.656013+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T19:54:16.656014+00:00 app[web.1]: [gpa]3.8378048780487806[gpa]false
+2016-10-18T19:54:16.657173+00:00 app[web.1]: Fulfilled request for user: micmar20
+2016-10-18T19:54:17.079496+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=570846de-fdea-4117-9fd6-d57d0c7b9fe8 fwd="166.137.252.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=528
+2016-10-18T19:54:28.470911+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=758e7701-9bc6-47a3-aa7a-afffc17b933e fwd="166.137.252.113" dyno=web.1 connect=1ms service=12ms status=200 bytes=1390
+2016-10-18T19:54:28.670009+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=7996a908-aba2-413e-b5cf-49ba05bd485d fwd="166.137.252.113" dyno=web.1 connect=1ms service=9ms status=404 bytes=528
+2016-10-18T19:56:11.992807+00:00 app[web.1]: [debug]Homeroom  Details about Golle, Erica Email Golle, Erica - Rm: 730 --
+2016-10-18T19:56:11.992875+00:00 app[web.1]: [debug]Geometry H  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 A+ 97
+2016-10-18T19:56:11.992963+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A+ 99
+2016-10-18T19:56:11.993047+00:00 app[web.1]: [debug]Physics H  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A+ 100
+2016-10-18T19:56:11.993156+00:00 app[web.1]: [debug]Physical Education  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 100
+2016-10-18T19:56:11.993235+00:00 app[web.1]: [debug]Social Issues  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-18T19:56:11.993306+00:00 app[web.1]: [debug]Math Analysis I H  Details about Hommen, Maureen Email Hommen, Maureen - Rm: 300 A+ 100
+2016-10-18T19:56:11.993383+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T19:56:11.993453+00:00 app[web.1]: [debug]Spanish II  Details about Duran, Juan Email Duran, Juan - Rm: 517 A 96
+2016-10-18T19:56:11.993531+00:00 app[web.1]: [debug]AP Human Geography  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 B+ 88
+2016-10-18T19:56:11.993613+00:00 app[web.1]: [debug]Culinary Essentials I  Details about Branda, Dominic Email Branda, Dominic - Rm: 501 --
+2016-10-18T19:56:11.993689+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T19:56:11.993766+00:00 app[web.1]: [debug]Proj. School Climate  Details about Cevoli, Kenneth Email Cevoli, Kenneth - Rm: 712 --
+2016-10-18T19:56:12.309469+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=0b819abb-97e1-45d5-8196-687c4c05dbd4 fwd="168.229.1.160" dyno=web.1 connect=1ms service=1215ms status=200 bytes=1391
+2016-10-18T19:56:12.291144+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T19:56:12.291156+00:00 app[web.1]: First marking period: 
+2016-10-18T19:56:12.291157+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291158+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291158+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:56:12.291159+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291159+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291160+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291160+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-18T19:56:12.291161+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291162+00:00 app[web.1]: second marking period: 
+2016-10-18T19:56:12.291162+00:00 app[web.1]: third marking period: 
+2016-10-18T19:56:12.291163+00:00 app[web.1]: fourth marking period: 
+2016-10-18T19:56:12.291164+00:00 app[web.1]: year
+2016-10-18T19:56:12.291164+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291165+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291165+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:56:12.291166+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291166+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291167+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291168+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:12.291167+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-18T19:56:12.291168+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T19:56:12.291169+00:00 app[web.1]: [gpa]3.9182926829268294[gpa]false
+2016-10-18T19:56:12.292959+00:00 app[web.1]: Fulfilled request for user: Annhuh20
+2016-10-18T19:56:12.537289+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=9cfa2aaf-39c1-49ba-9f65-168226e3947d fwd="168.229.1.160" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T19:56:17.342883+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=a0f94d18-8c37-4d7e-9c13-269dd0c27ec1 fwd="168.229.1.160" dyno=web.1 connect=1ms service=7ms status=200 bytes=1486
+2016-10-18T19:56:17.476947+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=51c9afde-ff87-45a7-abdd-fde3b029ebdb fwd="168.229.1.160" dyno=web.1 connect=1ms service=12ms status=200 bytes=7166
+2016-10-18T19:56:17.637925+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=76f7c072-4400-454e-9693-4cbc71870974 fwd="168.229.1.160" dyno=web.1 connect=0ms service=2ms status=404 bytes=528
+2016-10-18T19:56:32.500739+00:00 app[web.1]: [debug]Homeroom  Details about Golle, Erica Email Golle, Erica - Rm: 730 --
+2016-10-18T19:56:32.500851+00:00 app[web.1]: [debug]Geometry H  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 A+ 97
+2016-10-18T19:56:32.505184+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A+ 99
+2016-10-18T19:56:32.507545+00:00 app[web.1]: [debug]Physics H  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A+ 100
+2016-10-18T19:56:32.507546+00:00 app[web.1]: [debug]Physical Education  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 100
+2016-10-18T19:56:32.507547+00:00 app[web.1]: [debug]Social Issues  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-18T19:56:32.507548+00:00 app[web.1]: [debug]Math Analysis I H  Details about Hommen, Maureen Email Hommen, Maureen - Rm: 300 A+ 100
+2016-10-18T19:56:32.507548+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T19:56:32.507549+00:00 app[web.1]: [debug]Spanish II  Details about Duran, Juan Email Duran, Juan - Rm: 517 A 96
+2016-10-18T19:56:32.507549+00:00 app[web.1]: [debug]AP Human Geography  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 B+ 88
+2016-10-18T19:56:32.507550+00:00 app[web.1]: [debug]Culinary Essentials I  Details about Branda, Dominic Email Branda, Dominic - Rm: 501 --
+2016-10-18T19:56:32.507550+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T19:56:32.507551+00:00 app[web.1]: [debug]Proj. School Climate  Details about Cevoli, Kenneth Email Cevoli, Kenneth - Rm: 712 --
+2016-10-18T19:56:32.900921+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=f54bfc9f-135e-4199-aa19-a6b739cf78b6 fwd="168.229.1.160" dyno=web.1 connect=1ms service=1258ms status=200 bytes=1392
+2016-10-18T19:56:32.872651+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T19:56:32.872662+00:00 app[web.1]: First marking period: 
+2016-10-18T19:56:32.872663+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872664+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:56:32.872663+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872664+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872665+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872666+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872666+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-18T19:56:32.872667+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872667+00:00 app[web.1]: second marking period: 
+2016-10-18T19:56:32.872668+00:00 app[web.1]: third marking period: 
+2016-10-18T19:56:32.872669+00:00 app[web.1]: year
+2016-10-18T19:56:32.872668+00:00 app[web.1]: fourth marking period: 
+2016-10-18T19:56:32.872671+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872670+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872671+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T19:56:32.872672+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872673+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872673+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872674+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-18T19:56:32.872674+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T19:56:32.872675+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T19:56:32.872680+00:00 app[web.1]: [gpa]3.9182926829268294[gpa]false
+2016-10-18T19:56:32.874065+00:00 app[web.1]: Fulfilled request for user: Annhuh20
+2016-10-18T19:56:33.118388+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=72d94a86-c140-4000-bcfb-50524b84ddf0 fwd="168.229.1.160" dyno=web.1 connect=1ms service=3ms status=404 bytes=528
+2016-10-18T20:11:34.841180+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=1a399796-edac-4a76-a8b1-f32388a43847 fwd="173.70.79.82" dyno=web.1 connect=1ms service=3ms status=200 bytes=1487
+2016-10-18T20:11:35.202341+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=9b54644f-99af-490c-b0f5-113128e05626 fwd="173.70.79.82" dyno=web.1 connect=1ms service=3ms status=200 bytes=7166
+2016-10-18T20:11:35.670401+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=ca9b7d3a-8b86-4aaa-800f-1fbb5f38ca0f fwd="173.70.79.82" dyno=web.1 connect=1ms service=6ms status=404 bytes=528
+2016-10-18T20:11:42.064800+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=fce5a086-2128-4c43-a4a4-f936c5bcfa7a fwd="173.70.79.82" dyno=web.1 connect=4ms service=1143ms status=200 bytes=1294
+2016-10-18T20:11:42.154778+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=705d6179-ab3e-4689-8451-4a2bb53918da fwd="173.70.79.82" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T20:11:41.702046+00:00 app[web.1]: [debug]Homeroom  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 711 --
+2016-10-18T20:11:41.702093+00:00 app[web.1]: [debug]English I H  Details about Mancini, Virginia Email Mancini, Virginia - Rm: 313 A 93
+2016-10-18T20:11:41.702197+00:00 app[web.1]: [debug]Intro to Law & Just  Details about Allard, Genevieve Email Allard, Genevieve - Rm: 731 A+ 100
+2016-10-18T20:11:41.702291+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B 86
+2016-10-18T20:11:41.702376+00:00 app[web.1]: [debug]Spanish II  Details about Duran, Juan Email Duran, Juan - Rm: 517 A 93
+2016-10-18T20:11:41.702469+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 B 86
+2016-10-18T20:11:41.702547+00:00 app[web.1]: [debug]Global Studies H  Details about Golle, Erica Email Golle, Erica - Rm: 730 A 93
+2016-10-18T20:11:41.702629+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T20:11:41.702693+00:00 app[web.1]: [debug]Physics H  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 A+ 100
+2016-10-18T20:11:41.702783+00:00 app[web.1]: [debug]Physical Education  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 97
+2016-10-18T20:11:41.702857+00:00 app[web.1]: [debug]Social Issues  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-18T20:11:41.702925+00:00 app[web.1]: [debug]Proj. School Climate  Details about Lancaster, Jonathan Email Lancaster, Jonathan - Rm: 731 --
+2016-10-18T20:11:42.051680+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:11:42.051699+00:00 app[web.1]: First marking period: 
+2016-10-18T20:11:42.051700+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051701+00:00 app[web.1]: [mp1][Subject]Intro to Law & Just[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051701+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.0[credits]5.0
+2016-10-18T20:11:42.051702+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051702+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T20:11:42.051703+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051703+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T20:11:42.051704+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051704+00:00 app[web.1]: second marking period: 
+2016-10-18T20:11:42.051705+00:00 app[web.1]: third marking period: 
+2016-10-18T20:11:42.051706+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:11:42.051707+00:00 app[web.1]: year
+2016-10-18T20:11:42.051707+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051708+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.0[credits]5.0
+2016-10-18T20:11:42.051708+00:00 app[web.1]: [YEAR][Subject]Intro to Law & Just[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051709+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051710+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T20:11:42.051710+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051711+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T20:11:42.051711+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:11:42.051712+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:11:42.051712+00:00 app[web.1]: [gpa]3.7560975609756095[gpa]false
+2016-10-18T20:11:42.052614+00:00 app[web.1]: Fulfilled request for user: alivar20
+2016-10-18T20:11:46.708501+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=501f3e83-c0e8-4d07-843b-22eba26fd099 fwd="173.70.79.82" dyno=web.1 connect=1ms service=3ms status=200 bytes=1390
+2016-10-18T20:11:46.798101+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=d9575aa7-8f71-4261-a0e0-5fa79ac175ed fwd="173.70.79.82" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T20:14:19.903739+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=18a45d66-1e62-4cd1-89c4-4c2bcbefcf6b fwd="166.137.252.18" dyno=web.1 connect=3ms service=5ms status=200 bytes=1488
+2016-10-18T20:14:20.180419+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=f762987b-65f3-4145-9304-5ed3cdf727ad fwd="166.137.252.18" dyno=web.1 connect=1ms service=2ms status=200 bytes=7166
+2016-10-18T20:14:20.760801+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=45c1290a-5c99-4c86-abef-bc25c34f0b32 fwd="166.137.252.18" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T20:14:49.102408+00:00 app[web.1]: java.lang.NullPointerException
+2016-10-18T20:14:49.102505+00:00 app[web.1]: 	at com.bt.gpa.GPA.calculate(GPA.java:131)
+2016-10-18T20:14:49.102509+00:00 app[web.1]: 	at com.bt.gpa.GPA.<init>(GPA.java:42)
+2016-10-18T20:14:49.102534+00:00 app[web.1]: 	at com.bt.gpa.GPAServlet.doPost(GPAServlet.java:27)
+2016-10-18T20:14:49.102538+00:00 app[web.1]: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+2016-10-18T20:14:49.102571+00:00 app[web.1]: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-10-18T20:14:49.102604+00:00 app[web.1]: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+2016-10-18T20:14:49.102601+00:00 app[web.1]: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+2016-10-18T20:14:49.102624+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+2016-10-18T20:14:49.102659+00:00 app[web.1]: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+2016-10-18T20:14:49.102641+00:00 app[web.1]: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+2016-10-18T20:14:49.102681+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+2016-10-18T20:14:49.102698+00:00 app[web.1]: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+2016-10-18T20:14:49.102715+00:00 app[web.1]: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+2016-10-18T20:14:49.102735+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+2016-10-18T20:14:49.102755+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+2016-10-18T20:14:49.102784+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+2016-10-18T20:14:49.102787+00:00 app[web.1]: 	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+2016-10-18T20:14:49.102806+00:00 app[web.1]: 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+2016-10-18T20:14:49.102827+00:00 app[web.1]: 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+2016-10-18T20:14:49.102845+00:00 app[web.1]: 	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+2016-10-18T20:14:49.102862+00:00 app[web.1]: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+2016-10-18T20:14:49.102926+00:00 app[web.1]: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+2016-10-18T20:14:49.102931+00:00 app[web.1]: 	at java.lang.Thread.run(Thread.java:745)
+2016-10-18T20:14:49.539242+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=a8444594-4fda-4824-a06d-f3d9b4dc4933 fwd="166.137.252.18" dyno=web.1 connect=2ms service=666ms status=200 bytes=1290
+2016-10-18T20:14:49.538021+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:14:49.538042+00:00 app[web.1]: First marking period: 
+2016-10-18T20:14:49.538043+00:00 app[web.1]: second marking period: 
+2016-10-18T20:14:49.538043+00:00 app[web.1]: third marking period: 
+2016-10-18T20:14:49.538044+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:14:49.538044+00:00 app[web.1]: year
+2016-10-18T20:14:49.538045+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:14:49.538050+00:00 app[web.1]: [gpa]NaN[gpa]true
+2016-10-18T20:14:49.539319+00:00 app[web.1]: Fulfilled request for user: merozg20
+2016-10-18T20:14:50.038911+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=75522744-f591-42fb-8835-969ebf3ea7a9 fwd="166.137.252.18" dyno=web.1 connect=1ms service=6ms status=404 bytes=528
+2016-10-18T20:14:58.775679+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=0c7770b6-4108-4136-a32e-ac558c87dbe9 fwd="166.137.252.18" dyno=web.1 connect=1ms service=25ms status=200 bytes=1390
+2016-10-18T20:14:59.343434+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=06de3ef0-e900-4888-99c9-07bb1c6a36cd fwd="166.137.252.18" dyno=web.1 connect=1ms service=6ms status=404 bytes=528
+2016-10-18T20:30:03.170462+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=8363edcb-cd1e-4c1a-89c0-39aa8635bb55 fwd="74.105.148.188" dyno=web.1 connect=0ms service=3ms status=200 bytes=1485
+2016-10-18T20:30:03.225763+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=eb356ec5-41fc-4bdb-bf12-fb680212b4d2 fwd="74.105.148.188" dyno=web.1 connect=2ms service=6ms status=200 bytes=7166
+2016-10-18T20:30:03.355753+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=0e734531-ad8c-491a-adf7-377f70696034 fwd="74.105.148.188" dyno=web.1 connect=2ms service=6ms status=404 bytes=528
+2016-10-18T20:30:09.811602+00:00 app[web.1]: [debug]Homeroom  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 902 --
+2016-10-18T20:30:09.812018+00:00 app[web.1]: [debug]Constitutional Law  Details about Allard, Genevieve Email Allard, Genevieve - Rm: 731 A 96
+2016-10-18T20:30:09.812604+00:00 app[web.1]: [debug]AP US Gov & Politics  Details about Golle, Erica Email Golle, Erica - Rm: 730 A+ 99
+2016-10-18T20:30:09.813144+00:00 app[web.1]: [debug]Phys Ed 10  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 A+ 100
+2016-10-18T20:30:09.813499+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 709 --
+2016-10-18T20:30:09.813989+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 100 A+ 97
+2016-10-18T20:30:09.814341+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A 94
+2016-10-18T20:30:09.814721+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T20:30:09.815090+00:00 app[web.1]: [debug]Spanish III H  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 A- 91
+2016-10-18T20:30:09.815525+00:00 app[web.1]: [debug]English II H  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 B 84
+2016-10-18T20:30:09.815864+00:00 app[web.1]: [debug]Math Analysis I H  Details about Hommen, Maureen Email Hommen, Maureen - Rm: 300 A+ 99
+2016-10-18T20:30:09.816211+00:00 app[web.1]: [debug]Proj Yoga  Details about Xhemali-Torres, Daphnae Email Xhemali-Torres, Daphnae - Rm: 719 --
+2016-10-18T20:30:10.121223+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=3c621040-681e-4e4f-abdf-dcee631374a3 fwd="74.105.148.188" dyno=web.1 connect=0ms service=1106ms status=200 bytes=1294
+2016-10-18T20:30:10.214890+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=f6c31a59-0237-468b-a878-3a9deaad61bd fwd="74.105.148.188" dyno=web.1 connect=0ms service=4ms status=404 bytes=528
+2016-10-18T20:30:10.121606+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:30:10.121618+00:00 app[web.1]: First marking period: 
+2016-10-18T20:30:10.121619+00:00 app[web.1]: [mp1][Subject]Constitutional Law[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121620+00:00 app[web.1]: [mp1][Subject]AP US Gov & Politics[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121620+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121621+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]4.0[credits]6.0
+2016-10-18T20:30:10.121621+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]4.0[credits]6.0
+2016-10-18T20:30:10.121625+00:00 app[web.1]: [mp1][Subject]Spanish III H[gradePoints]3.67[credits]5.0
+2016-10-18T20:30:10.121626+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.0[credits]5.0
+2016-10-18T20:30:10.121626+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121627+00:00 app[web.1]: second marking period: 
+2016-10-18T20:30:10.121628+00:00 app[web.1]: third marking period: 
+2016-10-18T20:30:10.121628+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:30:10.121629+00:00 app[web.1]: year
+2016-10-18T20:30:10.121630+00:00 app[web.1]: [YEAR][Subject]Constitutional Law[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121631+00:00 app[web.1]: [YEAR][Subject]AP US Gov & Politics[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121631+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121632+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]4.0[credits]6.0
+2016-10-18T20:30:10.121632+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]4.0[credits]6.0
+2016-10-18T20:30:10.121633+00:00 app[web.1]: [YEAR][Subject]Spanish III H[gradePoints]3.67[credits]5.0
+2016-10-18T20:30:10.121633+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.0[credits]5.0
+2016-10-18T20:30:10.121634+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:30:10.121635+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:30:10.121641+00:00 app[web.1]: [gpa]3.8416666666666663[gpa]false
+2016-10-18T20:30:10.123167+00:00 app[web.1]: Fulfilled request for user: coualo19
+2016-10-18T20:30:23.240109+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=4307096b-c55d-4dea-bce7-d2405156b657 fwd="74.105.148.188" dyno=web.1 connect=0ms service=10ms status=200 bytes=1390
+2016-10-18T20:30:23.296170+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=4adeb1df-fb36-4550-8f61-1be892b2fe5a fwd="74.105.148.188" dyno=web.1 connect=0ms service=4ms status=404 bytes=528
+2016-10-18T20:30:56.122971+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=58281f0f-815c-4e2f-a6dd-1a7160c95679 fwd="172.56.23.44" dyno=web.1 connect=1ms service=13ms status=200 bytes=1487
+2016-10-18T20:30:56.285704+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=4c82f654-8c35-4cb3-8d45-4689bff65bce fwd="172.56.23.44" dyno=web.1 connect=1ms service=2ms status=200 bytes=7166
+2016-10-18T20:30:56.377283+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=747266b7-26e8-48c6-9c31-ec3e191d1f96 fwd="172.56.23.44" dyno=web.1 connect=1ms service=10ms status=404 bytes=528
+2016-10-18T20:31:10.782311+00:00 app[web.1]: [debug]Homeroom  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 321 --
+2016-10-18T20:31:10.782419+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 308 A+ 99
+2016-10-18T20:31:10.784423+00:00 app[web.1]: [debug]Intro to Law & Just  Details about Allard, Genevieve Email Allard, Genevieve - Rm: 731 A 95
+2016-10-18T20:31:10.784572+00:00 app[web.1]: [debug]French II  Details about Rene-Luke, Berthe Email Rene-Luke, Berthe - Rm: 721 A 96
+2016-10-18T20:31:10.784725+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B 85
+2016-10-18T20:31:10.784863+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 B+ 88
+2016-10-18T20:31:10.784999+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T20:31:10.785224+00:00 app[web.1]: [debug]AP Human Geography  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 C+ 78
+2016-10-18T20:31:10.785447+00:00 app[web.1]: [debug]Physics H  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 B+ 88
+2016-10-18T20:31:10.786060+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T20:31:10.789996+00:00 app[web.1]: [debug]Physical Education  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 100
+2016-10-18T20:31:10.790143+00:00 app[web.1]: [debug]Social Issues  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-18T20:31:10.790271+00:00 app[web.1]: [debug]Proj. School Climate  Details about Lancaster, Jonathan Email Lancaster, Jonathan - Rm: 731 --
+2016-10-18T20:31:11.089230+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=1fb1d415-85e9-4e2d-8074-a0fe4d9165a0 fwd="172.56.23.44" dyno=web.1 connect=1ms service=1130ms status=200 bytes=1388
+2016-10-18T20:31:11.074875+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:31:11.074881+00:00 app[web.1]: First marking period: 
+2016-10-18T20:31:11.074882+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074883+00:00 app[web.1]: [mp1][Subject]Intro to Law & Just[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074883+00:00 app[web.1]: [mp1][Subject]French II[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074888+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.0[credits]5.0
+2016-10-18T20:31:11.074888+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.33[credits]5.0
+2016-10-18T20:31:11.074889+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]2.33[credits]5.0
+2016-10-18T20:31:11.074889+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]3.33[credits]6.0
+2016-10-18T20:31:11.074893+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074893+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074895+00:00 app[web.1]: third marking period: 
+2016-10-18T20:31:11.074894+00:00 app[web.1]: second marking period: 
+2016-10-18T20:31:11.074895+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:31:11.074897+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074896+00:00 app[web.1]: year
+2016-10-18T20:31:11.074898+00:00 app[web.1]: [YEAR][Subject]Intro to Law & Just[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074898+00:00 app[web.1]: [YEAR][Subject]French II[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074899+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.0[credits]5.0
+2016-10-18T20:31:11.074900+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.33[credits]5.0
+2016-10-18T20:31:11.074900+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]2.33[credits]5.0
+2016-10-18T20:31:11.074901+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]3.33[credits]6.0
+2016-10-18T20:31:11.077108+00:00 app[web.1]: Fulfilled request for user: amiram20
+2016-10-18T20:31:11.074901+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074902+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:31:11.074907+00:00 app[web.1]: [gpa]3.549565217391305[gpa]false
+2016-10-18T20:31:11.074903+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:31:11.484970+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=8f3e1f1b-61a3-4a84-abd7-2d4a2e2003d8 fwd="172.56.23.44" dyno=web.1 connect=1ms service=13ms status=404 bytes=528
+2016-10-18T20:38:36.592524+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=47baa341-5dd2-4bac-9fbe-42c57b6ed4fa fwd="72.76.86.78" dyno=web.1 connect=1ms service=4ms status=200 bytes=1487
+2016-10-18T20:38:36.862238+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=7a81bfe3-b9ae-4e0c-9cc6-d1d6bcebff2f fwd="72.76.86.78" dyno=web.1 connect=1ms service=3ms status=200 bytes=7166
+2016-10-18T20:38:37.191352+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=e18ff0c2-5361-4190-8e30-ff67e01b0886 fwd="72.76.86.78" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T20:39:02.497417+00:00 app[web.1]: [debug]Homeroom  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 --
+2016-10-18T20:39:02.497513+00:00 app[web.1]: [debug]Mandarin I  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 721 A+ 99
+2016-10-18T20:39:02.497626+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A 95
+2016-10-18T20:39:02.497722+00:00 app[web.1]: [debug]Physics H  Details about DiBiano, Mary Rose Email DiBiano, Mary Rose - Rm: 122 A+ 98
+2016-10-18T20:39:02.497842+00:00 app[web.1]: [debug]Physical Education  Details about Proietti, James Email Proietti, James - Rm: 903 A+ 100
+2016-10-18T20:39:02.497945+00:00 app[web.1]: [debug]Social Issues  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-18T20:39:02.498076+00:00 app[web.1]: [debug]Global Studies H  Details about Golle, Erica Email Golle, Erica - Rm: 730 A+ 98
+2016-10-18T20:39:02.498197+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 A+ 99
+2016-10-18T20:39:02.498321+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T20:39:02.498449+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 A+ 97
+2016-10-18T20:39:02.498729+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T20:39:02.498862+00:00 app[web.1]: [debug]Proj. School Climate  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 302 --
+2016-10-18T20:39:02.498596+00:00 app[web.1]: [debug]Intro to Bus.Manage  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 A- 90
+2016-10-18T20:39:02.776092+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=3842444a-1f45-48c7-9865-3ad1eafcde08 fwd="72.76.86.78" dyno=web.1 connect=3ms service=1098ms status=200 bytes=1294
+2016-10-18T20:39:02.767596+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:39:02.767612+00:00 app[web.1]: First marking period: 
+2016-10-18T20:39:02.767615+00:00 app[web.1]: [mp1][Subject]Mandarin I[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767615+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767616+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767616+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T20:39:02.767617+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767617+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767618+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767618+00:00 app[web.1]: [mp1][Subject]Intro to Bus.Manage[gradePoints]3.67[credits]5.0
+2016-10-18T20:39:02.767620+00:00 app[web.1]: second marking period: 
+2016-10-18T20:39:02.767619+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767620+00:00 app[web.1]: third marking period: 
+2016-10-18T20:39:02.767621+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:39:02.767622+00:00 app[web.1]: year
+2016-10-18T20:39:02.767622+00:00 app[web.1]: [YEAR][Subject]Mandarin I[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767623+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767624+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T20:39:02.767624+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767625+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767625+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767626+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767627+00:00 app[web.1]: [YEAR][Subject]Intro to Bus.Manage[gradePoints]3.67[credits]5.0
+2016-10-18T20:39:02.767627+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T20:39:02.767627+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:39:02.767631+00:00 app[web.1]: [gpa]3.9641304347826085[gpa]false
+2016-10-18T20:39:02.770327+00:00 app[web.1]: Fulfilled request for user: justlee20
+2016-10-18T20:39:03.198521+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=2a608ce0-0fb7-4127-8d34-00073398a262 fwd="72.76.86.78" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T20:46:05.133407+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=b5a3dad2-3e8d-44a2-b95c-9c169fbf046c fwd="168.229.253.20" dyno=web.1 connect=1ms service=4ms status=200 bytes=1488
+2016-10-18T20:46:05.289327+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=f3ed52c4-7e98-4471-9fa9-66d958b5af30 fwd="168.229.253.20" dyno=web.1 connect=1ms service=3ms status=304 bytes=118
+2016-10-18T20:46:05.359178+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=f74142d8-cd11-4c67-9c66-041e2cae7692 fwd="168.229.253.20" dyno=web.1 connect=2ms service=3ms status=404 bytes=528
+2016-10-18T20:46:09.753207+00:00 app[web.1]: [debug]Homeroom  Details about Friedman, Robin Email Friedman, Robin - Rm: 513 --
+2016-10-18T20:46:09.753271+00:00 app[web.1]: [debug]Systems Analysis I  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 97
+2016-10-18T20:46:09.753369+00:00 app[web.1]: [debug]Intro Eng. Des  Details about Sarisky, Matthew Email Sarisky, Matthew - Rm: 729 C 74.6
+2016-10-18T20:46:09.753527+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 902 --
+2016-10-18T20:46:09.753448+00:00 app[web.1]: [debug]Phys Ed 10  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 --
+2016-10-18T20:46:09.753708+00:00 app[web.1]: [debug]Math Analysis II H  Details about Mellina, Nicholas Email Mellina, Nicholas - Rm: 101 C 76
+2016-10-18T20:46:09.753603+00:00 app[web.1]: [debug]Chemistry H  Details about Robin, Melissa Email Robin, Melissa - Rm: 321 A- 92
+2016-10-18T20:46:09.753934+00:00 app[web.1]: [debug]Physics AP 2  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 C+ 79
+2016-10-18T20:46:09.753813+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T20:46:09.754049+00:00 app[web.1]: [debug]Spanish II  Details about Xhemali-Torres, Daphnae Email Xhemali-Torres, Daphnae - Rm: 719 C+ 79
+2016-10-18T20:46:09.754172+00:00 app[web.1]: [debug]English II H  Details about Biggins, Mary Kris Email Biggins, Mary Kris - Rm: 308 B+ 88
+2016-10-18T20:46:09.754297+00:00 app[web.1]: [debug]Series Hybrids and Electric Vehicles  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T20:46:09.754416+00:00 app[web.1]: [debug]Project Adventure  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 --
+2016-10-18T20:46:10.107968+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=d4f98ef1-37ad-4e89-8abc-033ca247b2be fwd="168.229.253.20" dyno=web.1 connect=1ms service=1291ms status=200 bytes=1294
+2016-10-18T20:46:10.109026+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:46:10.109038+00:00 app[web.1]: First marking period: 
+2016-10-18T20:46:10.109039+00:00 app[web.1]: [mp1][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T20:46:10.109040+00:00 app[web.1]: [mp1][Subject]Intro Eng. Des[gradePoints]2.0[credits]5.0
+2016-10-18T20:46:10.109040+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.67[credits]1.0
+2016-10-18T20:46:10.109041+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]3.67[credits]6.0
+2016-10-18T20:46:10.109042+00:00 app[web.1]: [mp1][Subject]Math Analysis II H[gradePoints]2.0[credits]5.0
+2016-10-18T20:46:10.109042+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]2.33[credits]6.0
+2016-10-18T20:46:10.109043+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]2.33[credits]5.0
+2016-10-18T20:46:10.109043+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T20:46:10.109044+00:00 app[web.1]: [mp1][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T20:46:10.109045+00:00 app[web.1]: second marking period: 
+2016-10-18T20:46:10.109045+00:00 app[web.1]: third marking period: 
+2016-10-18T20:46:10.109046+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:46:10.109047+00:00 app[web.1]: year
+2016-10-18T20:46:10.109048+00:00 app[web.1]: [YEAR][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T20:46:10.109048+00:00 app[web.1]: [YEAR][Subject]Intro Eng. Des[gradePoints]2.0[credits]5.0
+2016-10-18T20:46:10.109049+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.67[credits]1.0
+2016-10-18T20:46:10.109049+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]3.67[credits]6.0
+2016-10-18T20:46:10.109050+00:00 app[web.1]: [YEAR][Subject]Math Analysis II H[gradePoints]2.0[credits]5.0
+2016-10-18T20:46:10.109050+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]2.33[credits]6.0
+2016-10-18T20:46:10.109052+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T20:46:10.109051+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]2.33[credits]5.0
+2016-10-18T20:46:10.109052+00:00 app[web.1]: [YEAR][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T20:46:10.109053+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:46:10.109054+00:00 app[web.1]: [gpa]2.976046511627907[gpa]false
+2016-10-18T20:46:10.110743+00:00 app[web.1]: Fulfilled request for user: ivamel19
+2016-10-18T20:46:10.385019+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=d398efdd-9b43-4de3-a784-74a3bbf7c99b fwd="168.229.253.20" dyno=web.1 connect=4ms service=5ms status=404 bytes=528
+2016-10-18T20:51:02.188634+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=16ec21d6-82f6-4efd-9ca5-c481add20751 fwd="69.122.224.254" dyno=web.1 connect=1ms service=3ms status=200 bytes=7166
+2016-10-18T20:51:02.188388+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=018b95e3-4270-4b82-b6d5-c82b0001f678 fwd="69.122.224.254" dyno=web.1 connect=1ms service=3ms status=200 bytes=1487
+2016-10-18T20:51:02.326489+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=85fb6f7a-fc99-4f01-9648-8eb150ac4bf7 fwd="69.122.224.254" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T20:51:10.492666+00:00 app[web.1]: [debug]Homeroom  Details about Duran, Juan Email Duran, Juan - Rm: 517 --
+2016-10-18T20:51:10.492763+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 A 95
+2016-10-18T20:51:10.492958+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A+ 98
+2016-10-18T20:51:10.493076+00:00 app[web.1]: [debug]Physics H  Details about DiBiano, Mary Rose Email DiBiano, Mary Rose - Rm: 122 A+ 100
+2016-10-18T20:51:10.493227+00:00 app[web.1]: [debug]Physical Education  Details about Proietti, James Email Proietti, James - Rm: 903 A+ 100
+2016-10-18T20:51:10.493333+00:00 app[web.1]: [debug]Social Issues  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-18T20:51:10.493640+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 A+ 98
+2016-10-18T20:51:10.493431+00:00 app[web.1]: [debug]Spanish II  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 A- 91
+2016-10-18T20:51:10.493758+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 A 93
+2016-10-18T20:51:10.493861+00:00 app[web.1]: [debug]Intro to Aerospace  Details about Elefther, Nicholas Email Elefther, Nicholas - Rm: 126 A+ 97
+2016-10-18T20:51:10.493543+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T20:51:10.493965+00:00 app[web.1]: [debug]Proj. School Climate  Details about Conlon, Kenneth Email Conlon, Kenneth - Rm: 711 --
+2016-10-18T20:51:10.776576+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=f15a48e5-e966-4e49-9423-0c3c4ce16ac4 fwd="69.122.224.254" dyno=web.1 connect=1ms service=1141ms status=200 bytes=1292
+2016-10-18T20:51:10.781041+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:51:10.781058+00:00 app[web.1]: First marking period: 
+2016-10-18T20:51:10.781059+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781060+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781060+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T20:51:10.781061+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781062+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]3.67[credits]5.0
+2016-10-18T20:51:10.781062+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781063+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781064+00:00 app[web.1]: second marking period: 
+2016-10-18T20:51:10.781063+00:00 app[web.1]: [mp1][Subject]Intro to Aerospace[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781065+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:51:10.781066+00:00 app[web.1]: year
+2016-10-18T20:51:10.781064+00:00 app[web.1]: third marking period: 
+2016-10-18T20:51:10.781066+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781067+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781067+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T20:51:10.781068+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781068+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]3.67[credits]5.0
+2016-10-18T20:51:10.781069+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781070+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781070+00:00 app[web.1]: [YEAR][Subject]Intro to Aerospace[gradePoints]4.0[credits]5.0
+2016-10-18T20:51:10.781071+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:51:10.781136+00:00 app[web.1]: [gpa]3.9597560975609754[gpa]false
+2016-10-18T20:51:10.783535+00:00 app[web.1]: Fulfilled request for user: samsuh20
+2016-10-18T20:51:10.981641+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=86d9fb3a-42b5-4d10-91cc-65c22567a2be fwd="69.122.224.254" dyno=web.1 connect=1ms service=3ms status=404 bytes=528
+2016-10-18T20:58:22.810390+00:00 app[web.1]: [debug]Homeroom  Details about Rene-Luke, Berthe Email Rene-Luke, Berthe - Rm: 721 --
+2016-10-18T20:58:22.810771+00:00 app[web.1]: [debug]Begin Guitar  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T20:58:22.810998+00:00 app[web.1]: [debug]Phys Ed.  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 100
+2016-10-18T20:58:22.811174+00:00 app[web.1]: [debug]Family Living  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-18T20:58:22.811355+00:00 app[web.1]: [debug]SUPA WRT 105  Details about Kruger, Ryan Email Kruger, Ryan - Rm: 315 A 93
+2016-10-18T20:58:22.811747+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T20:58:22.811927+00:00 app[web.1]: [debug]Calculus H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B+ 87
+2016-10-18T20:58:22.812089+00:00 app[web.1]: [debug]Anatomy & Phys  Details about Castella, Frank Email Castella, Frank - Rm: 902 A 96
+2016-10-18T20:58:22.812257+00:00 app[web.1]: [debug]Fashion Art & Design III  Details about George, Annamma Email George, Annamma - Rm: 504 A+ 98
+2016-10-18T20:58:22.812420+00:00 app[web.1]: [debug]Intro to Fashion Marketing  Details about George, Annamma Email George, Annamma - Rm: 504 A 96
+2016-10-18T20:58:22.812566+00:00 app[web.1]: [debug]Global Challenge  Details about Rosso, Allan Email Rosso, Allan - Rm: 521 A+ 100
+2016-10-18T20:58:22.812715+00:00 app[web.1]: [debug]Senior Experience  Details about Carroll, Gerard Email Carroll, Gerard - Rm: 316 --
+2016-10-18T20:58:23.193515+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=575af16a-df30-49e4-b8c9-c4e05d3c615b fwd="69.122.27.127" dyno=web.1 connect=1ms service=1233ms status=200 bytes=1391
+2016-10-18T20:58:23.362199+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=b3f78a0c-b325-4abb-b115-c8ed6fa3d2c4 fwd="69.122.27.127" dyno=web.1 connect=0ms service=4ms status=404 bytes=528
+2016-10-18T20:58:23.196066+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T20:58:23.196076+00:00 app[web.1]: First marking period: 
+2016-10-18T20:58:23.196077+00:00 app[web.1]: [mp1][Subject]Begin Guitar[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196078+00:00 app[web.1]: [mp1][Subject]Phys Ed.[gradePoints]4.0[credits]3.0
+2016-10-18T20:58:23.196078+00:00 app[web.1]: [mp1][Subject]SUPA WRT 105[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196079+00:00 app[web.1]: [mp1][Subject]Calculus H[gradePoints]3.33[credits]5.0
+2016-10-18T20:58:23.196079+00:00 app[web.1]: [mp1][Subject]Anatomy & Phys[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196080+00:00 app[web.1]: [mp1][Subject]Fashion Art & Design III[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196081+00:00 app[web.1]: [mp1][Subject]Intro to Fashion Marketing[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196081+00:00 app[web.1]: [mp1][Subject]Global Challenge[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196082+00:00 app[web.1]: second marking period: 
+2016-10-18T20:58:23.196083+00:00 app[web.1]: third marking period: 
+2016-10-18T20:58:23.196084+00:00 app[web.1]: year
+2016-10-18T20:58:23.196083+00:00 app[web.1]: fourth marking period: 
+2016-10-18T20:58:23.196085+00:00 app[web.1]: [YEAR][Subject]Begin Guitar[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196085+00:00 app[web.1]: [YEAR][Subject]Phys Ed.[gradePoints]4.0[credits]3.0
+2016-10-18T20:58:23.196086+00:00 app[web.1]: [YEAR][Subject]SUPA WRT 105[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196086+00:00 app[web.1]: [YEAR][Subject]Calculus H[gradePoints]3.33[credits]5.0
+2016-10-18T20:58:23.196087+00:00 app[web.1]: [YEAR][Subject]Anatomy & Phys[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196087+00:00 app[web.1]: [YEAR][Subject]Fashion Art & Design III[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196088+00:00 app[web.1]: [YEAR][Subject]Intro to Fashion Marketing[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196089+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T20:58:23.196089+00:00 app[web.1]: [YEAR][Subject]Global Challenge[gradePoints]4.0[credits]5.0
+2016-10-18T20:58:23.196093+00:00 app[web.1]: [gpa]3.9118421052631582[gpa]false
+2016-10-18T20:58:23.197582+00:00 app[web.1]: Fulfilled request for user: AvaPat
+2016-10-18T21:04:43.586189+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=da49a088-dbc3-4a3b-9365-2566e1564a0d fwd="107.77.106.117" dyno=web.1 connect=0ms service=1ms status=304 bytes=118
+2016-10-18T21:04:43.607959+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=a2cb569b-bb1d-40f6-b119-6abdfaf0d985 fwd="107.77.106.117" dyno=web.1 connect=0ms service=2ms status=200 bytes=1486
+2016-10-18T21:04:43.673516+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=3d72be99-5344-4060-98e8-707cf8e52fc3 fwd="107.77.106.117" dyno=web.1 connect=3ms service=6ms status=404 bytes=528
+2016-10-18T21:05:09.194745+00:00 app[web.1]: [debug]Homeroom  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-18T21:05:09.194910+00:00 app[web.1]: [debug]Nutrition Fd_Health  Details about Castella, Frank Email Castella, Frank - Rm: 902 A- 92
+2016-10-18T21:05:09.194802+00:00 app[web.1]: [debug]Intro to Culinology∆  Details about Galperin, Andrea Email Galperin, Andrea - Rm: 501 --
+2016-10-18T21:05:09.195058+00:00 app[web.1]: [debug]Mandarin II  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 731 A+ 97
+2016-10-18T21:05:09.195195+00:00 app[web.1]: [debug]English II H  Details about Biggins, Mary Kris Email Biggins, Mary Kris - Rm: 308 A- 90
+2016-10-18T21:05:09.195313+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T21:05:09.195407+00:00 app[web.1]: [debug]US History I H  Details about Cornelio, Cristal Email Cornelio, Cristal - Rm: 520 B 84
+2016-10-18T21:05:09.195522+00:00 app[web.1]: [debug]Phys Ed 10  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 --
+2016-10-18T21:05:09.195628+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 902 --
+2016-10-18T21:05:09.195879+00:00 app[web.1]: [debug]Math Analysis I H  Details about Lotter, Gwendolyn Email Lotter, Gwendolyn - Rm: 103 B+ 88
+2016-10-18T21:05:09.195744+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 123 B- 82
+2016-10-18T21:05:09.195996+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T21:05:09.196113+00:00 app[web.1]: [debug]Proj MA1/MA2  Details about Mellina, Nicholas Email Mellina, Nicholas - Rm: 101 --
+2016-10-18T21:05:09.555595+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=51460f5f-d8bd-45a1-9ff3-586231e4a645 fwd="107.77.106.117" dyno=web.1 connect=0ms service=1155ms status=200 bytes=1391
+2016-10-18T21:05:09.558503+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T21:05:09.558515+00:00 app[web.1]: First marking period: 
+2016-10-18T21:05:09.558519+00:00 app[web.1]: [mp1][Subject]Nutrition Fd_Health[gradePoints]3.67[credits]5.0
+2016-10-18T21:05:09.558520+00:00 app[web.1]: [mp1][Subject]Mandarin II[gradePoints]4.0[credits]5.0
+2016-10-18T21:05:09.558520+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.67[credits]5.0
+2016-10-18T21:05:09.558521+00:00 app[web.1]: [mp1][Subject]US History I H[gradePoints]3.0[credits]5.0
+2016-10-18T21:05:09.558521+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T21:05:09.558522+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]4.0[credits]1.0
+2016-10-18T21:05:09.558523+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T21:05:09.558523+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T21:05:09.558522+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]2.67[credits]6.0
+2016-10-18T21:05:09.558524+00:00 app[web.1]: second marking period: 
+2016-10-18T21:05:09.558525+00:00 app[web.1]: third marking period: 
+2016-10-18T21:05:09.558525+00:00 app[web.1]: fourth marking period: 
+2016-10-18T21:05:09.558526+00:00 app[web.1]: year
+2016-10-18T21:05:09.558527+00:00 app[web.1]: [YEAR][Subject]Nutrition Fd_Health[gradePoints]3.67[credits]5.0
+2016-10-18T21:05:09.558527+00:00 app[web.1]: [YEAR][Subject]Mandarin II[gradePoints]4.0[credits]5.0
+2016-10-18T21:05:09.558528+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.67[credits]5.0
+2016-10-18T21:05:09.558529+00:00 app[web.1]: [YEAR][Subject]US History I H[gradePoints]3.0[credits]5.0
+2016-10-18T21:05:09.558529+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T21:05:09.558530+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]4.0[credits]1.0
+2016-10-18T21:05:09.558530+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]2.67[credits]6.0
+2016-10-18T21:05:09.558531+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T21:05:09.558532+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T21:05:09.558532+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T21:05:09.558533+00:00 app[web.1]: [gpa]3.5326190476190478[gpa]false
+2016-10-18T21:05:09.559592+00:00 app[web.1]: Fulfilled request for user: iaschr19
+2016-10-18T21:05:09.913727+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=990f953b-fb6a-490d-8409-f54d0d0bd425 fwd="107.77.106.117" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T21:17:31.804348+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=008e5a20-46ea-4833-82bc-8021be346cb0 fwd="69.122.3.238" dyno=web.1 connect=1ms service=6ms status=200 bytes=1486
+2016-10-18T21:17:31.852068+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=5c96c0cf-6648-4f0a-91ca-e0cbaa6d87d2 fwd="69.122.3.238" dyno=web.1 connect=4ms service=3ms status=200 bytes=7166
+2016-10-18T21:17:32.097877+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=6f7465f9-5f46-48f9-98f8-ab5ff7351705 fwd="69.122.3.238" dyno=web.1 connect=2ms service=4ms status=404 bytes=528
+2016-10-18T21:19:57.853853+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=80019220-5829-47a6-9860-5db965329a01 fwd="173.54.153.14" dyno=web.1 connect=1ms service=8ms status=200 bytes=1487
+2016-10-18T21:19:57.922667+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=9aa2340b-8da9-4fc1-aa53-f38b0fe6589b fwd="173.54.153.14" dyno=web.1 connect=1ms service=2ms status=304 bytes=118
+2016-10-18T21:19:57.962573+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=5c21f4dc-9300-4fab-af71-77021696ea7b fwd="173.54.153.14" dyno=web.1 connect=1ms service=3ms status=404 bytes=528
+2016-10-18T21:20:11.515898+00:00 app[web.1]: [debug]Homeroom  Details about DiBiano, Mary Rose Email DiBiano, Mary Rose - Rm: 122 --
+2016-10-18T21:20:11.516088+00:00 app[web.1]: [debug]Global Studies H  Details about Golle, Erica Email Golle, Erica - Rm: 730 A- 91
+2016-10-18T21:20:11.516266+00:00 app[web.1]: [debug]Algebra I H  Details about Lotter, Gwendolyn Email Lotter, Gwendolyn - Rm: 101 A 96
+2016-10-18T21:20:11.516432+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 A- 92
+2016-10-18T21:20:11.516597+00:00 app[web.1]: [debug]English I H  Details about Mancini, Virginia Email Mancini, Virginia - Rm: 313 A- 92
+2016-10-18T21:20:11.516766+00:00 app[web.1]: [debug]Spanish I  Details about Nieves-Despinos, Glenny Email Nieves-Despinos, Glenny - Rm: 722 A- 92
+2016-10-18T21:20:11.516925+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T21:20:11.517059+00:00 app[web.1]: [debug]Physics H  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A 95
+2016-10-18T21:20:11.517217+00:00 app[web.1]: [debug]Physical Education  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 903 B- 80
+2016-10-18T21:20:11.517374+00:00 app[web.1]: [debug]Social Issues  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 709 --
+2016-10-18T21:20:11.517567+00:00 app[web.1]: [debug]Found in Fashion Des  Details about George, Annamma Email George, Annamma - Rm: 504 A+ 99
+2016-10-18T21:20:11.517801+00:00 app[web.1]: [debug]Proj. School Climate  Details about George, Annamma Email George, Annamma - Rm: 510 --
+2016-10-18T21:20:11.831608+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=6956ac0b-7de2-4bff-9879-782acf55670b fwd="173.54.153.14" dyno=web.1 connect=1ms service=1218ms status=200 bytes=1391
+2016-10-18T21:20:11.830225+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T21:20:11.830243+00:00 app[web.1]: First marking period: 
+2016-10-18T21:20:11.830244+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830245+00:00 app[web.1]: [mp1][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T21:20:11.830245+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830246+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830246+00:00 app[web.1]: [mp1][Subject]Spanish I[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830247+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T21:20:11.830247+00:00 app[web.1]: [mp1][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T21:20:11.830248+00:00 app[web.1]: [mp1][Subject]Found in Fashion Des[gradePoints]4.0[credits]5.0
+2016-10-18T21:20:11.830248+00:00 app[web.1]: second marking period: 
+2016-10-18T21:20:11.830249+00:00 app[web.1]: third marking period: 
+2016-10-18T21:20:11.830250+00:00 app[web.1]: fourth marking period: 
+2016-10-18T21:20:11.830250+00:00 app[web.1]: year
+2016-10-18T21:20:11.830251+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830251+00:00 app[web.1]: [YEAR][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T21:20:11.830252+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830253+00:00 app[web.1]: [YEAR][Subject]Spanish I[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830253+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]3.67[credits]5.0
+2016-10-18T21:20:11.830254+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T21:20:11.830254+00:00 app[web.1]: [YEAR][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T21:20:11.830255+00:00 app[web.1]: [YEAR][Subject]Found in Fashion Des[gradePoints]4.0[credits]5.0
+2016-10-18T21:20:11.830255+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T21:20:11.830256+00:00 app[web.1]: [gpa]3.8216216216216217[gpa]false
+2016-10-18T21:20:11.831528+00:00 app[web.1]: Fulfilled request for user: Naddig20
+2016-10-18T21:20:11.999370+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=682e02f4-f33e-4103-a5da-852d9190e141 fwd="173.54.153.14" dyno=web.1 connect=1ms service=4ms status=304 bytes=118
+2016-10-18T21:20:12.034622+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=0d6e1c43-9335-4a94-876e-c430e63abe8a fwd="173.54.153.14" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T21:25:06.839634+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=ad4ce62d-2d34-4afa-ae61-07f0c08da84f fwd="100.1.159.120" dyno=web.1 connect=1ms service=3ms status=200 bytes=1488
+2016-10-18T21:25:06.990434+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=fc9f1c64-1515-4210-b680-05e530f98c51 fwd="100.1.159.120" dyno=web.1 connect=1ms service=2ms status=200 bytes=7166
+2016-10-18T21:25:07.340167+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=48f49b69-aa65-457e-95d4-9f4faef6b444 fwd="100.1.159.120" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T21:25:21.759345+00:00 app[web.1]: [debug]Homeroom  Details about Soderman, Stephanie Email Soderman, Stephanie - Rm: 308 --
+2016-10-18T21:25:21.759425+00:00 app[web.1]: [debug]Apparel Design 1  Details about George, Annamma Email George, Annamma - Rm: 504 A- 90
+2016-10-18T21:25:21.759591+00:00 app[web.1]: [debug]US History I H  Details about Cornelio, Cristal Email Cornelio, Cristal - Rm: 520 B+ 89
+2016-10-18T21:25:21.759514+00:00 app[web.1]: [debug]Fashion Art & Design I  Details about George, Annamma Email George, Annamma - Rm: 504 A+ 100
+2016-10-18T21:25:21.759700+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T21:25:21.759842+00:00 app[web.1]: [debug]Phys Ed 10  Details about Proietti, James Email Proietti, James - Rm: 903 --
+2016-10-18T21:25:21.759768+00:00 app[web.1]: [debug]Geometry H  Details about Cogelia, Mary Email Cogelia, Mary - Rm: 107 B 84
+2016-10-18T21:25:21.759904+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Proietti, James Email Proietti, James - Rm: 517 --
+2016-10-18T21:25:21.759969+00:00 app[web.1]: [debug]Chemistry H  Details about Robin, Melissa Email Robin, Melissa - Rm: 321 C 75
+2016-10-18T21:25:21.760135+00:00 app[web.1]: [debug]Spanish II  Details about Xhemali-Torres, Daphnae Email Xhemali-Torres, Daphnae - Rm: 719 A 93
+2016-10-18T21:25:21.760061+00:00 app[web.1]: [debug]English II H  Details about Hernandez, Marcella Irene Email Hernandez, Marcella Irene - Rm: 316 B+ 87
+2016-10-18T21:25:21.760214+00:00 app[web.1]: [debug]Proj Algebra/Geometry  Details about Cogelia, Mary Email Cogelia, Mary - Rm: 107 --
+2016-10-18T21:25:22.200390+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=0a6473f3-14a9-4f06-9095-5dfdabdb0c5e fwd="100.1.159.120" dyno=web.1 connect=1ms service=1468ms status=200 bytes=1391
+2016-10-18T21:25:22.299514+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=68e0a759-196b-475a-8b20-867ead873b16 fwd="100.1.159.120" dyno=web.1 connect=1ms service=4ms status=404 bytes=528
+2016-10-18T21:25:22.196385+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T21:25:22.196396+00:00 app[web.1]: First marking period: 
+2016-10-18T21:25:22.196397+00:00 app[web.1]: [mp1][Subject]Apparel Design 1[gradePoints]4.0[credits]5.0
+2016-10-18T21:25:22.196398+00:00 app[web.1]: [mp1][Subject]Fashion Art & Design I[gradePoints]4.0[credits]5.0
+2016-10-18T21:25:22.196399+00:00 app[web.1]: [mp1][Subject]US History I H[gradePoints]3.33[credits]5.0
+2016-10-18T21:25:22.196399+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T21:25:22.196400+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T21:25:22.196400+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]2.0[credits]6.0
+2016-10-18T21:25:22.196401+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T21:25:22.196402+00:00 app[web.1]: [mp1][Subject]Proj Algebra/Geometry[gradePoints]4.0[credits]1.0
+2016-10-18T21:25:22.196403+00:00 app[web.1]: second marking period: 
+2016-10-18T21:25:22.196402+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T21:25:22.196403+00:00 app[web.1]: third marking period: 
+2016-10-18T21:25:22.196404+00:00 app[web.1]: fourth marking period: 
+2016-10-18T21:25:22.196405+00:00 app[web.1]: year
+2016-10-18T21:25:22.196405+00:00 app[web.1]: [YEAR][Subject]Apparel Design 1[gradePoints]4.0[credits]5.0
+2016-10-18T21:25:22.196406+00:00 app[web.1]: [YEAR][Subject]Fashion Art & Design I[gradePoints]4.0[credits]5.0
+2016-10-18T21:25:22.196407+00:00 app[web.1]: [YEAR][Subject]US History I H[gradePoints]3.33[credits]5.0
+2016-10-18T21:25:22.196407+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T21:25:22.196408+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T21:25:22.196408+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]2.0[credits]6.0
+2016-10-18T21:25:22.196409+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T21:25:22.196409+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T21:25:22.196410+00:00 app[web.1]: [YEAR][Subject]Proj Algebra/Geometry[gradePoints]4.0[credits]1.0
+2016-10-18T21:25:22.196411+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T21:25:22.202549+00:00 app[web.1]: Fulfilled request for user: miksch19
+2016-10-18T21:25:22.196412+00:00 app[web.1]: [gpa]3.3586842105263157[gpa]false
+2016-10-18T21:56:16.456576+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=6a57139b-2a05-4ea0-8ddd-971bdeae8753 fwd="173.54.49.115" dyno=web.1 connect=1ms service=4ms status=200 bytes=7166
+2016-10-18T21:56:16.392748+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=c66d360f-e8dd-4e40-ad83-a26b4359f025 fwd="173.54.49.115" dyno=web.1 connect=1ms service=10ms status=200 bytes=1486
+2016-10-18T21:56:16.547497+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=f4321ca3-c118-47aa-aae2-f6f2353563d0 fwd="173.54.49.115" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T21:56:19.962065+00:00 app[web.1]: [debug]AP English Lit  Details about Hernandez, Marcella Irene Email Hernandez, Marcella Irene - Rm: 316 B- 82
+2016-10-18T21:56:19.961876+00:00 app[web.1]: [debug]Homeroom  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 313 --
+2016-10-18T21:56:19.962256+00:00 app[web.1]: [debug]AP Calculus AB  Details about Hommen, Maureen Email Hommen, Maureen - Rm: 300 B- 80
+2016-10-18T21:56:19.962435+00:00 app[web.1]: [debug]Phys Ed.  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 A+ 98
+2016-10-18T21:56:19.962612+00:00 app[web.1]: [debug]Family Living  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 709 --
+2016-10-18T21:56:19.962771+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T21:56:19.962928+00:00 app[web.1]: [debug]AP US History II  Details about Guzman, Gabriela Email Guzman, Gabriela - Rm: 520 A- 92
+2016-10-18T21:56:19.963104+00:00 app[web.1]: [debug]Entrepreneurship  Details about VanDaalen, Mabel Email VanDaalen, Mabel - Rm: 515 A+ 100
+2016-10-18T21:56:19.963278+00:00 app[web.1]: [debug]FIN 200 Personal Finance  Details about Friedman, Robin Email Friedman, Robin - Rm: 513 --
+2016-10-18T21:56:19.963603+00:00 app[web.1]: [debug]ECS 102 Introduction to Computing  Details about Rogalskaia, Lioubov Email Rogalskaia, Lioubov - Rm: 513 A 93
+2016-10-18T21:56:19.963450+00:00 app[web.1]: [debug]Cloud Computing  Details about Friedman, Robin Email Friedman, Robin - Rm: 513 --
+2016-10-18T21:56:19.963773+00:00 app[web.1]: [debug]Painting  Details about Rose, Randi Lynn Email Rose, Randi Lynn - Rm: 720 --
+2016-10-18T21:56:19.963923+00:00 app[web.1]: [debug]Senior Experience  Details about Carroll, Gerard Email Carroll, Gerard - Rm: 316 --
+2016-10-18T21:56:20.381252+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=c281babf-5c39-449e-90cd-e981991e159e fwd="173.54.49.115" dyno=web.1 connect=1ms service=4ms status=404 bytes=528
+2016-10-18T21:56:20.323069+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T21:56:20.323081+00:00 app[web.1]: First marking period: 
+2016-10-18T21:56:20.323083+00:00 app[web.1]: [mp1][Subject]AP English Lit[gradePoints]2.67[credits]5.0
+2016-10-18T21:56:20.323083+00:00 app[web.1]: [mp1][Subject]AP Calculus AB[gradePoints]2.67[credits]5.0
+2016-10-18T21:56:20.323084+00:00 app[web.1]: [mp1][Subject]Phys Ed.[gradePoints]4.0[credits]3.0
+2016-10-18T21:56:20.323085+00:00 app[web.1]: [mp1][Subject]AP US History II[gradePoints]3.67[credits]5.0
+2016-10-18T21:56:20.323085+00:00 app[web.1]: [mp1][Subject]Entrepreneurship[gradePoints]4.0[credits]5.0
+2016-10-18T21:56:20.323086+00:00 app[web.1]: [mp1][Subject]FIN 200 Personal Finance[gradePoints]4.0[credits]5.0
+2016-10-18T21:56:20.323087+00:00 app[web.1]: [mp1][Subject]ECS 102 Introduction to Computing[gradePoints]4.0[credits]5.0
+2016-10-18T21:56:20.323088+00:00 app[web.1]: second marking period: 
+2016-10-18T21:56:20.323088+00:00 app[web.1]: third marking period: 
+2016-10-18T21:56:20.323089+00:00 app[web.1]: fourth marking period: 
+2016-10-18T21:56:20.323089+00:00 app[web.1]: year
+2016-10-18T21:56:20.323090+00:00 app[web.1]: [YEAR][Subject]AP English Lit[gradePoints]2.67[credits]5.0
+2016-10-18T21:56:20.323090+00:00 app[web.1]: [YEAR][Subject]AP Calculus AB[gradePoints]2.67[credits]5.0
+2016-10-18T21:56:20.323091+00:00 app[web.1]: [YEAR][Subject]Phys Ed.[gradePoints]4.0[credits]3.0
+2016-10-18T21:56:20.323091+00:00 app[web.1]: [YEAR][Subject]AP US History II[gradePoints]3.67[credits]5.0
+2016-10-18T21:56:20.323092+00:00 app[web.1]: [YEAR][Subject]Entrepreneurship[gradePoints]4.0[credits]5.0
+2016-10-18T21:56:20.323095+00:00 app[web.1]: [YEAR][Subject]FIN 200 Personal Finance[gradePoints]4.0[credits]5.0
+2016-10-18T21:56:20.323096+00:00 app[web.1]: [YEAR][Subject]ECS 102 Introduction to Computing[gradePoints]4.0[credits]5.0
+2016-10-18T21:56:20.323097+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T21:56:20.323102+00:00 app[web.1]: [gpa]3.5469696969696973[gpa]false
+2016-10-18T21:56:20.324254+00:00 app[web.1]: Fulfilled request for user: BayFur
+2016-10-18T21:56:20.350259+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=e98f20cd-d689-4cea-98e9-62582b7ca981 fwd="173.54.49.115" dyno=web.1 connect=1ms service=1146ms status=200 bytes=1294
+2016-10-18T22:03:18.755390+00:00 app[web.1]: java.lang.NullPointerException
+2016-10-18T22:03:18.755602+00:00 app[web.1]: 	at com.bt.gpa.GPA.calculate(GPA.java:131)
+2016-10-18T22:03:18.755707+00:00 app[web.1]: 	at com.bt.gpa.GPA.<init>(GPA.java:42)
+2016-10-18T22:03:18.757912+00:00 app[web.1]: 	at com.bt.gpa.GPAServlet.doPost(GPAServlet.java:27)
+2016-10-18T22:03:18.757950+00:00 app[web.1]: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+2016-10-18T22:03:18.757987+00:00 app[web.1]: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-10-18T22:03:18.758053+00:00 app[web.1]: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+2016-10-18T22:03:18.758096+00:00 app[web.1]: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+2016-10-18T22:03:18.758230+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+2016-10-18T22:03:18.758272+00:00 app[web.1]: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+2016-10-18T22:03:18.758308+00:00 app[web.1]: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+2016-10-18T22:03:18.758416+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+2016-10-18T22:03:18.758453+00:00 app[web.1]: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+2016-10-18T22:03:18.758601+00:00 app[web.1]: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+2016-10-18T22:03:18.758641+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+2016-10-18T22:03:18.758737+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+2016-10-18T22:03:18.758912+00:00 app[web.1]: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+2016-10-18T22:03:18.758955+00:00 app[web.1]: 	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+2016-10-18T22:03:18.759008+00:00 app[web.1]: 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+2016-10-18T22:03:18.759028+00:00 app[web.1]: 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+2016-10-18T22:03:18.759242+00:00 app[web.1]: 	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+2016-10-18T22:03:18.759246+00:00 app[web.1]: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+2016-10-18T22:03:18.759264+00:00 app[web.1]: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+2016-10-18T22:03:18.759267+00:00 app[web.1]: 	at java.lang.Thread.run(Thread.java:745)
+2016-10-18T22:03:19.108013+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=6439446f-d96a-4833-a094-817a1b0ecb1d fwd="173.3.36.98" dyno=web.1 connect=1ms service=440ms status=200 bytes=1387
+2016-10-18T22:03:19.213882+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=a5baa45f-3d11-4b48-8f0d-b8413458442d fwd="173.3.36.98" dyno=web.1 connect=1ms service=4ms status=404 bytes=528
+2016-10-18T22:03:19.074642+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:03:19.074660+00:00 app[web.1]: First marking period: 
+2016-10-18T22:03:19.074661+00:00 app[web.1]: second marking period: 
+2016-10-18T22:03:19.074662+00:00 app[web.1]: third marking period: 
+2016-10-18T22:03:19.074662+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:03:19.074663+00:00 app[web.1]: year
+2016-10-18T22:03:19.074664+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:03:19.074668+00:00 app[web.1]: [gpa]NaN[gpa]true
+2016-10-18T22:03:19.076098+00:00 app[web.1]: Fulfilled request for user: Igonzalez
+2016-10-18T22:11:29.819815+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=74f0a2c0-9998-473f-bdd2-aacacdae10e9 fwd="142.105.54.17" dyno=web.1 connect=4ms service=8ms status=200 bytes=1487
+2016-10-18T22:11:29.893680+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=963e6981-8530-4a3e-9257-1e53c4a36a58 fwd="142.105.54.17" dyno=web.1 connect=1ms service=4ms status=404 bytes=528
+2016-10-18T22:11:31.258353+00:00 heroku[router]: at=info method=GET path="/about" host=btgpa.herokuapp.com request_id=dea3275a-8c8d-4a7c-b06b-306ef61a0beb fwd="142.105.54.17" dyno=web.1 connect=1ms service=3ms status=200 bytes=2106
+2016-10-18T22:11:31.337808+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=7fc49b62-94b8-4d89-98b9-21950460b184 fwd="142.105.54.17" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:11:37.620288+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=ba184a63-8f19-4537-8477-c6c52361e574 fwd="142.105.54.17" dyno=web.1 connect=1ms service=6ms status=200 bytes=1390
+2016-10-18T22:11:37.638536+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=2b3e82a8-5777-4d99-b7ab-64beba5ba218 fwd="142.105.54.17" dyno=web.1 connect=2ms service=4ms status=404 bytes=528
+2016-10-18T22:14:22.638315+00:00 app[web.1]: [debug]Homeroom  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 --
+2016-10-18T22:14:22.643306+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 308 A+ 98
+2016-10-18T22:14:22.643707+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B+ 89
+2016-10-18T22:14:22.643595+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 517 A- 91
+2016-10-18T22:14:22.643825+00:00 app[web.1]: [debug]Spanish II  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 B 84
+2016-10-18T22:14:22.643939+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T22:14:22.644029+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 C 73
+2016-10-18T22:14:22.644248+00:00 app[web.1]: [debug]Physical Education  Details about Proietti, James Email Proietti, James - Rm: 903 A+ 100
+2016-10-18T22:14:22.644134+00:00 app[web.1]: [debug]Physics H  Details about Muller, Laura Email Muller, Laura - Rm: 124 A- 92
+2016-10-18T22:14:22.644359+00:00 app[web.1]: [debug]Social Issues  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-18T22:14:22.644505+00:00 app[web.1]: [debug]Fd in AutoEng. Desig  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A 94
+2016-10-18T22:14:22.644620+00:00 app[web.1]: [debug]Proj. School Climate  Details about Genicoff, Sharon Email Genicoff, Sharon - Rm: 729 --
+2016-10-18T22:14:23.052710+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=8b0bd852-db2e-4100-8bcd-14a60eb7691b fwd="66.87.84.4" dyno=web.1 connect=1ms service=1170ms status=200 bytes=1390
+2016-10-18T22:14:23.169864+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=4fb88bed-2ce6-4dc3-8842-952bcc24c6ae fwd="66.87.84.4" dyno=web.1 connect=1ms service=6ms status=304 bytes=118
+2016-10-18T22:14:23.050999+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:14:23.051009+00:00 app[web.1]: First marking period: 
+2016-10-18T22:14:23.051010+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:14:23.051011+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:14:23.051011+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T22:14:23.051012+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]3.0[credits]5.0
+2016-10-18T22:14:23.051012+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]2.0[credits]5.0
+2016-10-18T22:14:23.051013+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-18T22:14:23.051014+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:14:23.051014+00:00 app[web.1]: [mp1][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-18T22:14:23.051015+00:00 app[web.1]: second marking period: 
+2016-10-18T22:14:23.051015+00:00 app[web.1]: third marking period: 
+2016-10-18T22:14:23.051016+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:14:23.051017+00:00 app[web.1]: year
+2016-10-18T22:14:23.051017+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:14:23.051018+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:14:23.051018+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T22:14:23.051019+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]3.0[credits]5.0
+2016-10-18T22:14:23.051019+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]2.0[credits]5.0
+2016-10-18T22:14:23.051020+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-18T22:14:23.051020+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:14:23.051021+00:00 app[web.1]: [YEAR][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-18T22:14:23.051022+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:14:23.051026+00:00 app[web.1]: [gpa]3.4639024390243898[gpa]false
+2016-10-18T22:14:23.052375+00:00 app[web.1]: Fulfilled request for user: alemac20
+2016-10-18T22:14:23.520945+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=205ee31a-91a2-4a34-876d-d9a6039a56da fwd="66.87.84.4" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:19:05.265714+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=71d5fb51-0330-4232-ab94-a55035eaa17d fwd="173.3.36.98" dyno=web.1 connect=1ms service=4ms status=200 bytes=1488
+2016-10-18T22:19:05.344491+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=749e1671-afdf-4747-9a41-fc1ce1bd057e fwd="173.3.36.98" dyno=web.1 connect=1ms service=2ms status=304 bytes=118
+2016-10-18T22:19:05.382320+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=8b9597c4-bce3-4a68-a781-5266d081bbfb fwd="173.3.36.98" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:19:45.460410+00:00 app[web.1]: [debug]Homeroom  Details about Nieves-Despinos, Glenny Email Nieves-Despinos, Glenny - Rm: 722 --
+2016-10-18T22:19:45.460482+00:00 app[web.1]: [debug]Global Studies H  Details about Golle, Erica Email Golle, Erica - Rm: 730 A- 92
+2016-10-18T22:19:45.460613+00:00 app[web.1]: [debug]Spanish I  Details about Nieves-Despinos, Glenny Email Nieves-Despinos, Glenny - Rm: 722 D+ 67
+2016-10-18T22:19:45.460704+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 D+ 69
+2016-10-18T22:19:45.460778+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 C 73
+2016-10-18T22:19:45.460870+00:00 app[web.1]: [debug]English I H  Details about Mancini, Virginia Email Mancini, Virginia - Rm: 313 A 93
+2016-10-18T22:19:45.460940+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T22:19:45.461024+00:00 app[web.1]: [debug]Physics H  Details about Muller, Laura Email Muller, Laura - Rm: 124 B 85
+2016-10-18T22:19:45.461103+00:00 app[web.1]: [debug]Physical Education  Details about Proietti, James Email Proietti, James - Rm: 903 A+ 100
+2016-10-18T22:19:45.461204+00:00 app[web.1]: [debug]Social Issues  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-18T22:19:45.461272+00:00 app[web.1]: [debug]Culinary Essentials I  Details about Branda, Dominic Email Branda, Dominic - Rm: 501 --
+2016-10-18T22:19:45.461337+00:00 app[web.1]: [debug]Proj. School Climate  Details about Cevoli, Kenneth Email Cevoli, Kenneth - Rm: 712 --
+2016-10-18T22:19:45.808987+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=0cc0159a-ce5f-4247-a068-a8c1df53a38a fwd="173.3.36.98" dyno=web.1 connect=1ms service=1041ms status=200 bytes=1392
+2016-10-18T22:19:45.947866+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=24423848-1a85-4891-a845-9a17cce11550 fwd="173.3.36.98" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:19:45.806512+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:19:45.806529+00:00 app[web.1]: First marking period: 
+2016-10-18T22:19:45.806531+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]1.33[credits]5.0
+2016-10-18T22:19:45.806530+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:19:45.806531+00:00 app[web.1]: [mp1][Subject]Spanish I[gradePoints]1.33[credits]5.0
+2016-10-18T22:19:45.806532+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]2.0[credits]5.0
+2016-10-18T22:19:45.806533+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:19:45.806533+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]3.0[credits]6.0
+2016-10-18T22:19:45.806535+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:19:45.806536+00:00 app[web.1]: second marking period: 
+2016-10-18T22:19:45.806537+00:00 app[web.1]: third marking period: 
+2016-10-18T22:19:45.806537+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:19:45.806538+00:00 app[web.1]: year
+2016-10-18T22:19:45.806538+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:19:45.806539+00:00 app[web.1]: [YEAR][Subject]Spanish I[gradePoints]1.33[credits]5.0
+2016-10-18T22:19:45.806540+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]1.33[credits]5.0
+2016-10-18T22:19:45.806540+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]2.0[credits]5.0
+2016-10-18T22:19:45.806541+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:19:45.806541+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]3.0[credits]6.0
+2016-10-18T22:19:45.806542+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:19:45.806543+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:19:45.806543+00:00 app[web.1]: [gpa]2.7680555555555557[gpa]false
+2016-10-18T22:19:45.807730+00:00 app[web.1]: Fulfilled request for user: chabla20
+2016-10-18T22:31:30.778530+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=0cd9319f-686d-4998-84b0-c7fe9ce195d4 fwd="173.63.117.178" dyno=web.1 connect=1ms service=11ms status=200 bytes=1487
+2016-10-18T22:31:30.868746+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=feed719a-06ed-460f-93d7-2f4837bc6b9a fwd="173.63.117.178" dyno=web.1 connect=5ms service=3ms status=200 bytes=7166
+2016-10-18T22:31:31.204321+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=1d6d3835-d14e-46bc-ab18-e183f0be706c fwd="173.63.117.178" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:31:43.562088+00:00 app[web.1]: [debug]Homeroom  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 731 --
+2016-10-18T22:31:43.562168+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 A- 91
+2016-10-18T22:31:43.562292+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A+ 97
+2016-10-18T22:31:43.562400+00:00 app[web.1]: [debug]Physics H  Details about DiBiano, Mary Rose Email DiBiano, Mary Rose - Rm: 122 A 95
+2016-10-18T22:31:43.562514+00:00 app[web.1]: [debug]Physical Education  Details about Proietti, James Email Proietti, James - Rm: 903 A+ 100
+2016-10-18T22:31:43.562619+00:00 app[web.1]: [debug]Social Issues  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-18T22:31:43.562710+00:00 app[web.1]: [debug]Geometry H  Details about Cogelia, Mary Email Cogelia, Mary - Rm: 107 A 94
+2016-10-18T22:31:43.562911+00:00 app[web.1]: [debug]Band  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T22:31:43.562819+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T22:31:43.563015+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 A 93
+2016-10-18T22:31:43.563120+00:00 app[web.1]: [debug]Spanish II  Details about Xhemali-Torres, Daphnae Email Xhemali-Torres, Daphnae - Rm: 719 B 85
+2016-10-18T22:31:43.563226+00:00 app[web.1]: [debug]Culinary Essentials I  Details about Branda, Dominic Email Branda, Dominic - Rm: 501 --
+2016-10-18T22:31:43.563318+00:00 app[web.1]: [debug]Proj. School Climate  Details about Cevoli, Kenneth Email Cevoli, Kenneth - Rm: 712 --
+2016-10-18T22:31:43.959565+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=c294b477-9335-448d-8c4e-f4716cfd40b8 fwd="173.63.117.178" dyno=web.1 connect=1ms service=1291ms status=200 bytes=1294
+2016-10-18T22:31:44.054466+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=625d8fdb-d194-4d6f-b2e6-1210e4f68375 fwd="173.63.117.178" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:31:43.960050+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:31:43.960063+00:00 app[web.1]: First marking period: 
+2016-10-18T22:31:43.960064+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:31:43.960065+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960065+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T22:31:43.960066+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960067+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960067+00:00 app[web.1]: [mp1][Subject]Band[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960068+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960068+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]3.0[credits]5.0
+2016-10-18T22:31:43.960069+00:00 app[web.1]: second marking period: 
+2016-10-18T22:31:43.960070+00:00 app[web.1]: third marking period: 
+2016-10-18T22:31:43.960070+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:31:43.960071+00:00 app[web.1]: year
+2016-10-18T22:31:43.960073+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960073+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T22:31:43.960072+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:31:43.960074+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960075+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960078+00:00 app[web.1]: [YEAR][Subject]Band[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960080+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]3.0[credits]5.0
+2016-10-18T22:31:43.960079+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:31:43.960080+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:31:43.960971+00:00 app[web.1]: [gpa]3.8378048780487806[gpa]false
+2016-10-18T22:31:43.965827+00:00 app[web.1]: Fulfilled request for user: jerkim20
+2016-10-18T22:32:44.251186+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=9e76cc75-7820-4c65-968f-f096adf4c43e fwd="100.1.151.86" dyno=web.1 connect=0ms service=2ms status=200 bytes=1488
+2016-10-18T22:32:44.323980+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=1806469b-6ce9-43dc-a8d4-6ca95fb78bc1 fwd="100.1.151.86" dyno=web.1 connect=0ms service=1ms status=304 bytes=118
+2016-10-18T22:32:44.439320+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=d1bf928b-ef49-467f-8772-edcfd02f2401 fwd="100.1.151.86" dyno=web.1 connect=1ms service=1ms status=404 bytes=528
+2016-10-18T22:32:48.696235+00:00 app[web.1]: [debug]Homeroom  Details about Patel, Jaimini Email Patel, Jaimini - Rm: 315 --
+2016-10-18T22:32:48.696320+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 C 76
+2016-10-18T22:32:48.696439+00:00 app[web.1]: [debug]English I H  Details about Mancini, Virginia Email Mancini, Virginia - Rm: 313 A- 92
+2016-10-18T22:32:48.696542+00:00 app[web.1]: [debug]Global Studies H  Details about Rosso, Allan Email Rosso, Allan - Rm: 521 A 93
+2016-10-18T22:32:48.696694+00:00 app[web.1]: [debug]Physics H  Details about Muller, Laura Email Muller, Laura - Rm: 124 A- 90
+2016-10-18T22:32:48.696782+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T22:32:48.696906+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B 84
+2016-10-18T22:32:48.697041+00:00 app[web.1]: [debug]French II  Details about Rene-Luke, Berthe Email Rene-Luke, Berthe - Rm: 721 C 75
+2016-10-18T22:32:48.697347+00:00 app[web.1]: [debug]Fd in AutoEng. Desig  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T22:32:48.697446+00:00 app[web.1]: [debug]Physical Education  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 903 A+ 100
+2016-10-18T22:32:48.697616+00:00 app[web.1]: [debug]Proj. School Climate  Details about Genicoff, Sharon Email Genicoff, Sharon - Rm: 729 --
+2016-10-18T22:32:48.697528+00:00 app[web.1]: [debug]Social Issues  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 709 --
+2016-10-18T22:32:49.023337+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=f6fa1cd8-7fd4-47d7-b408-64164f6af157 fwd="100.1.151.86" dyno=web.1 connect=0ms service=1282ms status=200 bytes=1392
+2016-10-18T22:32:49.135062+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=8c5bf780-2873-453e-86bc-8c336c49a238 fwd="100.1.151.86" dyno=web.1 connect=0ms service=1ms status=304 bytes=118
+2016-10-18T22:32:49.164216+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=ba07eb5f-f849-4140-823c-37a97f49e1fb fwd="100.1.151.86" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T22:32:49.007054+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:32:49.007067+00:00 app[web.1]: First marking period: 
+2016-10-18T22:32:49.007068+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]2.0[credits]5.0
+2016-10-18T22:32:49.007069+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]3.67[credits]5.0
+2016-10-18T22:32:49.007069+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T22:32:49.007070+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-18T22:32:49.007070+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.0[credits]5.0
+2016-10-18T22:32:49.007071+00:00 app[web.1]: [mp1][Subject]French II[gradePoints]2.0[credits]5.0
+2016-10-18T22:32:49.007071+00:00 app[web.1]: [mp1][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-18T22:32:49.007072+00:00 app[web.1]: [mp1][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T22:32:49.007073+00:00 app[web.1]: second marking period: 
+2016-10-18T22:32:49.007073+00:00 app[web.1]: third marking period: 
+2016-10-18T22:32:49.007074+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:32:49.007074+00:00 app[web.1]: year
+2016-10-18T22:32:49.007075+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]2.0[credits]5.0
+2016-10-18T22:32:49.007076+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]4.0[credits]5.0
+2016-10-18T22:32:49.007076+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]3.67[credits]5.0
+2016-10-18T22:32:49.007077+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.0[credits]5.0
+2016-10-18T22:32:49.007077+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-18T22:32:49.007078+00:00 app[web.1]: [YEAR][Subject]French II[gradePoints]2.0[credits]5.0
+2016-10-18T22:32:49.007079+00:00 app[web.1]: [YEAR][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T22:32:49.007085+00:00 app[web.1]: [gpa]3.2262162162162165[gpa]false
+2016-10-18T22:32:49.007078+00:00 app[web.1]: [YEAR][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-18T22:32:49.007080+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:32:49.008540+00:00 app[web.1]: Fulfilled request for user: katmcc20
+2016-10-18T22:33:09.449745+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=ccef5038-c1a2-466c-88a5-8d5ebae71216 fwd="69.122.27.127" dyno=web.1 connect=1ms service=3ms status=200 bytes=1488
+2016-10-18T22:33:09.610845+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=6a9da6c5-f5c7-4198-94e3-7690b6ffa282 fwd="69.122.27.127" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:37:37.009246+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=beeb73f5-1bb0-46a2-8970-450a22c7dd6b fwd="173.63.117.178" dyno=web.1 connect=0ms service=2ms status=200 bytes=1390
+2016-10-18T22:37:37.171952+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=ae831ada-3c52-4343-a641-ae51b32bf62c fwd="173.63.117.178" dyno=web.1 connect=0ms service=2ms status=404 bytes=528
+2016-10-18T22:37:39.133187+00:00 heroku[router]: at=info method=GET path="/about" host=btgpa.herokuapp.com request_id=8957df5c-55a0-4648-b0ac-f86f4e2c4321 fwd="173.63.117.178" dyno=web.1 connect=0ms service=2ms status=200 bytes=2106
+2016-10-18T22:37:39.223370+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=9b01cdbf-d62b-4d0f-bcba-505b344a02c5 fwd="173.63.117.178" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T22:37:45.518809+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=ccfb86f1-2014-438e-b824-162478bcec5b fwd="173.63.117.178" dyno=web.1 connect=0ms service=2ms status=200 bytes=1390
+2016-10-18T22:37:45.661551+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=76f79617-0905-4494-8fab-f6fd201d34c8 fwd="173.63.117.178" dyno=web.1 connect=2ms service=2ms status=404 bytes=528
+2016-10-18T22:42:16.765888+00:00 app[web.1]: [debug]Homeroom  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 --
+2016-10-18T22:42:16.766020+00:00 app[web.1]: [debug]Systems Analysis I  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A 96
+2016-10-18T22:42:16.766156+00:00 app[web.1]: [debug]Intro Eng. Des  Details about Sarisky, Matthew Email Sarisky, Matthew - Rm: 729 A- 92.7
+2016-10-18T22:42:16.766276+00:00 app[web.1]: [debug]English II H  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 B- 80
+2016-10-18T22:42:16.766397+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 A 94
+2016-10-18T22:42:16.766513+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A- 90
+2016-10-18T22:42:16.766652+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T22:42:16.766760+00:00 app[web.1]: [debug]Phys Ed 10  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 --
+2016-10-18T22:42:16.766882+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 902 --
+2016-10-18T22:42:16.766997+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 123 C+ 79
+2016-10-18T22:42:16.767121+00:00 app[web.1]: [debug]Spanish III H  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 B 84
+2016-10-18T22:42:16.767241+00:00 app[web.1]: [debug]Series Hybrids and Electric Vehicles  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T22:42:16.767364+00:00 app[web.1]: [debug]Project Adventure  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 --
+2016-10-18T22:42:17.103982+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=45fd1f7d-2b29-42f1-8299-939fa2dd4731 fwd="24.189.4.139" dyno=web.1 connect=1ms service=1098ms status=200 bytes=1390
+2016-10-18T22:42:17.154487+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=d8374b7a-f5e5-420a-8b3f-b1e51d0722f1 fwd="24.189.4.139" dyno=web.1 connect=1ms service=2ms status=304 bytes=118
+2016-10-18T22:42:17.237804+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=2881911e-15f3-4bf6-bc2c-e3bb22c3d032 fwd="24.189.4.139" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:42:17.108706+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:42:17.108717+00:00 app[web.1]: First marking period: 
+2016-10-18T22:42:17.108725+00:00 app[web.1]: [mp1][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108726+00:00 app[web.1]: [mp1][Subject]Intro Eng. Des[gradePoints]3.67[credits]5.0
+2016-10-18T22:42:17.108726+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]2.67[credits]5.0
+2016-10-18T22:42:17.108727+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108727+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T22:42:17.108728+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108728+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T22:42:17.108729+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]2.33[credits]6.0
+2016-10-18T22:42:17.108730+00:00 app[web.1]: [mp1][Subject]Spanish III H[gradePoints]3.0[credits]5.0
+2016-10-18T22:42:17.108731+00:00 app[web.1]: [mp1][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108731+00:00 app[web.1]: second marking period: 
+2016-10-18T22:42:17.108732+00:00 app[web.1]: third marking period: 
+2016-10-18T22:42:17.108732+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:42:17.108733+00:00 app[web.1]: year
+2016-10-18T22:42:17.108733+00:00 app[web.1]: [YEAR][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108734+00:00 app[web.1]: [YEAR][Subject]Intro Eng. Des[gradePoints]3.67[credits]5.0
+2016-10-18T22:42:17.108735+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]2.67[credits]5.0
+2016-10-18T22:42:17.108735+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108736+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T22:42:17.108736+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108737+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T22:42:17.108737+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]2.33[credits]6.0
+2016-10-18T22:42:17.108738+00:00 app[web.1]: [YEAR][Subject]Spanish III H[gradePoints]3.0[credits]5.0
+2016-10-18T22:42:17.108739+00:00 app[web.1]: [YEAR][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T22:42:17.108739+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:42:17.108779+00:00 app[web.1]: [gpa]3.4589583333333334[gpa]false
+2016-10-18T22:42:17.110132+00:00 app[web.1]: Fulfilled request for user: aarrei19
+2016-10-18T22:43:36.144201+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=45b93190-d454-4231-99f8-79646e24061b fwd="173.70.79.241" dyno=web.1 connect=1ms service=4ms status=200 bytes=1486
+2016-10-18T22:43:36.230797+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=bdd821e4-c924-4355-b86b-7e7f4ca99278 fwd="173.70.79.241" dyno=web.1 connect=1ms service=3ms status=200 bytes=7166
+2016-10-18T22:43:36.360814+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=8d932693-4fbc-47c4-a9ab-f0cabd3d21ae fwd="173.70.79.241" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:43:57.661004+00:00 app[web.1]: [debug]Homeroom  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 --
+2016-10-18T22:43:57.661083+00:00 app[web.1]: [debug]Systems Analysis I  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A 96
+2016-10-18T22:43:57.661240+00:00 app[web.1]: [debug]Intro Eng. Des  Details about Sarisky, Matthew Email Sarisky, Matthew - Rm: 729 A- 92.7
+2016-10-18T22:43:57.661335+00:00 app[web.1]: [debug]English II H  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 B- 80
+2016-10-18T22:43:57.661409+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 A 94
+2016-10-18T22:43:57.661487+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A- 90
+2016-10-18T22:43:57.661620+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T22:43:57.661720+00:00 app[web.1]: [debug]Phys Ed 10  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 --
+2016-10-18T22:43:57.661841+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 902 --
+2016-10-18T22:43:57.661971+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 123 C+ 79
+2016-10-18T22:43:57.662129+00:00 app[web.1]: [debug]Spanish III H  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 B 84
+2016-10-18T22:43:57.662245+00:00 app[web.1]: [debug]Series Hybrids and Electric Vehicles  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T22:43:57.662378+00:00 app[web.1]: [debug]Project Adventure  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 --
+2016-10-18T22:43:58.066801+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=0e41115c-458d-43ed-9920-0f84dd4eddbb fwd="24.189.4.139" dyno=web.1 connect=1ms service=1299ms status=200 bytes=1294
+2016-10-18T22:43:58.048514+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:43:58.048529+00:00 app[web.1]: First marking period: 
+2016-10-18T22:43:58.048531+00:00 app[web.1]: [mp1][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048531+00:00 app[web.1]: [mp1][Subject]Intro Eng. Des[gradePoints]3.67[credits]5.0
+2016-10-18T22:43:58.048532+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]2.67[credits]5.0
+2016-10-18T22:43:58.048532+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048533+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T22:43:58.048533+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048534+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T22:43:58.048534+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]2.33[credits]6.0
+2016-10-18T22:43:58.048535+00:00 app[web.1]: [mp1][Subject]Spanish III H[gradePoints]3.0[credits]5.0
+2016-10-18T22:43:58.048536+00:00 app[web.1]: [mp1][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048536+00:00 app[web.1]: second marking period: 
+2016-10-18T22:43:58.048537+00:00 app[web.1]: third marking period: 
+2016-10-18T22:43:58.048538+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:43:58.048538+00:00 app[web.1]: year
+2016-10-18T22:43:58.048539+00:00 app[web.1]: [YEAR][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048539+00:00 app[web.1]: [YEAR][Subject]Intro Eng. Des[gradePoints]3.67[credits]5.0
+2016-10-18T22:43:58.048540+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]2.67[credits]5.0
+2016-10-18T22:43:58.048540+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048541+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T22:43:58.048542+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048546+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]2.33[credits]6.0
+2016-10-18T22:43:58.048545+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T22:43:58.048546+00:00 app[web.1]: [YEAR][Subject]Spanish III H[gradePoints]3.0[credits]5.0
+2016-10-18T22:43:58.048547+00:00 app[web.1]: [YEAR][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.048548+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:43:58.048572+00:00 app[web.1]: [gpa]3.4589583333333334[gpa]false
+2016-10-18T22:43:58.050149+00:00 app[web.1]: Fulfilled request for user: aarrei19
+2016-10-18T22:43:58.406992+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=27b3c34f-962a-4d6a-a59c-9d0fa7d9e455 fwd="24.189.4.139" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:43:58.622364+00:00 app[web.1]: [debug]Homeroom  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 321 --
+2016-10-18T22:43:58.622545+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 A- 92
+2016-10-18T22:43:58.622760+00:00 app[web.1]: [debug]French I  Details about Rene-Luke, Berthe Email Rene-Luke, Berthe - Rm: 721 A+ 100
+2016-10-18T22:43:58.623474+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 317 A+ 98
+2016-10-18T22:43:58.623819+00:00 app[web.1]: [debug]Physics H  Details about Muller, Laura Email Muller, Laura - Rm: 124 A+ 98
+2016-10-18T22:43:58.624699+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T22:43:58.624365+00:00 app[web.1]: [debug]Algebra I H  Details about Cogelia, Mary Email Cogelia, Mary - Rm: 107 A+ 101
+2016-10-18T22:43:58.625388+00:00 app[web.1]: [debug]Found in Fashion Des  Details about George, Annamma Email George, Annamma - Rm: 504 A+ 98
+2016-10-18T22:43:58.625187+00:00 app[web.1]: [debug]Geometry H  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 A+ 98
+2016-10-18T22:43:58.633946+00:00 app[web.1]: [debug]Physical Education  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 903 A+ 100
+2016-10-18T22:43:58.634146+00:00 app[web.1]: [debug]Social Issues  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 709 --
+2016-10-18T22:43:58.634276+00:00 app[web.1]: [debug]Proj. School Climate  Details about George, Annamma Email George, Annamma - Rm: 510 --
+2016-10-18T22:43:58.836964+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:43:58.836967+00:00 app[web.1]: First marking period: 
+2016-10-18T22:43:58.836968+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:43:58.836969+00:00 app[web.1]: [mp1][Subject]French I[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836969+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836970+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T22:43:58.836971+00:00 app[web.1]: [mp1][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836971+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836972+00:00 app[web.1]: [mp1][Subject]Found in Fashion Des[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836973+00:00 app[web.1]: [mp1][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T22:43:58.836974+00:00 app[web.1]: second marking period: 
+2016-10-18T22:43:58.836975+00:00 app[web.1]: third marking period: 
+2016-10-18T22:43:58.836975+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:43:58.836976+00:00 app[web.1]: year
+2016-10-18T22:43:58.836977+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:43:58.836977+00:00 app[web.1]: [YEAR][Subject]French I[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836978+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836979+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T22:43:58.836979+00:00 app[web.1]: [YEAR][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836980+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836980+00:00 app[web.1]: [YEAR][Subject]Found in Fashion Des[gradePoints]4.0[credits]5.0
+2016-10-18T22:43:58.836981+00:00 app[web.1]: [YEAR][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T22:43:58.836982+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:43:58.837138+00:00 app[web.1]: [gpa]3.955405405405405[gpa]false
+2016-10-18T22:43:58.847313+00:00 app[web.1]: Fulfilled request for user: naypeg20
+2016-10-18T22:43:58.870860+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=ff1798e8-de71-43b1-b4cd-a16ffebc17ba fwd="173.70.79.241" dyno=web.1 connect=1ms service=1091ms status=200 bytes=1390
+2016-10-18T22:43:59.117229+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=24e14e38-7eda-42b5-82cf-65e6450c8e00 fwd="173.70.79.241" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:44:03.437431+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=205643c4-d432-4576-897b-12a60dcbc41f fwd="24.189.4.139" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:44:15.021029+00:00 app[web.1]: [debug]Homeroom  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 --
+2016-10-18T22:44:15.021182+00:00 app[web.1]: [debug]Systems Analysis I  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A 96
+2016-10-18T22:44:15.021310+00:00 app[web.1]: [debug]Intro Eng. Des  Details about Sarisky, Matthew Email Sarisky, Matthew - Rm: 729 A- 92.7
+2016-10-18T22:44:15.021469+00:00 app[web.1]: [debug]English II H  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 B- 80
+2016-10-18T22:44:15.022407+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 A 94
+2016-10-18T22:44:15.022599+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A- 90
+2016-10-18T22:44:15.022711+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T22:44:15.022874+00:00 app[web.1]: [debug]Phys Ed 10  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 --
+2016-10-18T22:44:15.022982+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 902 --
+2016-10-18T22:44:15.023233+00:00 app[web.1]: [debug]Spanish III H  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 B 84
+2016-10-18T22:44:15.023075+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 123 C+ 79
+2016-10-18T22:44:15.023334+00:00 app[web.1]: [debug]Series Hybrids and Electric Vehicles  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T22:44:15.023440+00:00 app[web.1]: [debug]Project Adventure  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 --
+2016-10-18T22:44:15.323835+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=537ea86a-927a-4313-8eba-7f6008dc7916 fwd="24.189.4.139" dyno=web.1 connect=2ms service=1027ms status=200 bytes=1294
+2016-10-18T22:44:15.325896+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:44:15.325916+00:00 app[web.1]: First marking period: 
+2016-10-18T22:44:15.325917+00:00 app[web.1]: [mp1][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325918+00:00 app[web.1]: [mp1][Subject]Intro Eng. Des[gradePoints]3.67[credits]5.0
+2016-10-18T22:44:15.325918+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]2.67[credits]5.0
+2016-10-18T22:44:15.325919+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325919+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T22:44:15.325920+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T22:44:15.325920+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325921+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]2.33[credits]6.0
+2016-10-18T22:44:15.325922+00:00 app[web.1]: [mp1][Subject]Spanish III H[gradePoints]3.0[credits]5.0
+2016-10-18T22:44:15.325923+00:00 app[web.1]: [mp1][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325923+00:00 app[web.1]: second marking period: 
+2016-10-18T22:44:15.325924+00:00 app[web.1]: third marking period: 
+2016-10-18T22:44:15.325924+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:44:15.325925+00:00 app[web.1]: year
+2016-10-18T22:44:15.325926+00:00 app[web.1]: [YEAR][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325926+00:00 app[web.1]: [YEAR][Subject]Intro Eng. Des[gradePoints]3.67[credits]5.0
+2016-10-18T22:44:15.325927+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]2.67[credits]5.0
+2016-10-18T22:44:15.325928+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T22:44:15.325928+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325929+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325929+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.33[credits]1.0
+2016-10-18T22:44:15.325930+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]2.33[credits]6.0
+2016-10-18T22:44:15.325930+00:00 app[web.1]: [YEAR][Subject]Spanish III H[gradePoints]3.0[credits]5.0
+2016-10-18T22:44:15.325931+00:00 app[web.1]: [YEAR][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T22:44:15.325932+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:44:15.325932+00:00 app[web.1]: [gpa]3.4589583333333334[gpa]false
+2016-10-18T22:44:15.326985+00:00 app[web.1]: Fulfilled request for user: aarrei19
+2016-10-18T22:44:15.607862+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=e4597d8d-dd4a-4a57-bd98-ea1aa61ef730 fwd="24.189.4.139" dyno=web.1 connect=1ms service=1ms status=404 bytes=528
+2016-10-18T22:51:32.423966+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=0b14b26a-026a-4eb0-8916-2a19a0ccbc5a fwd="173.70.79.241" dyno=web.1 connect=1ms service=3ms status=200 bytes=1488
+2016-10-18T22:51:32.792983+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=cb85d311-7c5c-4dc5-b3e1-00223725c409 fwd="173.70.79.241" dyno=web.1 connect=1ms service=3ms status=404 bytes=528
+2016-10-18T22:52:00.541378+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=3440d9d3-5ec9-4e13-9084-47a95253c801 fwd="173.70.79.241" dyno=web.1 connect=1ms service=3ms status=200 bytes=1488
+2016-10-18T22:52:00.637062+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=60fc5ca9-e42e-46e9-b667-c3939ac002f0 fwd="173.70.79.241" dyno=web.1 connect=0ms service=2ms status=404 bytes=528
+2016-10-18T22:53:18.326576+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=f7472f61-ff8d-411e-8482-bbf014955294 fwd="108.35.132.120" dyno=web.1 connect=1ms service=3ms status=200 bytes=1488
+2016-10-18T22:53:18.402160+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=a46809c5-2b92-4551-8987-b44b42a04d4f fwd="108.35.132.120" dyno=web.1 connect=1ms service=2ms status=200 bytes=7166
+2016-10-18T22:53:18.518832+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=00c56d2c-afe3-4906-b58a-324d51478603 fwd="108.35.132.120" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T22:53:40.932739+00:00 app[web.1]: [debug]Homeroom  Details about Patel, Jaimini Email Patel, Jaimini - Rm: 315 --
+2016-10-18T22:53:40.932930+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 A- 92
+2016-10-18T22:53:40.933280+00:00 app[web.1]: [debug]Intro to Law & Just  Details about Allard, Genevieve Email Allard, Genevieve - Rm: 731 A+ 98
+2016-10-18T22:53:40.933450+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 B+ 89
+2016-10-18T22:53:40.933626+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T22:53:40.933769+00:00 app[web.1]: [debug]Spanish I  Details about Nieves-Despinos, Glenny Email Nieves-Despinos, Glenny - Rm: 722 A- 90
+2016-10-18T22:53:40.933933+00:00 app[web.1]: [debug]Algebra I H  Details about Cogelia, Mary Email Cogelia, Mary - Rm: 107 A 95
+2016-10-18T22:53:40.934066+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 316 A+ 99
+2016-10-18T22:53:40.934207+00:00 app[web.1]: [debug]Physics H  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 A 94
+2016-10-18T22:53:40.934359+00:00 app[web.1]: [debug]Physical Education  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 100
+2016-10-18T22:53:40.937482+00:00 app[web.1]: [debug]Social Issues  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-18T22:53:40.937598+00:00 app[web.1]: [debug]Proj. School Climate  Details about Lancaster, Jonathan Email Lancaster, Jonathan - Rm: 731 --
+2016-10-18T22:53:41.225852+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=c04279c2-3ecd-4dda-b145-84f5246ebb3c fwd="108.35.132.120" dyno=web.1 connect=1ms service=943ms status=200 bytes=1390
+2016-10-18T22:53:41.226804+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T22:53:41.226809+00:00 app[web.1]: First marking period: 
+2016-10-18T22:53:41.226810+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:53:41.226811+00:00 app[web.1]: [mp1][Subject]Intro to Law & Just[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226811+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.33[credits]5.0
+2016-10-18T22:53:41.226811+00:00 app[web.1]: [mp1][Subject]Spanish I[gradePoints]3.67[credits]5.0
+2016-10-18T22:53:41.226812+00:00 app[web.1]: [mp1][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226812+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226813+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T22:53:41.226813+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226814+00:00 app[web.1]: second marking period: 
+2016-10-18T22:53:41.226814+00:00 app[web.1]: third marking period: 
+2016-10-18T22:53:41.226815+00:00 app[web.1]: fourth marking period: 
+2016-10-18T22:53:41.226816+00:00 app[web.1]: year
+2016-10-18T22:53:41.226816+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T22:53:41.226817+00:00 app[web.1]: [YEAR][Subject]Intro to Law & Just[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226817+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.33[credits]5.0
+2016-10-18T22:53:41.226818+00:00 app[web.1]: [YEAR][Subject]Spanish I[gradePoints]3.67[credits]5.0
+2016-10-18T22:53:41.226818+00:00 app[web.1]: [YEAR][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226819+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226819+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T22:53:41.226820+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T22:53:41.226820+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T22:53:41.227958+00:00 app[web.1]: [gpa]3.8378048780487806[gpa]false
+2016-10-18T22:53:41.229259+00:00 app[web.1]: Fulfilled request for user: ivymit20
+2016-10-18T22:53:41.359449+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=504019fb-e322-4401-9489-c6ea69eca6ae fwd="108.35.132.120" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T23:12:03.695445+00:00 app[web.1]: [debug]Homeroom  Details about Soderman, Stephanie Email Soderman, Stephanie - Rm: 308 --
+2016-10-18T23:12:03.695497+00:00 app[web.1]: [debug]Intro to Culinology∆  Details about Galperin, Andrea Email Galperin, Andrea - Rm: 501 A- 90
+2016-10-18T23:12:03.695700+00:00 app[web.1]: [debug]Nutrition Fd_Health  Details about Castella, Frank Email Castella, Frank - Rm: 902 A 93
+2016-10-18T23:12:03.695823+00:00 app[web.1]: [debug]Mandarin II  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 731 A 93
+2016-10-18T23:12:03.695900+00:00 app[web.1]: [debug]English II H  Details about Biggins, Mary Kris Email Biggins, Mary Kris - Rm: 308 B+ 87
+2016-10-18T23:12:03.695977+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A- 90
+2016-10-18T23:12:03.696062+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T23:12:03.696132+00:00 app[web.1]: [debug]Phys Ed 10  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 D- 60
+2016-10-18T23:12:03.696208+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 709 --
+2016-10-18T23:12:03.696284+00:00 app[web.1]: [debug]Chemistry H  Details about Sankar, Jayasree Email Sankar, Jayasree - Rm: 320 A- 90
+2016-10-18T23:12:03.696368+00:00 app[web.1]: [debug]Math Analysis I H  Details about Lotter, Gwendolyn Email Lotter, Gwendolyn - Rm: 103 B+ 89
+2016-10-18T23:12:03.696446+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T23:12:03.696524+00:00 app[web.1]: [debug]Proj Poetry  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 --
+2016-10-18T23:12:03.988373+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=418ff02d-cae2-4413-ac5f-bf38093a692f fwd="71.172.20.21" dyno=web.1 connect=1ms service=1032ms status=200 bytes=1391
+2016-10-18T23:12:03.990967+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T23:12:03.990977+00:00 app[web.1]: First marking period: 
+2016-10-18T23:12:03.990978+00:00 app[web.1]: [mp1][Subject]Intro to Culinology∆[gradePoints]3.67[credits]5.0
+2016-10-18T23:12:03.990979+00:00 app[web.1]: [mp1][Subject]Nutrition Fd_Health[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990979+00:00 app[web.1]: [mp1][Subject]Mandarin II[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990980+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T23:12:03.990980+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T23:12:03.990981+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990982+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.67[credits]1.0
+2016-10-18T23:12:03.990982+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]3.67[credits]6.0
+2016-10-18T23:12:03.990983+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T23:12:03.990983+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990984+00:00 app[web.1]: second marking period: 
+2016-10-18T23:12:03.990984+00:00 app[web.1]: third marking period: 
+2016-10-18T23:12:03.990985+00:00 app[web.1]: fourth marking period: 
+2016-10-18T23:12:03.990986+00:00 app[web.1]: year
+2016-10-18T23:12:03.990986+00:00 app[web.1]: [YEAR][Subject]Intro to Culinology∆[gradePoints]3.67[credits]5.0
+2016-10-18T23:12:03.990987+00:00 app[web.1]: [YEAR][Subject]Nutrition Fd_Health[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990988+00:00 app[web.1]: [YEAR][Subject]Mandarin II[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990988+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T23:12:03.990989+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]3.67[credits]6.0
+2016-10-18T23:12:03.990989+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990990+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.67[credits]1.0
+2016-10-18T23:12:03.990990+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]3.67[credits]6.0
+2016-10-18T23:12:03.990991+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-18T23:12:03.990991+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T23:12:03.990992+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T23:12:03.990993+00:00 app[web.1]: [gpa]3.736666666666667[gpa]false
+2016-10-18T23:12:03.992083+00:00 app[web.1]: Fulfilled request for user: Shasea19
+2016-10-18T23:12:04.097783+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=c89fe786-9e95-4d08-b21b-73a18b7747a8 fwd="71.172.20.21" dyno=web.1 connect=1ms service=3ms status=304 bytes=118
+2016-10-18T23:12:04.274638+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=2f0489b3-2d2f-4971-8f6b-b98060ee6b63 fwd="71.172.20.21" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T23:16:09.067788+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=8bdc1c70-1231-42b3-bcdf-e8a40ba2add8 fwd="208.120.98.101" dyno=web.1 connect=0ms service=2ms status=200 bytes=7166
+2016-10-18T23:16:09.233650+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=892cae44-ac96-4085-bd97-bebb0ff5919e fwd="208.120.98.101" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T23:16:08.974528+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=ade82272-dfd9-42f6-8c78-8c0f21ec2341 fwd="208.120.98.101" dyno=web.1 connect=1ms service=3ms status=200 bytes=1487
+2016-10-18T23:16:32.479235+00:00 app[web.1]: [debug]Homeroom  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 711 --
+2016-10-18T23:16:32.479333+00:00 app[web.1]: [debug]Mandarin I  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 721 A 96
+2016-10-18T23:16:32.497449+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 517 A- 92
+2016-10-18T23:16:32.497594+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 B+ 89
+2016-10-18T23:16:32.497708+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B+ 87
+2016-10-18T23:16:32.497834+00:00 app[web.1]: [debug]English I H  Details about Mancini, Virginia Email Mancini, Virginia - Rm: 313 A- 92
+2016-10-18T23:16:32.498034+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T23:16:32.498134+00:00 app[web.1]: [debug]Physics H  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A- 90
+2016-10-18T23:16:32.498284+00:00 app[web.1]: [debug]Physical Education  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 903 A+ 100
+2016-10-18T23:16:32.498559+00:00 app[web.1]: [debug]Fd in AutoEng. Desig  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T23:16:32.498403+00:00 app[web.1]: [debug]Social Issues  Details about O'Connor, Mary Email O'Connor, Mary - Rm: 709 --
+2016-10-18T23:16:32.498665+00:00 app[web.1]: [debug]Proj. School Climate  Details about Genicoff, Sharon Email Genicoff, Sharon - Rm: 729 --
+2016-10-18T23:16:32.730861+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=a5991251-18b9-484e-b570-2eff7a00ce3a fwd="208.120.98.101" dyno=web.1 connect=1ms service=1073ms status=200 bytes=1391
+2016-10-18T23:16:32.731136+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T23:16:32.731143+00:00 app[web.1]: First marking period: 
+2016-10-18T23:16:32.731144+00:00 app[web.1]: [mp1][Subject]Mandarin I[gradePoints]4.0[credits]5.0
+2016-10-18T23:16:32.731145+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T23:16:32.731145+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.33[credits]5.0
+2016-10-18T23:16:32.731146+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T23:16:32.731146+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]3.67[credits]5.0
+2016-10-18T23:16:32.731147+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-18T23:16:32.731147+00:00 app[web.1]: [mp1][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T23:16:32.731148+00:00 app[web.1]: [mp1][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-18T23:16:32.731148+00:00 app[web.1]: second marking period: 
+2016-10-18T23:16:32.731149+00:00 app[web.1]: third marking period: 
+2016-10-18T23:16:32.731149+00:00 app[web.1]: fourth marking period: 
+2016-10-18T23:16:32.731150+00:00 app[web.1]: year
+2016-10-18T23:16:32.731151+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-18T23:16:32.731151+00:00 app[web.1]: [YEAR][Subject]Mandarin I[gradePoints]4.0[credits]5.0
+2016-10-18T23:16:32.731152+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.33[credits]5.0
+2016-10-18T23:16:32.731152+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-18T23:16:32.731153+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]3.67[credits]5.0
+2016-10-18T23:16:32.731154+00:00 app[web.1]: [YEAR][Subject]Social Issues[gradePoints]4.0[credits]1.0
+2016-10-18T23:16:32.731153+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-18T23:16:32.731154+00:00 app[web.1]: [YEAR][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-18T23:16:32.731155+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T23:16:32.731210+00:00 app[web.1]: [gpa]3.6762162162162157[gpa]false
+2016-10-18T23:16:32.733120+00:00 app[web.1]: Fulfilled request for user: Jasyu20
+2016-10-18T23:16:32.886057+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=32c8f670-7538-469b-bb27-c0fd9ba0d090 fwd="208.120.98.101" dyno=web.1 connect=1ms service=3ms status=404 bytes=528
+2016-10-18T23:29:03.114242+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=7ce1050e-2a01-44d0-a1c4-3fefeeaa9bc2 fwd="108.35.39.210" dyno=web.1 connect=1ms service=4ms status=200 bytes=1486
+2016-10-18T23:29:03.628863+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=b932be8d-a7ed-43c6-a301-d4ddd6cbd274 fwd="108.35.39.210" dyno=web.1 connect=1ms service=2ms status=200 bytes=7166
+2016-10-18T23:29:03.926158+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=f41cd173-cc5d-44f9-b475-ee1c1b19da34 fwd="108.35.39.210" dyno=web.1 connect=1ms service=2ms status=404 bytes=528
+2016-10-18T23:31:16.134904+00:00 app[web.1]: [debug]Systems Analysis I  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 97
+2016-10-18T23:31:16.134851+00:00 app[web.1]: [debug]Homeroom  Details about Friedman, Robin Email Friedman, Robin - Rm: 513 --
+2016-10-18T23:31:16.135048+00:00 app[web.1]: [debug]Intro Eng. Des  Details about Sarisky, Matthew Email Sarisky, Matthew - Rm: 729 C 74.6
+2016-10-18T23:31:16.135112+00:00 app[web.1]: [debug]Phys Ed 10  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 --
+2016-10-18T23:31:16.135199+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 902 --
+2016-10-18T23:31:16.135305+00:00 app[web.1]: [debug]Chemistry H  Details about Robin, Melissa Email Robin, Melissa - Rm: 321 A- 92
+2016-10-18T23:31:16.135383+00:00 app[web.1]: [debug]Math Analysis II H  Details about Mellina, Nicholas Email Mellina, Nicholas - Rm: 101 C 76
+2016-10-18T23:31:16.135466+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-18T23:31:16.135578+00:00 app[web.1]: [debug]Physics AP 2  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 C+ 79
+2016-10-18T23:31:16.135644+00:00 app[web.1]: [debug]Spanish II  Details about Xhemali-Torres, Daphnae Email Xhemali-Torres, Daphnae - Rm: 719 C+ 79
+2016-10-18T23:31:16.135717+00:00 app[web.1]: [debug]English II H  Details about Biggins, Mary Kris Email Biggins, Mary Kris - Rm: 308 B+ 88
+2016-10-18T23:31:16.135818+00:00 app[web.1]: [debug]Series Hybrids and Electric Vehicles  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A+ 100
+2016-10-18T23:31:16.135891+00:00 app[web.1]: [debug]Project Adventure  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 --
+2016-10-18T23:31:16.431358+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=69894350-7430-4d24-9c3b-b3ffad92ef0e fwd="173.54.143.22" dyno=web.1 connect=0ms service=1098ms status=200 bytes=1391
+2016-10-18T23:31:16.438050+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T23:31:16.438061+00:00 app[web.1]: First marking period: 
+2016-10-18T23:31:16.438062+00:00 app[web.1]: [mp1][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T23:31:16.438063+00:00 app[web.1]: [mp1][Subject]Intro Eng. Des[gradePoints]2.0[credits]5.0
+2016-10-18T23:31:16.438063+00:00 app[web.1]: [mp1][Subject]Driver Ed Theory[gradePoints]3.67[credits]1.0
+2016-10-18T23:31:16.438064+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]3.67[credits]6.0
+2016-10-18T23:31:16.438065+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]2.33[credits]6.0
+2016-10-18T23:31:16.438065+00:00 app[web.1]: [mp1][Subject]Math Analysis II H[gradePoints]2.0[credits]5.0
+2016-10-18T23:31:16.438066+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]2.33[credits]5.0
+2016-10-18T23:31:16.438066+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T23:31:16.438067+00:00 app[web.1]: [mp1][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T23:31:16.438068+00:00 app[web.1]: second marking period: 
+2016-10-18T23:31:16.438069+00:00 app[web.1]: third marking period: 
+2016-10-18T23:31:16.438069+00:00 app[web.1]: fourth marking period: 
+2016-10-18T23:31:16.438070+00:00 app[web.1]: year
+2016-10-18T23:31:16.438071+00:00 app[web.1]: [YEAR][Subject]Systems Analysis I[gradePoints]4.0[credits]5.0
+2016-10-18T23:31:16.438071+00:00 app[web.1]: [YEAR][Subject]Intro Eng. Des[gradePoints]2.0[credits]5.0
+2016-10-18T23:31:16.438072+00:00 app[web.1]: [YEAR][Subject]Driver Ed Theory[gradePoints]3.67[credits]1.0
+2016-10-18T23:31:16.438073+00:00 app[web.1]: [YEAR][Subject]Math Analysis II H[gradePoints]2.0[credits]5.0
+2016-10-18T23:31:16.438072+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]3.67[credits]6.0
+2016-10-18T23:31:16.438073+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]2.33[credits]6.0
+2016-10-18T23:31:16.438074+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]2.33[credits]5.0
+2016-10-18T23:31:16.438074+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.33[credits]5.0
+2016-10-18T23:31:16.438075+00:00 app[web.1]: [YEAR][Subject]Series Hybrids and Electric Vehicles[gradePoints]4.0[credits]5.0
+2016-10-18T23:31:16.438076+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T23:31:16.438211+00:00 app[web.1]: [gpa]2.976046511627907[gpa]false
+2016-10-18T23:31:16.439683+00:00 app[web.1]: Fulfilled request for user: ivamel19
+2016-10-18T23:41:46.237088+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=e5b7c131-6c1a-40dc-8f35-a73ed2d01a7c fwd="69.117.41.45" dyno=web.1 connect=0ms service=2ms status=200 bytes=1487
+2016-10-18T23:41:46.326698+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=5d40f018-2421-4c76-9593-ac91e6082721 fwd="69.117.41.45" dyno=web.1 connect=0ms service=1ms status=200 bytes=7166
+2016-10-18T23:41:46.525469+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=b01483d5-0b31-4588-a591-a98bb35b7941 fwd="69.117.41.45" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T23:41:57.412959+00:00 app[web.1]: [debug]Homeroom  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 --
+2016-10-18T23:41:57.413170+00:00 app[web.1]: [debug]Digital Electronics  Details about Elefther, Nicholas Email Elefther, Nicholas - Rm: 126 --
+2016-10-18T23:41:57.413344+00:00 app[web.1]: [debug]Aerospace Engineering Principles  Details about Elefther, Nicholas Email Elefther, Nicholas - Rm: 126 --
+2016-10-18T23:41:57.413493+00:00 app[web.1]: [debug]Chemistry H  Details about Sankar, Jayasree Email Sankar, Jayasree - Rm: 320 A 95
+2016-10-18T23:41:57.413647+00:00 app[web.1]: [debug]English II H  Details about Sladich, Dan Email Sladich, Dan - Rm: 309 B 85
+2016-10-18T23:41:57.413756+00:00 app[web.1]: [debug]Physics AP 2  Details about DiBiano, Mary Rose Email DiBiano, Mary Rose - Rm: 122 C- 70
+2016-10-18T23:41:57.413850+00:00 app[web.1]: [debug]Mandarin II  Details about Lee, Shih Chieh Email Lee, Shih Chieh - Rm: 731 A+ 99
+2016-10-18T23:41:57.413949+00:00 app[web.1]: [debug]AP Calculus AB  Details about Mellina, Nicholas Email Mellina, Nicholas - Rm: 101 B+ 88
+2016-10-18T23:41:57.414048+00:00 app[web.1]: [debug]Phys Ed 10  Details about Conlon, Kenneth Email Conlon, Kenneth - Rm: 903 A+ 100
+2016-10-18T23:41:57.414130+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Conlon, Kenneth Email Conlon, Kenneth - Rm: 902 --
+2016-10-18T23:41:57.414219+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T23:41:57.414292+00:00 app[web.1]: [debug]Proj Reality Game  Details about Elefther, Nicholas Email Elefther, Nicholas - Rm: 126 --
+2016-10-18T23:41:57.414368+00:00 app[web.1]: [debug]Band 2  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T23:41:57.961969+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=72bd5dc4-826e-4422-8dc0-0d86ceb819bb fwd="69.117.41.45" dyno=web.1 connect=0ms service=1460ms status=200 bytes=1294
+2016-10-18T23:41:57.960708+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T23:41:57.960721+00:00 app[web.1]: First marking period: 
+2016-10-18T23:41:57.960723+00:00 app[web.1]: [mp1][Subject]Digital Electronics[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960723+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]4.0[credits]6.0
+2016-10-18T23:41:57.960724+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]3.0[credits]5.0
+2016-10-18T23:41:57.960724+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]1.67[credits]6.0
+2016-10-18T23:41:57.960725+00:00 app[web.1]: [mp1][Subject]Mandarin II[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960725+00:00 app[web.1]: [mp1][Subject]AP Calculus AB[gradePoints]3.33[credits]5.0
+2016-10-18T23:41:57.960726+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960726+00:00 app[web.1]: [mp1][Subject]Band 2[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960727+00:00 app[web.1]: second marking period: 
+2016-10-18T23:41:57.960728+00:00 app[web.1]: third marking period: 
+2016-10-18T23:41:57.960728+00:00 app[web.1]: fourth marking period: 
+2016-10-18T23:41:57.960729+00:00 app[web.1]: year
+2016-10-18T23:41:57.960730+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]4.0[credits]6.0
+2016-10-18T23:41:57.960730+00:00 app[web.1]: [YEAR][Subject]Digital Electronics[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960730+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]3.0[credits]5.0
+2016-10-18T23:41:57.960731+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]1.67[credits]6.0
+2016-10-18T23:41:57.960732+00:00 app[web.1]: [YEAR][Subject]Mandarin II[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960732+00:00 app[web.1]: [YEAR][Subject]AP Calculus AB[gradePoints]3.33[credits]5.0
+2016-10-18T23:41:57.960733+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960733+00:00 app[web.1]: [YEAR][Subject]Band 2[gradePoints]4.0[credits]5.0
+2016-10-18T23:41:57.960734+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T23:41:57.960734+00:00 app[web.1]: [gpa]3.468333333333333[gpa]false
+2016-10-18T23:41:57.962048+00:00 app[web.1]: Fulfilled request for user: kyllee19
+2016-10-18T23:41:58.497272+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=2d7572a9-7c90-45d7-ae65-a96be54ecd66 fwd="69.117.41.45" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T23:42:18.832080+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=ab4debcc-5e84-4989-bba6-831d01b903bb fwd="173.54.162.96" dyno=web.1 connect=1ms service=3ms status=200 bytes=1486
+2016-10-18T23:42:18.894968+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=98b3984a-3625-476b-8426-00f995b3f514 fwd="173.54.162.96" dyno=web.1 connect=1ms service=7ms status=200 bytes=7166
+2016-10-18T23:42:19.189774+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=cbba3c14-466e-4cc8-a33b-1f72cd4aa661 fwd="173.54.162.96" dyno=web.1 connect=1ms service=6ms status=404 bytes=528
+2016-10-18T23:42:39.139931+00:00 app[web.1]: [debug]Homeroom  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 --
+2016-10-18T23:42:39.140017+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 308 A+ 99
+2016-10-18T23:42:39.140137+00:00 app[web.1]: [debug]Algebra I H  Details about Lotter, Gwendolyn Email Lotter, Gwendolyn - Rm: 101 A+ 98
+2016-10-18T23:42:39.140228+00:00 app[web.1]: [debug]Physics H  Details about Rice, Glenn Email Rice, Glenn - Rm: 100 A 95
+2016-10-18T23:42:39.140336+00:00 app[web.1]: [debug]Physical Education  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 903 A+ 100
+2016-10-18T23:42:39.140439+00:00 app[web.1]: [debug]Social Issues  Details about Gagis, Elaine Email Gagis, Elaine - Rm: 709 --
+2016-10-18T23:42:39.140529+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-18T23:42:39.140617+00:00 app[web.1]: [debug]Band  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-18T23:42:39.140715+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 B 84
+2016-10-18T23:42:39.140813+00:00 app[web.1]: [debug]Spanish II  Details about Duran, Juan Email Duran, Juan - Rm: 517 A 96
+2016-10-18T23:42:39.140914+00:00 app[web.1]: [debug]AP Human Geography  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 B+ 89
+2016-10-18T23:42:39.141010+00:00 app[web.1]: [debug]Introduction to Digital Media  Details about Miller, Bruce Email Miller, Bruce - Rm: 718 A+ 97
+2016-10-18T23:42:39.141127+00:00 app[web.1]: [debug]Proj. School Climate  Details about Lotter, Gwendolyn Email Lotter, Gwendolyn - Rm: 703E --
+2016-10-18T23:42:39.343412+00:00 app[web.1]: [START]--------------------[START]
+2016-10-18T23:42:39.343415+00:00 app[web.1]: First marking period: 
+2016-10-18T23:42:39.343417+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343417+00:00 app[web.1]: [mp1][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343418+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T23:42:39.343419+00:00 app[web.1]: [mp1][Subject]Band[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343418+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343420+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T23:42:39.343420+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343423+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-18T23:42:39.343425+00:00 app[web.1]: [mp1][Subject]Proj. School Climate[gradePoints]4.0[credits]1.0
+2016-10-18T23:42:39.343425+00:00 app[web.1]: [mp1][Subject]Introduction to Digital Media[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343426+00:00 app[web.1]: second marking period: 
+2016-10-18T23:42:39.343426+00:00 app[web.1]: third marking period: 
+2016-10-18T23:42:39.343427+00:00 app[web.1]: fourth marking period: 
+2016-10-18T23:42:39.343428+00:00 app[web.1]: year
+2016-10-18T23:42:39.343428+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343429+00:00 app[web.1]: [YEAR][Subject]Algebra I H[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343429+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-18T23:42:39.343430+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343431+00:00 app[web.1]: [YEAR][Subject]Band[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343431+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.0[credits]5.0
+2016-10-18T23:42:39.343432+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343432+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-18T23:42:39.343434+00:00 app[web.1]: [YEAR][Subject]Introduction to Digital Media[gradePoints]4.0[credits]5.0
+2016-10-18T23:42:39.343435+00:00 app[web.1]: [YEAR][Subject]Proj. School Climate[gradePoints]4.0[credits]1.0
+2016-10-18T23:42:39.343435+00:00 app[web.1]: [END]--------------------[END]
+2016-10-18T23:42:39.343476+00:00 app[web.1]: [gpa]3.822340425531915[gpa]false
+2016-10-18T23:42:39.345135+00:00 app[web.1]: Fulfilled request for user: cailan20
+2016-10-18T23:42:39.341678+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=6057d3ec-8ae2-48bf-be8b-35b0cae1f0f8 fwd="173.54.162.96" dyno=web.1 connect=2ms service=1033ms status=200 bytes=1392
+2016-10-18T23:42:39.651838+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=ff459ebb-fc05-4fb5-8010-f0a9176e663b fwd="173.54.162.96" dyno=web.1 connect=1ms service=3ms status=404 bytes=528
+2016-10-18T23:42:55.726709+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=3aa69e9a-3f7a-449c-9dbb-6bdef06296c6 fwd="173.54.162.96" dyno=web.1 connect=1ms service=4ms status=200 bytes=1487
+2016-10-18T23:42:55.860280+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=b8bdc80f-c80c-4531-bcdb-20f9bc7ba3fe fwd="173.54.162.96" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-18T23:45:47.859172+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=9c1269b4-10e0-4c69-b07d-bf5e2c23e05b fwd="24.189.4.139" dyno=web.1 connect=1ms service=1ms status=404 bytes=528
+2016-10-19T00:04:42.373817+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=a7bbc21a-b169-435e-929c-f7bdbbbee5c3 fwd="74.102.115.188" dyno=web.1 connect=0ms service=2ms status=200 bytes=1486
+2016-10-19T00:04:42.418488+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=9d8fdc92-3440-4779-a7ba-3232094713e0 fwd="74.102.115.188" dyno=web.1 connect=0ms service=2ms status=200 bytes=7166
+2016-10-19T00:04:42.520866+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=4eb798dd-d344-4f69-9ca8-23b736ada1b1 fwd="74.102.115.188" dyno=web.1 connect=2ms service=1ms status=404 bytes=528
+2016-10-19T00:04:47.591171+00:00 app[web.1]: [debug]Geometry H  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 A- 92
+2016-10-19T00:04:47.591260+00:00 app[web.1]: [debug]English I H  Details about Mancini, Virginia Email Mancini, Virginia - Rm: 313 A 93
+2016-10-19T00:04:47.591355+00:00 app[web.1]: [debug]Physics H  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 A+ 101
+2016-10-19T00:04:47.591099+00:00 app[web.1]: [debug]Homeroom  Details about VanDaalen, Mabel Email VanDaalen, Mabel - Rm: 515 --
+2016-10-19T00:04:47.591457+00:00 app[web.1]: [debug]Physical Education  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 903 A+ 100
+2016-10-19T00:04:47.591580+00:00 app[web.1]: [debug]Social Issues  Details about Devereaux, Brianna Email Devereaux, Brianna - Rm: 709 --
+2016-10-19T00:04:47.591686+00:00 app[web.1]: [debug]Math Analysis I H  Details about Hommen, Maureen Email Hommen, Maureen - Rm: 300 A 95
+2016-10-19T00:04:47.591773+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-19T00:04:47.591862+00:00 app[web.1]: [debug]Spanish II  Details about Duran, Juan Email Duran, Juan - Rm: 517 A 96
+2016-10-19T00:04:47.591947+00:00 app[web.1]: [debug]AP Human Geography  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 519 B+ 89
+2016-10-19T00:04:47.592042+00:00 app[web.1]: [debug]Intro to Bus.Manage  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 B- 82
+2016-10-19T00:04:47.592126+00:00 app[web.1]: [debug]Chorus  Details about Pfaff, Andrew Email Pfaff, Andrew - Rm: 104 A 95
+2016-10-19T00:04:47.592221+00:00 app[web.1]: [debug]Proj. School Climate  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 302 --
+2016-10-19T00:04:47.916366+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=2bebe283-8129-4dd2-88eb-2b9dbbac7668 fwd="74.102.115.188" dyno=web.1 connect=0ms service=1099ms status=200 bytes=1294
+2016-10-19T00:04:47.913313+00:00 app[web.1]: [START]--------------------[START]
+2016-10-19T00:04:47.913331+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-19T00:04:47.913328+00:00 app[web.1]: First marking period: 
+2016-10-19T00:04:47.913330+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913330+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:47.913331+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913332+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913332+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913333+00:00 app[web.1]: [mp1][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-19T00:04:47.913334+00:00 app[web.1]: [mp1][Subject]Intro to Bus.Manage[gradePoints]2.67[credits]5.0
+2016-10-19T00:04:47.913334+00:00 app[web.1]: [mp1][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913335+00:00 app[web.1]: second marking period: 
+2016-10-19T00:04:47.913335+00:00 app[web.1]: third marking period: 
+2016-10-19T00:04:47.913336+00:00 app[web.1]: fourth marking period: 
+2016-10-19T00:04:47.913337+00:00 app[web.1]: year
+2016-10-19T00:04:47.913337+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:47.913338+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913338+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]4.0[credits]6.0
+2016-10-19T00:04:47.913339+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913340+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913340+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913341+00:00 app[web.1]: [YEAR][Subject]AP Human Geography[gradePoints]3.33[credits]5.0
+2016-10-19T00:04:47.913341+00:00 app[web.1]: [YEAR][Subject]Intro to Bus.Manage[gradePoints]2.67[credits]5.0
+2016-10-19T00:04:47.913342+00:00 app[web.1]: [YEAR][Subject]Chorus[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:47.913342+00:00 app[web.1]: [END]--------------------[END]
+2016-10-19T00:04:47.913347+00:00 app[web.1]: [gpa]3.7467391304347823[gpa]false
+2016-10-19T00:04:47.914480+00:00 app[web.1]: Fulfilled request for user: shrsan20
+2016-10-19T00:04:48.093766+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=0328ad5f-7a9b-4b3a-9a35-a7ece7f879f0 fwd="74.102.115.188" dyno=web.1 connect=0ms service=2ms status=404 bytes=528
+2016-10-19T00:04:51.999405+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=btgpa.herokuapp.com request_id=9f2e91c8-c04c-4878-9c59-dfe3bbba1d07 fwd="68.195.140.177" dyno=web.1 connect=0ms service=1ms status=304 bytes=118
+2016-10-19T00:04:52.034178+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=91844dc0-79d6-49b6-a396-3e9cc67c188d fwd="68.195.140.177" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-19T00:04:51.965625+00:00 heroku[router]: at=info method=GET path="/" host=btgpa.herokuapp.com request_id=b18cde71-1647-4fe5-abc7-d05347d6bfc4 fwd="68.195.140.177" dyno=web.1 connect=0ms service=2ms status=200 bytes=1488
+2016-10-19T00:04:55.330083+00:00 app[web.1]: [debug]Homeroom  Details about Friedman, Robin Email Friedman, Robin - Rm: 513 --
+2016-10-19T00:04:55.330142+00:00 app[web.1]: [debug]Strategy Formulation  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 A+ 100
+2016-10-19T00:04:55.330223+00:00 app[web.1]: [debug]AP Macroeconomics  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 B+ 88
+2016-10-19T00:04:55.330296+00:00 app[web.1]: [debug]Phys Ed 10  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 A 95
+2016-10-19T00:04:55.330368+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 709 --
+2016-10-19T00:04:55.330434+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 100 B 84
+2016-10-19T00:04:55.330509+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 B 84
+2016-10-19T00:04:55.330586+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-19T00:04:55.330647+00:00 app[web.1]: [debug]English II H  Details about Biggins, Mary Kris Email Biggins, Mary Kris - Rm: 308 A 93
+2016-10-19T00:04:55.330717+00:00 app[web.1]: [debug]Math Analysis II H  Details about Mellina, Nicholas Email Mellina, Nicholas - Rm: 101 A- 92
+2016-10-19T00:04:55.330788+00:00 app[web.1]: [debug]Spanish III H  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 A- 91
+2016-10-19T00:04:55.330855+00:00 app[web.1]: [debug]Proj AP Macroeconomics  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 --
+2016-10-19T00:04:55.544664+00:00 app[web.1]: [START]--------------------[START]
+2016-10-19T00:04:55.544668+00:00 app[web.1]: First marking period: 
+2016-10-19T00:04:55.544669+00:00 app[web.1]: [mp1][Subject]Strategy Formulation[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:55.544670+00:00 app[web.1]: [mp1][Subject]AP Macroeconomics[gradePoints]3.33[credits]5.0
+2016-10-19T00:04:55.544670+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:55.544671+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:55.544671+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:55.544672+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:55.544672+00:00 app[web.1]: [mp1][Subject]Math Analysis II H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:55.544673+00:00 app[web.1]: [mp1][Subject]Spanish III H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:55.544673+00:00 app[web.1]: second marking period: 
+2016-10-19T00:04:55.544674+00:00 app[web.1]: third marking period: 
+2016-10-19T00:04:55.544675+00:00 app[web.1]: fourth marking period: 
+2016-10-19T00:04:55.544676+00:00 app[web.1]: year
+2016-10-19T00:04:55.544677+00:00 app[web.1]: [YEAR][Subject]Strategy Formulation[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:55.544678+00:00 app[web.1]: [YEAR][Subject]AP Macroeconomics[gradePoints]3.33[credits]5.0
+2016-10-19T00:04:55.544678+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:55.544679+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:55.544679+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:55.544680+00:00 app[web.1]: [YEAR][Subject]Math Analysis II H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:55.544680+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:55.544681+00:00 app[web.1]: [YEAR][Subject]Spanish III H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:55.544681+00:00 app[web.1]: [END]--------------------[END]
+2016-10-19T00:04:55.544682+00:00 app[web.1]: [gpa]3.5559523809523808[gpa]false
+2016-10-19T00:04:55.545624+00:00 app[web.1]: Fulfilled request for user: andmul19
+2016-10-19T00:04:55.538479+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=POST path="/gpa" host=btgpa.herokuapp.com request_id=0c13e8f7-2223-46d0-a7b6-da4cf99d81c4 fwd="68.195.140.177" dyno=web.1 connect=0ms service=876ms status=499 bytes=
+2016-10-19T00:04:56.024562+00:00 app[web.1]: [debug]Homeroom  Details about Friedman, Robin Email Friedman, Robin - Rm: 513 --
+2016-10-19T00:04:56.024656+00:00 app[web.1]: [debug]Strategy Formulation  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 A+ 100
+2016-10-19T00:04:56.024763+00:00 app[web.1]: [debug]AP Macroeconomics  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 B+ 88
+2016-10-19T00:04:56.024835+00:00 app[web.1]: [debug]Phys Ed 10  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 903 A 95
+2016-10-19T00:04:56.024908+00:00 app[web.1]: [debug]Driver Ed Theory  Details about Naccara, Douglas Email Naccara, Douglas - Rm: 709 --
+2016-10-19T00:04:56.024963+00:00 app[web.1]: [debug]Chemistry H  Details about Kwak, Yoon Email Kwak, Yoon - Rm: 100 B 84
+2016-10-19T00:04:56.025042+00:00 app[web.1]: [debug]Physics AP 2  Details about Zavorotniy, Yuriy Email Zavorotniy, Yuriy - Rm: 123 B 84
+2016-10-19T00:04:56.025131+00:00 app[web.1]: [debug]Lunch - AP Lab Sci  Details about Staff, 203 Email Staff, 203 - Rm: 115 --
+2016-10-19T00:04:56.025193+00:00 app[web.1]: [debug]English II H  Details about Biggins, Mary Kris Email Biggins, Mary Kris - Rm: 308 A 93
+2016-10-19T00:04:56.025261+00:00 app[web.1]: [debug]Math Analysis II H  Details about Mellina, Nicholas Email Mellina, Nicholas - Rm: 101 A- 92
+2016-10-19T00:04:56.025329+00:00 app[web.1]: [debug]Spanish III H  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 A- 91
+2016-10-19T00:04:56.025396+00:00 app[web.1]: [debug]Proj AP Macroeconomics  Details about Sfeir, Norina Email Sfeir, Norina - Rm: 512 --
+2016-10-19T00:04:56.178716+00:00 app[web.1]: [START]--------------------[START]
+2016-10-19T00:04:56.178719+00:00 app[web.1]: First marking period: 
+2016-10-19T00:04:56.178722+00:00 app[web.1]: [mp1][Subject]Strategy Formulation[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:56.178723+00:00 app[web.1]: [mp1][Subject]AP Macroeconomics[gradePoints]3.33[credits]5.0
+2016-10-19T00:04:56.178723+00:00 app[web.1]: [mp1][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:56.178724+00:00 app[web.1]: [mp1][Subject]Chemistry H[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:56.178724+00:00 app[web.1]: [mp1][Subject]Physics AP 2[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:56.178725+00:00 app[web.1]: [mp1][Subject]English II H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:56.178725+00:00 app[web.1]: [mp1][Subject]Math Analysis II H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:56.178725+00:00 app[web.1]: [mp1][Subject]Spanish III H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:56.178726+00:00 app[web.1]: second marking period: 
+2016-10-19T00:04:56.178726+00:00 app[web.1]: third marking period: 
+2016-10-19T00:04:56.178726+00:00 app[web.1]: fourth marking period: 
+2016-10-19T00:04:56.178727+00:00 app[web.1]: year
+2016-10-19T00:04:56.178727+00:00 app[web.1]: [YEAR][Subject]Strategy Formulation[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:56.178728+00:00 app[web.1]: [YEAR][Subject]AP Macroeconomics[gradePoints]3.33[credits]5.0
+2016-10-19T00:04:56.178728+00:00 app[web.1]: [YEAR][Subject]Phys Ed 10[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:56.178729+00:00 app[web.1]: [YEAR][Subject]Physics AP 2[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:56.178729+00:00 app[web.1]: [YEAR][Subject]English II H[gradePoints]4.0[credits]5.0
+2016-10-19T00:04:56.178728+00:00 app[web.1]: [YEAR][Subject]Chemistry H[gradePoints]3.0[credits]6.0
+2016-10-19T00:04:56.178732+00:00 app[web.1]: [YEAR][Subject]Math Analysis II H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:56.178732+00:00 app[web.1]: [YEAR][Subject]Spanish III H[gradePoints]3.67[credits]5.0
+2016-10-19T00:04:56.178733+00:00 app[web.1]: [END]--------------------[END]
+2016-10-19T00:04:56.178736+00:00 app[web.1]: [gpa]3.5559523809523808[gpa]false
+2016-10-19T00:04:56.179342+00:00 app[web.1]: Fulfilled request for user: andmul19
+2016-10-19T00:04:56.205965+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=d71b3a2b-4a84-43ac-be99-f8f4c36f3289 fwd="68.195.140.177" dyno=web.1 connect=0ms service=1ms status=404 bytes=528
+2016-10-19T00:04:56.168015+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=933ee13d-1117-4e95-9246-66dec52aecb6 fwd="68.195.140.177" dyno=web.1 connect=0ms service=822ms status=200 bytes=1294
+2016-10-19T00:09:08.418957+00:00 app[web.1]: [debug]Homeroom  Details about Vieni, Joan Email Vieni, Joan - Rm: 302 --
+2016-10-19T00:09:08.419045+00:00 app[web.1]: [debug]English I H  Details about Kim, NooRhee Email Kim, NooRhee - Rm: 308 A+ 98
+2016-10-19T00:09:08.419129+00:00 app[web.1]: [debug]Global Studies H  Details about Gosselink, Daniel Email Gosselink, Daniel - Rm: 517 A- 91
+2016-10-19T00:09:08.419305+00:00 app[web.1]: [debug]Math Analysis I H  Details about Verona, Scott Email Verona, Scott - Rm: 103 B+ 89
+2016-10-19T00:09:08.419378+00:00 app[web.1]: [debug]Spanish II  Details about Miletic, Vanessa Laura Email Miletic, Vanessa Laura - Rm: 516 B 84
+2016-10-19T00:09:08.419447+00:00 app[web.1]: [debug]Lunch  Details about Staff, 201 Email Staff, 201 - Rm: 115 --
+2016-10-19T00:09:08.419505+00:00 app[web.1]: [debug]Geometry H  Details about Rzhavinskiy, Aron Email Rzhavinskiy, Aron - Rm: 306 C 73
+2016-10-19T00:09:08.419580+00:00 app[web.1]: [debug]Physics H  Details about Muller, Laura Email Muller, Laura - Rm: 124 A- 92
+2016-10-19T00:09:08.419657+00:00 app[web.1]: [debug]Physical Education  Details about Proietti, James Email Proietti, James - Rm: 903 A+ 100
+2016-10-19T00:09:08.419726+00:00 app[web.1]: [debug]Social Issues  Details about Proietti, James Email Proietti, James - Rm: 709 --
+2016-10-19T00:09:08.419790+00:00 app[web.1]: [debug]Fd in AutoEng. Desig  Details about Ferraro, Raymond Email Ferraro, Raymond - Rm: 729 A 94
+2016-10-19T00:09:08.419852+00:00 app[web.1]: [debug]Proj. School Climate  Details about Genicoff, Sharon Email Genicoff, Sharon - Rm: 729 --
+2016-10-19T00:09:08.647071+00:00 app[web.1]: [START]--------------------[START]
+2016-10-19T00:09:08.647077+00:00 app[web.1]: First marking period: 
+2016-10-19T00:09:08.647079+00:00 app[web.1]: [mp1][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-19T00:09:08.647080+00:00 app[web.1]: [mp1][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-19T00:09:08.647080+00:00 app[web.1]: [mp1][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-19T00:09:08.647081+00:00 app[web.1]: [mp1][Subject]Spanish II[gradePoints]3.0[credits]5.0
+2016-10-19T00:09:08.647082+00:00 app[web.1]: [mp1][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-19T00:09:08.647081+00:00 app[web.1]: [mp1][Subject]Geometry H[gradePoints]2.0[credits]5.0
+2016-10-19T00:09:08.647082+00:00 app[web.1]: [mp1][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-19T00:09:08.647083+00:00 app[web.1]: second marking period: 
+2016-10-19T00:09:08.647083+00:00 app[web.1]: [mp1][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-19T00:09:08.647084+00:00 app[web.1]: third marking period: 
+2016-10-19T00:09:08.647084+00:00 app[web.1]: fourth marking period: 
+2016-10-19T00:09:08.647085+00:00 app[web.1]: year
+2016-10-19T00:09:08.647086+00:00 app[web.1]: [YEAR][Subject]English I H[gradePoints]4.0[credits]5.0
+2016-10-19T00:09:08.647086+00:00 app[web.1]: [YEAR][Subject]Global Studies H[gradePoints]3.67[credits]5.0
+2016-10-19T00:09:08.647087+00:00 app[web.1]: [YEAR][Subject]Math Analysis I H[gradePoints]3.33[credits]5.0
+2016-10-19T00:09:08.647088+00:00 app[web.1]: [YEAR][Subject]Spanish II[gradePoints]3.0[credits]5.0
+2016-10-19T00:09:08.647088+00:00 app[web.1]: [YEAR][Subject]Geometry H[gradePoints]2.0[credits]5.0
+2016-10-19T00:09:08.647089+00:00 app[web.1]: [YEAR][Subject]Physics H[gradePoints]3.67[credits]6.0
+2016-10-19T00:09:08.647089+00:00 app[web.1]: [YEAR][Subject]Physical Education[gradePoints]4.0[credits]5.0
+2016-10-19T00:09:08.647095+00:00 app[web.1]: [gpa]3.4639024390243898[gpa]false
+2016-10-19T00:09:08.647090+00:00 app[web.1]: [YEAR][Subject]Fd in AutoEng. Desig[gradePoints]4.0[credits]5.0
+2016-10-19T00:09:08.647090+00:00 app[web.1]: [END]--------------------[END]
+2016-10-19T00:09:08.648464+00:00 app[web.1]: Fulfilled request for user: alemac20
+2016-10-19T00:09:08.671594+00:00 heroku[router]: at=info method=POST path="/gpa" host=btgpa.herokuapp.com request_id=1be608a5-6cc7-4daf-bce0-36e3c4d9c981 fwd="71.127.214.239" dyno=web.1 connect=1ms service=1068ms status=200 bytes=1391
+2016-10-19T00:09:08.803453+00:00 heroku[router]: at=info method=GET path="/images/bg.jpg" host=btgpa.herokuapp.com request_id=a931e777-d5b6-4fb5-8306-c5a640ac27fb fwd="71.127.214.239" dyno=web.1 connect=0ms service=2ms status=404 bytes=528
