@@ -127,7 +127,20 @@ public class GPA {
 		// StringBuilder builder = new StringBuilder();
 		// builder.append("<html>");
 		// builder.append("[Start]\n");
+		String title = page.select("title").text();
+		if (title.indexOf("Sign In") >= 0) {
+			System.err.println("Error login to PowerSchool for user " + username + "," + password);
+			return;
+		}
+		if (title.indexOf("Grades") < 0) {
+			System.err.println("Error unexpected title returned " + title);
+			return;
+		}
 		Element table = page.select("table").first();
+		if (table == null) {
+			System.err.println("Page did not contain a table " + page.text());
+			return;
+		}
 		for (int i = 0; i < table.select("tr").size(); i++) {
 			Element row = table.select("tr").get(i);
 			Elements column = row.select("td");
