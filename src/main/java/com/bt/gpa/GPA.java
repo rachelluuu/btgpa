@@ -21,12 +21,13 @@ public class GPA {
 	private double mp1GPA, mp2GPA, mp3GPA, mp4GPA, yearGPA;
 	private String username;
 	private String password;
+	private String errorString = null;
 
 	//implement year
 	private ArrayList<Grade> yearColumn;
 	private boolean useYearColumn;
 	
-	public GPA(String username, String password) throws Exception {
+	public GPA(String username, String password) throws IOException {
 		this.useYearColumn = true;
 		
 		this.username = username;
@@ -37,32 +38,27 @@ public class GPA {
 		this.mp4 = new ArrayList<Grade>();
 		this.year = new ArrayList<Grade>();
 		this.yearColumn = new ArrayList<Grade>();
-		try {
-			parse();
-			calculate();
-		} catch (Exception e) {
-			e.printStackTrace();
+		parse();
+		calculate();
+		if (errorString == null) {	
+			this.mp1GPA = findGPA(this.mp1);
+			this.mp2GPA = findGPA(this.mp2);
+			this.mp3GPA = findGPA(this.mp3);
+			this.mp4GPA = findGPA(this.mp4);
+			if (useYearColumn) {
+				this.yearGPA = findGPA(this.yearColumn);
+			} else {
+				this.yearGPA = findGPA(this.year);
+			}
+			
+			Jsoup.connect("https://docs.google.com/forms/d/1joItByFoIKzjFB5Mm0q8YbcXFFXVchtJ6QasviXtPdk/formResponse")
+						.data("entry.1584323777", this.username)
+						.post();
+			logData();
 		}
-		this.mp1GPA = findGPA(this.mp1);
-		this.mp2GPA = findGPA(this.mp2);
-		this.mp3GPA = findGPA(this.mp3);
-		this.mp4GPA = findGPA(this.mp4);
-		if (useYearColumn) {
-			this.yearGPA = findGPA(this.yearColumn);
-		} else {
-			this.yearGPA = findGPA(this.year);
-		}
-		//test
-		
-		try {
-/*CHANGE*/		Jsoup.connect("https://docs.google.com/forms/d/1joItByFoIKzjFB5Mm0q8YbcXFFXVchtJ6QasviXtPdk/formResponse")
-					.data("entry.1584323777", this.username)
-					.post();
-		} catch (Exception e) {
-			System.out.println("Google is down.");
-			e.printStackTrace();
-		}
-		
+	}
+	
+	private void logData() {
 		StringBuilder builder = new StringBuilder();
 		Grade[] mp1a = mp1.toArray(new Grade[mp1.size()]);
 		Grade[] mp2a = mp2.toArray(new Grade[mp2.size()]);
@@ -129,16 +125,19 @@ public class GPA {
 		// builder.append("[Start]\n");
 		String title = page.select("title").text();
 		if (title.indexOf("Sign In") >= 0) {
-			System.err.println("Error login to PowerSchool for user " + username + "," + password);
+			errorString = "Your username or password is incorrect";
+			System.out.println(errorString + " for user " + username + ", password " + password);
 			return;
 		}
 		if (title.indexOf("Grades") < 0) {
-			System.err.println("Error unexpected title returned " + title);
+			errorString = "PowerSchool grades page is not returned";
+			System.out.println(errorString + title);
 			return;
 		}
 		Element table = page.select("table").first();
 		if (table == null) {
-			System.err.println("Page did not contain a table " + page.text());
+			errorString = "PowerSchool grades page does not have a table";
+			System.out.println(errorString + page.text());
 			return;
 		}
 		for (int i = 0; i < table.select("tr").size(); i++) {
@@ -163,9 +162,7 @@ public class GPA {
 				//implementing year
 				String fifth = column.get(19).text();
 				System.out.println("[debug]" + subject + " " + fifth);
-				
-				
-//				System.out.println("[mods]->" + mods + "[subject]->" + subject + "[first]->" + first + "[second]->" + second + "[third]->" + third);
+
 				double credits = 0.0;
 //				String[] modsArray = mods.split(" ");
 				double numberOfMPs = 0.0;
@@ -181,13 +178,6 @@ public class GPA {
 				if (isGradeValid(fourth)) {
 					numberOfMPs+=1.0;
 				}
-/*				if (modsArray.length > 1) {
-					for (int j = 0; j < modsArray.length; j++) {
-						credits += findCredits(modsArray[j], numberOfMPs);
-					}
-				} else {
-					credits = findCredits(mods, numberOfMPs);
-				}*/
 				credits = findCredits(mods, subject, numberOfMPs);
 				
 				//count and gradeTotal variables are needed to keep track for the year gpa
@@ -248,29 +238,8 @@ public class GPA {
 				} else{
 					useYearColumn = false;
 				}
-				/*
-				 * builder.append("[Credits]" + credits + "[Mods]" + mods +
-				 * "[Subject]" + subject + "[Grades]" + first + "," + second +
-				 * "," + third + "\n");
-				 */
 			}
 		}
-		/*
-		 * builder.append("\n\nmp1:"); for (int i = 0; i < mp1.size(); i++) {
-		 * builder.append("\n" + mp1.get(i)); } builder.append("\n\nmp2:");
-		 * for (int i = 0; i < mp2.size(); i++) { builder.append("\n" +
-		 * mp2.get(i)); } builder.append("\n\nmp3:"); for (int i = 0; i <
-		 * mp3.size(); i++) { builder.append("\n" + mp3.get(i)); }
-		 * builder.append("</html>");
-		 
-
-		
-		 * builder.append("\nTrimester 1 GPA: " + mp1GPA);
-		 * builder.append("\nTrimester 2 GPA: " + mp2GPA);
-		 * builder.append("\nTrimester 3 GPA: " + mp3GPA);
-		 * 
-		 * this.output = builder.toString();
-		 */
 	}
 
 	private double findGPA(ArrayList<Grade> gradeList) {
@@ -316,45 +285,6 @@ public class GPA {
 			return 10.0;
 		}
 		return 5.0;
-		
-/*		double numberOfMods = 0.0;
-		double numberOfTimes = 0.0;
-		String modsPattern = "\\d\\d-\\d\\d";
-		String daysPattern = "\\((.*)\\)";
-
-		String modsMatch = match(modsPattern, mods);
-		if (modsMatch.equals("ERROR")) {
-			modsMatch = "10";
-		}
-		String daysMatch = match(daysPattern, mods);
-		daysMatch = daysMatch.substring(1, daysMatch.length() - 1);
-		if (modsMatch.length() == 2) {
-			numberOfMods = 1;
-		} else {
-			double modsBegin = Double.parseDouble(modsMatch.split("-")[0]);
-			double modsEnd = Double.parseDouble(modsMatch.split("-")[1]);
-
-			numberOfMods = (modsEnd - modsBegin) + 1.0;
-		}
-
-		String[] days = daysMatch.split(",");
-		for (int i = 0; i < days.length; i++) {
-			if (days[i].length() == 1) {
-				numberOfTimes += 1.0;
-			} else if (days[i].length() == 3) {
-				String day = days[i];
-				day = day.replaceAll("M", "01");
-				day = day.replaceAll("T", "02");
-				day = day.replaceAll("W", "03");
-				day = day.replaceAll("R", "04");
-				day = day.replaceAll("F", "05");
-				numberOfTimes += Double.parseDouble(day.split("-")[1])
-						- Double.parseDouble(day.split("-")[0]) + 1.0;
-			} else {
-				// error;
-			}
-		}
-		return (numberOfMods * numberOfTimes) * numberOfMPs / 3.0 / 2.0;*/
 	}
 
 	private String match(String pattern, String line) {
@@ -422,5 +352,9 @@ public class GPA {
 	
 	public double getYearGPA() {
 		return this.yearGPA;
+	}
+	
+	public String errorString() {
+		return errorString;
 	}
 }

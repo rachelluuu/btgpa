@@ -21,10 +21,10 @@ public class GPAServlet extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		try {
-			String username = req.getParameter("username").replace("@bergen.org", "").replace("bca/", "");
-			String password = req.getParameter("password");
-			GPA user = new GPA(username, password);
+		String username = req.getParameter("username").replace("@bergen.org", "").replace("bca/", "");
+		String password = req.getParameter("password");
+		GPA user = new GPA(username, password);
+		if (user.errorString() == null) {
 			req.setAttribute("mp1GPA", round(user.getMpOneGPA(), 3));
 			req.setAttribute("mp2GPA", round(user.getMpTwoGPA(), 3));
 			req.setAttribute("mp3GPA", round(user.getMpThreeGPA(), 3));
@@ -32,13 +32,12 @@ public class GPAServlet extends HttpServlet {
 			req.setAttribute("yearGPA", round(user.getYearGPA(), 3));
 			req.getRequestDispatcher("gpa.jsp").forward(req, resp);
 			System.out.println("Fulfilled request for user: " + username);
-		} catch (Exception e) {
-			e.printStackTrace(System.out);
-			System.out.println("[cError]" + e.getMessage());
-			req.setAttribute("error", "<div style=\"\" class=\"alert\"><b>Woops!</b> Looks like your username/password is wrong. Try again.</div>");
+		} else {
+			req.setAttribute("error", "<div style=\"\" class=\"alert\"><b>Woops!</b> " + user.errorString() + ". Try again.</div>");
 			req.getRequestDispatcher("index.jsp").forward(req,resp);
 		}
 	}
+	
 	private double round(double value, int places) {
 	    if (places < 0) throw new IllegalArgumentException();
 	    if (Double.isNaN(value)) value = 0;
@@ -46,5 +45,4 @@ public class GPAServlet extends HttpServlet {
 	    bd = bd.setScale(places, RoundingMode.HALF_UP);
 	    return bd.doubleValue();
 	}
-
 }
