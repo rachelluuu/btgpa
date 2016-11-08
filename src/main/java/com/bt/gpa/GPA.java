@@ -126,18 +126,18 @@ public class GPA {
 		String title = page.select("title").text();
 		if (title.indexOf("Sign In") >= 0) {
 			errorString = "Your username or password is incorrect";
-			System.out.println(errorString + " for user " + username + ", password " + password);
+			System.out.println("Error:" + errorString + " for user " + username + ", password " + password);
 			return;
 		}
 		if (title.indexOf("Grades") < 0) {
 			errorString = "PowerSchool grades page is not returned";
-			System.out.println(errorString + title);
+			System.out.println("Error:" + errorString + title);
 			return;
 		}
 		Element table = page.select("table").first();
 		if (table == null) {
 			errorString = "PowerSchool grades page does not have a table";
-			System.out.println(errorString + page.text());
+			System.out.println("Error:" + errorString + page.text());
 			return;
 		}
 		for (int i = 0; i < table.select("tr").size(); i++) {
