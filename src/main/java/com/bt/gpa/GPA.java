@@ -296,8 +296,7 @@ public class GPA {
 	}
 
 	private boolean isGradeValid(String grade) {
-		if (grade.contains("P") || grade.contains("--")
-				|| grade.contains("\u00a0") || grade.contains("I") || grade.contains("M")) {
+		if (grade.contains("P") || grade.contains("--") || grade.contains("[ i ]") || grade.contains("\u00a0") || grade.contains("I") || grade.contains("M")) {
 			return false;
 		}
 		return true;
