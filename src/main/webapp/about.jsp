@@ -23,7 +23,8 @@
         <br /> This app was created by the Bergen Tech Code Club and adapted for BT students 
         <br />from the bcagpa.com made by Kenneth Rhee.
         <br />
-        <br />
+        <br />If you have a suggestion or think there is an error, please contact the 
+        <br />Code Club leaders at jennhe@bergen.org and/or rachle@bergen.org
  
         Release date: June 15th, 2015
     </div>
