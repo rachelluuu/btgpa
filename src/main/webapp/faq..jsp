@@ -34,7 +34,7 @@
         &nbsp;&nbsp;&nbsp;
         <br />
         No. We do not record user information. That is against the law. BTGPA is simply a service made 
-        <br />to help the students of BT and a to solve a problem that many students face. BTGPA is not a scam 
+        <br />to help the students of BT and to solve a problem that many students face. BTGPA is not a scam 
         <br />for stealing user information.
         <br />
         <br />
