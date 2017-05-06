@@ -23,7 +23,7 @@
         <nav class="buttons">
             <a class="current" href="/">HOME</a>
             <a href="/about">ABOUT THIS APP</a>
-            <a href="faq">FAQ</a>
+            <a href="/faq">FAQ</a>
         </nav>
 	${error}
 	<!-- div class="alert"> !! We are aware of the login error and are currently working on fixing it !! </div>  -->
