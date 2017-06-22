@@ -99,7 +99,7 @@
         <b>Does anyone even use BTGPA?</b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        So far, BTGPA has been used over 15,000 times with an average of about 100 logins each day.
+        So far, BTGPA has been used over 19,000 times with an average of about 100 logins each day.
         <br />
         <br />
 
