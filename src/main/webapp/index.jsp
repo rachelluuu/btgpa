@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>BT GPA Calculator By Code Club</title>
+        <title>BT GPA Calculator by Code Club</title>
         <meta name="description" content="GPA Calculator" />
         <meta name="keywords" content="gpa" />
         <meta name="author" content="Code Club" />
@@ -19,7 +19,7 @@
     </head>
     <body>
         <h1>BT <strong>GPA</strong> CALCULATOR</h1>
-        <h2>Developed By Bergen Tech Code Club</h2>
+        <h2>Developed by Bergen Tech Code Club</h2>
         <nav class="buttons">
             <a class="current" href="/">HOME</a>
             <a href="/about">ABOUT THIS APP</a>
