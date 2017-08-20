@@ -48,8 +48,8 @@
         <b>The BTGPA results don’t seem right. I believe there is an error in the app. Where can I report it?</b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        If you believe there is an error within the app, feel free to email the Code Club leaders 
-        <br />at jennhe@bergen.org or rachle@bergen.org and describe your issue. 
+        If you believe there is an error within the app, feel free to email the Code Club leader 
+        <br />at jennhe@bergen.org  and describe your issue. 
         <br />
         <br />
         <b>How can I view my cumulative GPA (average of all years)?</b>
@@ -92,7 +92,7 @@
         <b>I have a suggestion, where can I contact you? </b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        If you have a suggestion, feel free to e-mail us at jennhe@bergen.org and/or rachle@bergen.org. 
+        If you have a suggestion, feel free to e-mail us at jennhe@bergen.org. 
         <br />
         <br />
         <b>Does anyone even use BTGPA?</b>
