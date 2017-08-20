@@ -25,9 +25,8 @@
         <b>How does BTGPA calculate my GPA? </b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        The website accesses the Powerschool server through your account username and password, 
-        <br />takes the grade values and plugs it into the GPA formula provided by guidance, calculates 
-        <br />your GPA based on the formula, and displays it. 
+        The website parses PowerSchool using Jsoup and the user's login/password. Then it uses the GPA formula provided 
+        <br />by guidance to calculate the GPA of the user by going through each row of the HTML table provided by Jsoup.
         <br />
         <br />
         <b>Does BTGPA or Code Club record my password? Can the BTGPA creators see my grades and GPA?</b>
