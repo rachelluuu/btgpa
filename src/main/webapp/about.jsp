@@ -24,7 +24,7 @@
         <br />from the bcagpa.com made by Kenneth Rhee.
         <br />
         <br />If you have a suggestion or think there is an error, please contact the 
-        <br />Code Club leaders at jennhe@bergen.org and/or rachle@bergen.org
+        <br />Code Club leader at jennhe@bergen.org
         <br />
         <br />Release date: June 15th, 2015
     </div>
