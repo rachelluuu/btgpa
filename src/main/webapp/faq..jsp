@@ -93,7 +93,7 @@
         <b>I have a suggestion, where can I contact you? </b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        If you have a suggestion, feel free to e-mail jennhe@bergen.org and/or rachle@bergen.org. 
+        If you have a suggestion, feel free to e-mail jennhe@bergen.org and/or rachle@bergen.org.
         <br />
         <br />
         <b>Does anyone even use BTGPA?</b>
