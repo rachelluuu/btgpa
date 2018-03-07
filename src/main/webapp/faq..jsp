@@ -33,9 +33,7 @@
         <b>Does BTGPA or Code Club record my password? Can the BTGPA creators see my grades and GPA?</b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        No. We do not record user information. That is against the law. BTGPA is simply a service made 
-        <br />to help the students of BT and to solve a problem that many students face. BTGPA is not a scam 
-        <br />for stealing user information.
+        No. We do not record user information. All data is encrypted to prevent security breaches. 
         <br />
         <br />
         <b>Why does my GPA on BTGPA look different than the one on powerschool?</b>
@@ -92,12 +90,8 @@
         <br />
         <b>I have a suggestion, where can I contact you? </b>
         &nbsp;&nbsp;&nbsp;
+        <br />If you have a suggestion, feel free to e-mail jennhe@bergen.org.
         <br />
-+<<<<<<< HEAD
-          If you have a suggestion, feel free to e-mail jennhe@bergen.org and/or rachle@bergen.org.
- +=======
- +        If you have a suggestion, feel free to e-mail jennhe@bergen.org and/or rachle@bergen.org. 
- +>>>>>>> parent of f194277... Update faq..jsp
         <br />
         <b>Does anyone even use BTGPA?</b>
         &nbsp;&nbsp;&nbsp;
