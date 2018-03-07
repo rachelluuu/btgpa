@@ -21,10 +21,10 @@
     <div style="border: dotted 1px black; display:inline-block; padding:6px; background:white; padding-top:3px;" id="about">
         Hi! <br />     Welcome to "BT GPA Calculator" app developed with a JETTY framework. 
         <br /> This app was created by the Bergen Tech Code Club and adapted for BT students 
-        <br />from the bcagpa.com made by Kenneth Rhee.
+        <br />from Kenneth Rhee's bcagpa.com.
         <br />
         <br />If you have a suggestion or think there is an error, please contact the 
-        <br />Code Club founders at jennhe@bergen.org and/or rachle@bergen.org
+        <br />Code Club founder at jennhe@bergen.org
         <br />
         <br />Release date: June 15th, 2015
     </div>
