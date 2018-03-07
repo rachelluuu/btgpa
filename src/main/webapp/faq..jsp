@@ -47,7 +47,7 @@
         <b>The BTGPA results don’t seem right. I believe there is an error in the app. Where can I report it?</b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        If you believe there is an error within the app, feel free to email the Code Club founders 
+        If you believe there is an error within the app, feel free to email the Code Club founder 
         <br />at jennhe@bergen.org and describe your issue. 
         <br />
         <br />
@@ -96,7 +96,7 @@
         <b>Does anyone even use BTGPA?</b>
         &nbsp;&nbsp;&nbsp;
         <br />
-        So far, BTGPA has been used over 20,000 times with an average of about 100 logins each day.
+        So far, BTGPA has been used over 30,000 times with an average of about 100 logins each day.
         <br />
         <br />
 
