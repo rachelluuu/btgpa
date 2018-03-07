@@ -48,7 +48,7 @@
         &nbsp;&nbsp;&nbsp;
         <br />
         If you believe there is an error within the app, feel free to email the Code Club founders 
-        <br />at jennhe@bergen.org and/or rachle@bergen.org and describe your issue. 
+        <br />at jennhe@bergen.org and describe your issue. 
         <br />
         <br />
         <b>How can I view my cumulative GPA (average of all years)?</b>
