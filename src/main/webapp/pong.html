@@ -1,0 +1,145 @@
+<html>
+    <body>
+        <style>
+            body{
+               background-color: lightgrey;
+            }
+            p{
+                color: dodgerblue;
+                font-size: 30px;
+            }
+        </style>
+        <p id="gameOver"></p><p>Right and Left arrow keys to move the paddle<br><br>Click ENTER to play again (or the 'play again button')</p>
+<button onclick="reload()">PLAY AGAIN</button>
+       
+       <canvas style="background-color: lightgrey;" id="myCanvas" width="1425" height="700"></canvas>
+    </body>
+    
+    <script>
+        
+ var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+var x= Math.floor(Math.random()*700);
+        var y = Math.floor(Math.random()*400);
+        
+        var dx =4;
+        var dy = -dx;
+    var rX = 700;
+     var rY=canvas.height-150;
+        var rightPressed = false;
+        var leftPressed = false;
+        var paddleHeight = 10;
+        var paddleWidth = 100;
+        var ballRadius = 10; 
+        var i = 0;
+        var gmeOvr = "GAME OVER";
+        var fntSize = 200;
+        var enterRestart = false;
+
+                function newFunction(){
+            document.getElementById("x").innerHTML = y+dy;
+            document.getElementById("y").innerHTML = canvas.height-ballRadius;
+        }
+        function reload(){
+            location.reload();
+        }
+    
+
+    function speedChange(){
+        dx = dx+1;
+    }
+ function draw(){
+document.getElementById("gameOver").innerHTML = "Score: " + i;
+     
+     ctx.clearRect(0,0,canvas.width, canvas.height);
+     ctx.beginPath();
+     
+     ctx.rect(200,200,200,200);
+     ctx.closePath();
+             ctx.beginPath();
+ctx.arc(x, y, ballRadius, 0, Math.PI*3, false);
+     
+ctx.fillStyle = "dodgerblue";
+ctx.fill();
+ctx.closePath();
+    
+
+     ctx.beginPath();
+ctx.rect(rX, rY, paddleWidth, paddleHeight);
+ctx.fillStyle = "blue";
+ctx.fill();
+ctx.closePath();
+     
+      if(rightPressed){
+    rX=rX+7;
+    }
+     else if(leftPressed){
+         rX=rX-7;
+     }
+         x=x+dx;
+     y=y+dy;
+     
+     if(y+dy<ballRadius){
+         dy=-dy;
+         
+     }
+      if (x>=rX && x<=rX+paddleWidth && Math.abs(y-rY) < 3){
+         dy=-dy;
+          i++;
+     }
+      if(y+dy > canvas.height-ballRadius){
+         
+          ctx.beginPath();
+          ctx.fillStyle = "red";
+          ctx.font="30px Arial";
+         ctx.fillText(gmeOvr, canvas.width/2-90, canvas.height/2-90, 900);
+          ctx.font="20px Arial";
+          ctx.fillText("Score: " + i, canvas.width/2-40,canvas.height/2-50,900)
+          ctx.closePath();
+     }
+     if(x+dx<0 || x+dx>canvas.width){
+         dx=-dx;
+     }
+     if(rX<=0){
+         rX=rX+7;
+        }
+     if(rX>=canvas.width-100){
+         rX=rX-7;
+     }
+
+
+ }
+
+ 
+setInterval(draw, 10);
+        document.addEventListener("keydown", keyDownHandler, false);
+        document.addEventListener("keydown", reloadCool);
+        document.addEventListener("keyup", keyUpHandler, false);
+function keyDownHandler(e) {
+    if(e.keyCode == 39) {
+        rightPressed = true;
+    }
+    else if(e.keyCode == 37) {
+        leftPressed = true;
+        
+    }
+
+}
+
+function keyUpHandler(e) {
+    if(e.keyCode == 39) {
+        rightPressed = false;
+    }
+    else if(e.keyCode == 37) {
+        leftPressed = false;
+    }
+
+}
+        function reloadCool(k){
+            if(k.keyCode == 13){
+                reload();
+            }
+        }
+    </script>
+    
+</html>
