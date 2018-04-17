@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            p{
+                font-size: 40px;
+                font-family: monospace;
+            }
+            button{
+                margin-left: 615px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--The Password is 792483-->
+
+        <center><p>Hello and congrats on making it this far in the <br> Scavenger Hunt! In order to get the next clue,<br>please enter the password. </p><br><r>Password: </r><input id="password" value=""><br><br></center>
+        
+        <button onclick="coolFunction()">Next</button>
+        
+        <br><p style="font-size: 25px; margin-left: 615px;" id="incorrect"></p>
+        <script>
+            var answer;
+            var i = 0;
+            answer = parseInt(document.getElementById("password").value);
+            
+            function coolFunction(){
+                
+                answer = parseInt(document.getElementById("password").value);
+                
+                if(answer === 792483){
+                    window.location = 'puzzle2.html';
+                   }
+                    else{
+                        document.getElementById("incorrect").innerHTML = "INCORRECT PASSWORD";
+                        
+                    }
+
+
+            }
+            
+        </script>
+    </body>
+</html>
