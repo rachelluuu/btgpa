@@ -94,7 +94,7 @@ public class GPA {
 	}
 
 	private void parse() throws IOException {
-		String HOME_URL = "https://ps01.bergen.org/public/home.html", GRADES_URL = "https://ps01.bergen.org/guardian/home.html";
+		String HOME_URL = "https://ps001.bergen.org/public/home.html", GRADES_URL = "https://ps001.bergen.org/guardian/home.html";
 		String serviceName = "PS+Parent+Portal", credentialType = "User+Id+and+Password+Credential", pcasServerUrl = "/";
 		Connection.Response r = Jsoup.connect(HOME_URL)
 				.method(Connection.Method.GET).execute();
